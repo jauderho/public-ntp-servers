@@ -44,42 +44,42 @@ servers:
   - hostname: "time.aws.com"
     AS: "AS16509, AS14618, AS399991"
     stratum: 2
-    location: "public Amazon Time Sync Service"
+    location: "Amazon Time Sync Service"
     owner: "Amazon"
     notes: "Anycast"
     vm: false
   - hostname: "amazon.pool.ntp.org"
     AS: "AS16509, AS14618, AS399991"
     stratum: 2
-    location: "public Amazon Time Sync Service"
+    location: "Amazon Time Sync Service"
     owner: "Amazon"
     notes: ""
     vm: false
   - hostname: "0.amazon.pool.ntp.org"
     AS: "AS16509, AS14618, AS399991"
     stratum: 2
-    location: "public Amazon Time Sync Service"
+    location: "Amazon Time Sync Service"
     owner: "Amazon"
     notes: ""
     vm: false
   - hostname: "1.amazon.pool.ntp.org"
     AS: "AS16509, AS14618, AS399991"
     stratum: 2
-    location: "public Amazon Time Sync Service"
+    location: "Amazon Time Sync Service"
     owner: "Amazon"
     notes: ""
     vm: false
   - hostname: "2.amazon.pool.ntp.org"
     AS: "AS16509, AS14618, AS399991"
     stratum: 2
-    location: "public Amazon Time Sync Service"
+    location: "Amazon Time Sync Service"
     owner: "Amazon"
     notes: ""
     vm: false
   - hostname: "3.amazon.pool.ntp.org"
     AS: "AS16509, AS14618, AS399991"
     stratum: 2
-    location: "public Amazon Time Sync Service"
+    location: "Amazon Time Sync Service"
     owner: "Amazon"
     notes: ""
     vm: false
@@ -221,7 +221,7 @@ servers:
     stratum: 2
     location: "Apple NTP server"
     owner: "Apple"
-    notes: "Asia region, From comments"
+    notes: "Asia region"
     vm: false
   - hostname: "clepsydra.dec.com"
     AS: "Unknown"
@@ -403,77 +403,77 @@ servers:
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp2.vniiftri.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp3.vniiftri.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp4.vniiftri.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp.sstf.nsk.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp1.niiftri.irkutsk.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp2.niiftri.irkutsk.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "vniiftri.khv.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "vniiftri2.khv.ru"
     AS: "Unknown"
     stratum: 1
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp21.vniiftri.ru"
     AS: "Unknown"
     stratum: 2
     location: "VNIIFTRI"
     owner: "VNIIFTRI"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ntp.mobatime.ru"
     AS: "Unknown"
     stratum: 1
     location: "Mobatime"
     owner: "Mobatime"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp0.ntp-servers.net"
     AS: "Unknown"
@@ -534,100 +534,100 @@ servers:
   - hostname: "ntp1.stratum1.ru"
     AS: "Unknown"
     stratum: 1
-    location: "Stratum 1 Russia"
+    location: "Russia"
     owner: "stratum1.ru"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp2.stratum1.ru"
     AS: "Unknown"
     stratum: 1
-    location: "Stratum 1 Russia"
+    location: "Russia"
     owner: "stratum1.ru"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp3.stratum1.ru"
     AS: "Unknown"
     stratum: 1
-    location: "Stratum 1 Russia"
+    location: "Russia"
     owner: "stratum1.ru"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp4.stratum1.ru"
     AS: "Unknown"
     stratum: 1
-    location: "Stratum 1 Russia"
+    location: "Russia"
     owner: "stratum1.ru"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp5.stratum1.ru"
     AS: "Unknown"
     stratum: 1
-    location: "Stratum 1 Russia"
+    location: "Russia"
     owner: "stratum1.ru"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp1.stratum2.ru"
     AS: "Unknown"
     stratum: 2
-    location: "Stratum 2 Russia"
+    location: "Russia"
     owner: "stratum2.ru"
-    notes: "Stratum 2, Москва"
+    notes: "Москва"
     vm: false
   - hostname: "ntp2.stratum2.ru"
     AS: "Unknown"
     stratum: 2
-    location: "Stratum 2 Russia"
+    location: "Russia"
     owner: "stratum2.ru"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ntp3.stratum2.ru"
     AS: "Unknown"
     stratum: 2
-    location: "Stratum 2 Russia"
+    location: "Russia"
     owner: "stratum2.ru"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ntp4.stratum2.ru"
     AS: "Unknown"
     stratum: 2
-    location: "Stratum 2 Russia"
+    location: "Russia"
     owner: "stratum2.ru"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ntp5.stratum2.ru"
     AS: "Unknown"
     stratum: 2
-    location: "Stratum 2 Russia"
+    location: "Russia"
     owner: "stratum2.ru"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "stratum1.net"
     AS: "Unknown"
     stratum: 1
     location: "stratum1.net"
     owner: "stratum1.net"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp.time.in.ua"
     AS: "Unknown"
     stratum: 1
     location: "time.in.ua"
     owner: "time.in.ua"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp2.time.in.ua"
     AS: "Unknown"
     stratum: 1
     location: "time.in.ua"
     owner: "time.in.ua"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp3.time.in.ua"
     AS: "Unknown"
     stratum: 2
     location: "time.in.ua"
     owner: "time.in.ua"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ntp.ru"
     AS: "AS8915"
@@ -655,14 +655,14 @@ servers:
     stratum: 1
     location: "Berkeley"
     owner: "University of California, Berkeley"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp2.net.berkeley.edu"
     AS: "AS25"
     stratum: 1
     location: "Berkeley"
     owner: "University of California, Berkeley"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp.gsu.edu"
     AS: "AS10631"
@@ -690,7 +690,7 @@ servers:
     stratum: 2
     location: "NSU"
     owner: "Novosibirsk State University"
-    notes: "Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ntp.psn.ru"
     AS: "AS41783"
@@ -704,7 +704,7 @@ servers:
     stratum: 1
     location: "RSU"
     owner: "Rostov State University"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp.nict.jp"
     AS: "AS9355"
@@ -781,56 +781,56 @@ servers:
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Göteborg"
+    notes: "Göteborg"
     vm: false
   - hostname: "gbg2.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Göteborg"
+    notes: "Göteborg"
     vm: false
   - hostname: "mmo1.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Malmö"
+    notes: "Malmö"
     vm: false
   - hostname: "mmo2.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Malmö"
+    notes: "Malmö"
     vm: false
   - hostname: "sth1.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Stockholm"
+    notes: "Stockholm"
     vm: false
   - hostname: "sth2.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Stockholm"
+    notes: "Stockholm"
     vm: false
   - hostname: "svl1.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Sundsvall"
+    notes: "Sundsvall"
     vm: false
   - hostname: "svl2.ntp.se"
     AS: "AS57021"
     stratum: 1
     location: "Netnod NTP service"
     owner: "Netnod"
-    notes: "Stratum 1, Sundsvall"
+    notes: "Sundsvall"
     vm: false
   - hostname: "ntp.se"
     AS: "AS57021"
@@ -872,7 +872,7 @@ servers:
     stratum: 1
     location: "MSK-IX NTP"
     owner: "MSK-IX"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "ntp1.hetzner.de"
     AS: "AS24940"
@@ -942,14 +942,14 @@ servers:
     stratum: 1
     location: "TimeNL/SIDN Labs"
     owner: "SIDN Labs"
-    notes: "Preferred, From comments"
+    notes: "Preferred"
     vm: false
   - hostname: "ntppool2.time.nl"
     AS: "AS1140"
     stratum: 1
     location: "TimeNL/SIDN Labs"
     owner: "SIDN Labs"
-    notes: "Preferred, From comments"
+    notes: "Preferred"
     vm: false
   - hostname: "ntp0.as34288.net"
     AS: "AS34288"
@@ -977,7 +977,7 @@ servers:
     stratum: 1
     location: "Nat Morris"
     owner: "Nat Morris"
-    notes: "Stratum 1"
+    notes: ""
     vm: false
   - hostname: "tick.usno.navy.mil"
     AS: "AS747"
@@ -1250,14 +1250,14 @@ servers:
     stratum: "Unknown"
     location: "Germany"
     owner: "University of Erlangen-Nuremberg (FAU)"
-    notes: "From .de comments"
+    notes: ""
     vm: false
   - hostname: "ntp2.fau.de"
     AS: "AS680"
     stratum: "Unknown"
     location: "Germany"
     owner: "University of Erlangen-Nuremberg (FAU)"
-    notes: "From .de comments"
+    notes: ""
     vm: false
   - hostname: "ntp.dianacht.de"
     AS: "Unknown"
@@ -1523,7 +1523,7 @@ servers:
     stratum: 2
     location: "Ubuntu"
     owner: "Canonical"
-    notes: "From comments, Anycast"
+    notes: "Anycast"
     vm: false
   - hostname: "ntp.viarouge.net"
     AS: "AS207288"
@@ -1565,35 +1565,35 @@ servers:
     stratum: 2
     location: "Croatia"
     owner: "CARNET"
-    notes: "From comments, Stratum 2"
+    notes: ""
     vm: false
   - hostname: "ri.ntp.carnet.hr"
     AS: "AS49932"
     stratum: 2
     location: "Croatia"
     owner: "CARNET"
-    notes: "From comments, Stratum 2"
+    notes: ""
     vm: false
   - hostname: "st.ntp.carnet.hr"
     AS: "AS49932"
     stratum: 2
     location: "Croatia"
     owner: "CARNET"
-    notes: "From comments, Stratum 2"
+    notes: ""
     vm: false
   - hostname: "zg1.ntp.carnet.hr"
     AS: "AS49932"
     stratum: 2
     location: "Croatia"
     owner: "CARNET"
-    notes: "From comments, Stratum 2"
+    notes: ""
     vm: false
   - hostname: "zg2.ntp.carnet.hr"
     AS: "AS49932"
     stratum: 2
     location: "Croatia"
     owner: "CARNET"
-    notes: "From comments, Stratum 2"
+    notes: ""
     vm: false
   - hostname: "stdtime.gov.hk"
     AS: "AS4780"

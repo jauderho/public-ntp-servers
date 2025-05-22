@@ -1,5 +1,7 @@
 # Public NTP Servers
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/public-ntp-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/public-ntp-servers)
+
 This repository lists public NTP (Network Time Protocol) servers.
 The list is sourced from various public resources and aims to provide configuration files for common NTP clients.
 
@@ -15,12 +17,12 @@ The list is sourced from various public resources and aims to provide configurat
 |time4.google.com|AS15169|2|Google Public NTP|Google||
 |time.android.com|AS15169|2|Google Public NTP|Google|Anycast|
 ||
-|time.aws.com|AS16509, AS14618, AS399991|2|public Amazon Time Sync Service|Amazon|Anycast|
-|amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|public Amazon Time Sync Service|Amazon||
-|0.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|public Amazon Time Sync Service|Amazon||
-|1.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|public Amazon Time Sync Service|Amazon||
-|2.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|public Amazon Time Sync Service|Amazon||
-|3.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|public Amazon Time Sync Service|Amazon||
+|time.aws.com|AS16509, AS14618, AS399991|2|Amazon Time Sync Service|Amazon|Anycast|
+|amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|Amazon Time Sync Service|Amazon||
+|0.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|Amazon Time Sync Service|Amazon||
+|1.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|Amazon Time Sync Service|Amazon||
+|2.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|Amazon Time Sync Service|Amazon||
+|3.amazon.pool.ntp.org|AS16509, AS14618, AS399991|2|Amazon Time Sync Service|Amazon||
 ||
 |time.cloudflare.com|AS13335|2|Cloudflare NTP|Cloudflare|Anycast|
 ||
@@ -44,7 +46,7 @@ The list is sourced from various public resources and aims to provide configurat
 |time6.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
 |time7.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
 |time.euro.apple.com|AS714, AS6185|2|Apple NTP server|Apple|Europe region|
-|time.asia.apple.com|AS714, AS6185|2|Apple NTP server|Apple|Asia region, From comments|
+|time.asia.apple.com|AS714, AS6185|2|Apple NTP server|Apple|Asia region|
 ||
 |clepsydra.dec.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |clepsydra.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
@@ -73,18 +75,18 @@ The list is sourced from various public resources and aims to provide configurat
 |utcnist.colorado.edu|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Operated by University of Colorado for NIST|
 |utcnist2.colorado.edu|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Operated by University of Colorado for NIST|
 ||
-|ntp1.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp2.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp3.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp4.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp.sstf.nsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp1.niiftri.irkutsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp2.niiftri.irkutsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|vniiftri.khv.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|vniiftri2.khv.ru|Unknown|1|VNIIFTRI|VNIIFTRI|Stratum 1|
-|ntp21.vniiftri.ru|Unknown|2|VNIIFTRI|VNIIFTRI|Stratum 2|
+|ntp1.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp2.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp3.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp4.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp.sstf.nsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp1.niiftri.irkutsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp2.niiftri.irkutsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|vniiftri.khv.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|vniiftri2.khv.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
+|ntp21.vniiftri.ru|Unknown|2|VNIIFTRI|VNIIFTRI||
 ||
-|ntp.mobatime.ru|Unknown|1|Mobatime|Mobatime|Stratum 1|
+|ntp.mobatime.ru|Unknown|1|Mobatime|Mobatime||
 ||
 |ntp0.ntp-servers.net|Unknown|Unknown|NTP SERVERS|ntp-servers.net||
 |ntp1.ntp-servers.net|Unknown|Unknown|NTP SERVERS|ntp-servers.net||
@@ -95,42 +97,41 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp6.ntp-servers.net|Unknown|Unknown|NTP SERVERS|ntp-servers.net||
 |ntp7.ntp-servers.net|Unknown|Unknown|NTP SERVERS|ntp-servers.net||
 ||
-|ntp1.stratum1.ru|Unknown|1|Stratum 1 Russia|stratum1.ru|Stratum 1|
-|ntp2.stratum1.ru|Unknown|1|Stratum 1 Russia|stratum1.ru|Stratum 1|
-|ntp3.stratum1.ru|Unknown|1|Stratum 1 Russia|stratum1.ru|Stratum 1|
-|ntp4.stratum1.ru|Unknown|1|Stratum 1 Russia|stratum1.ru|Stratum 1|
-|ntp5.stratum1.ru|Unknown|1|Stratum 1 Russia|stratum1.ru|Stratum 1|
+|ntp1.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp2.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp3.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp4.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp5.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp1.stratum2.ru|Unknown|2|Russia|stratum2.ru|Москва|
+|ntp2.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp3.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp4.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp5.stratum2.ru|Unknown|2|Russia|stratum2.ru||
 ||
-|ntp1.stratum2.ru|Unknown|2|Stratum 2 Russia|stratum2.ru|Stratum 2, Москва|
-|ntp2.stratum2.ru|Unknown|2|Stratum 2 Russia|stratum2.ru|Stratum 2|
-|ntp3.stratum2.ru|Unknown|2|Stratum 2 Russia|stratum2.ru|Stratum 2|
-|ntp4.stratum2.ru|Unknown|2|Stratum 2 Russia|stratum2.ru|Stratum 2|
-|ntp5.stratum2.ru|Unknown|2|Stratum 2 Russia|stratum2.ru|Stratum 2|
+|stratum1.net|Unknown|1|stratum1.net|stratum1.net||
 ||
-|stratum1.net|Unknown|1|stratum1.net|stratum1.net|Stratum 1|
-||
-|ntp.time.in.ua|Unknown|1|time.in.ua|time.in.ua|Stratum 1|
-|ntp2.time.in.ua|Unknown|1|time.in.ua|time.in.ua|Stratum 1|
-|ntp3.time.in.ua|Unknown|2|time.in.ua|time.in.ua|Stratum 2|
+|ntp.time.in.ua|Unknown|1|time.in.ua|time.in.ua||
+|ntp2.time.in.ua|Unknown|1|time.in.ua|time.in.ua||
+|ntp3.time.in.ua|Unknown|2|time.in.ua|time.in.ua||
 ||
 |ntp.ru|AS8915|Unknown|Company Delfa Co. Ltd.|Company Delfa Co. Ltd.||
 ||
 |ts1.aco.net|AS1853|Unknown|ACO.net|ACO.net||
 |ts2.aco.net|AS1853|Unknown|ACO.net|ACO.net||
 ||
-|ntp1.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley|Stratum 1|
-|ntp2.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley|Stratum 1|
+|ntp1.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley||
+|ntp2.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley||
 ||
 |ntp.gsu.edu|AS10631|Unknown|Georgia State University|Georgia State University||
 ||
 |tick.usask.ca|AS22950|Unknown|University of Saskatchewan|University of Saskatchewan||
 |tock.usask.ca|AS22950|Unknown|University of Saskatchewan|University of Saskatchewan||
 ||
-|ntp.nsu.ru|AS3335|2|NSU|Novosibirsk State University|Stratum 2|
+|ntp.nsu.ru|AS3335|2|NSU|Novosibirsk State University||
 ||
 |ntp.psn.ru|AS41783|Unknown|ITAEC|ITAEC||
 ||
-|ntp.rsu.edu.ru|AS47124|1|RSU|Rostov State University|Stratum 1|
+|ntp.rsu.edu.ru|AS47124|1|RSU|Rostov State University||
 ||
 |ntp.nict.jp|AS9355|1|National Institute of Information and Communications Technology|NICT||
 ||
@@ -147,14 +148,14 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.fiord.ru|AS28917|Unknown|TRC Fiord|TRC Fiord||
 ||
-|gbg1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Göteborg|
-|gbg2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Göteborg|
-|mmo1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Malmö|
-|mmo2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Malmö|
-|sth1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Stockholm|
-|sth2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Stockholm|
-|svl1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Sundsvall|
-|svl2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stratum 1, Sundsvall|
+|gbg1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Göteborg|
+|gbg2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Göteborg|
+|mmo1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Malmö|
+|mmo2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Malmö|
+|sth1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stockholm|
+|sth2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stockholm|
+|svl1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Sundsvall|
+|svl2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Sundsvall|
 |ntp.se|AS57021|1|Netnod NTP service|Netnod|Anycast address for nearest NTP server|
 ||
 |ntp.qix.ca|AS14086|Unknown|QiX NTP|QiX||
@@ -163,7 +164,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.yycix.ca|AS396515|Unknown|YYCIX NTP|YYCIX||
 ||
-|ntp.ix.ru|AS43832|1|MSK-IX NTP|MSK-IX|Stratum 1|
+|ntp.ix.ru|AS43832|1|MSK-IX NTP|MSK-IX||
 ||
 |ntp1.hetzner.de|AS24940|2|Hetzner Online|Hetzner Online||
 |ntp2.hetzner.de|AS24940|2|Hetzner Online|Hetzner Online||
@@ -178,15 +179,15 @@ The list is sourced from various public resources and aims to provide configurat
 |clock.isc.org|AS1280|1|Internet Systems Consortium|ISC|prev ntp.isc.org|
 ||
 |ntp.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|ntp1.time.nl|
-|ntppool1.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|Preferred, From comments|
-|ntppool2.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|Preferred, From comments|
+|ntppool1.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|Preferred|
+|ntppool2.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|Preferred|
 ||
 |ntp0.as34288.net|AS34288|Unknown|Kantonsschule Zug|Kantonsschule Zug||
 |ntp1.as34288.net|AS34288|Unknown|Kantonsschule Zug|Kantonsschule Zug||
 ||
 |ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|1|Chinese Academy of Sciences Nation Time Service Center|Chinese Academy of Sciences||
 ||
-|ntp.nat.ms|AS30746|1|Nat Morris|Nat Morris|Stratum 1|
+|ntp.nat.ms|AS30746|1|Nat Morris|Nat Morris||
 ||
 |tick.usno.navy.mil|AS747|1|US Naval Observatory|US Navy||
 |tock.usno.navy.mil|AS747|1|US Naval Observatory|US Navy||
@@ -255,8 +256,8 @@ The list is sourced from various public resources and aims to provide configurat
 |ntps1-1.cs.tu-berlin.de|AS680|Unknown|Germany|Technische Universitaet Berlin||
 |ntps1-0.uni-erlangen.de|AS680|Unknown|Germany|University of Erlangen-Nuremberg||
 |ntps1-1.uni-erlangen.de|AS680|Unknown|Germany|University of Erlangen-Nuremberg||
-|ntp1.fau.de|AS680|Unknown|Germany|University of Erlangen-Nuremberg (FAU)|From .de comments|
-|ntp2.fau.de|AS680|Unknown|Germany|University of Erlangen-Nuremberg (FAU)|From .de comments|
+|ntp1.fau.de|AS680|Unknown|Germany|University of Erlangen-Nuremberg (FAU)||
+|ntp2.fau.de|AS680|Unknown|Germany|University of Erlangen-Nuremberg (FAU)||
 |ntp.dianacht.de|Unknown|Unknown|Germany|dianacht.de||
 |zeit.fu-berlin.de|AS680|Unknown|Germany|Freie Universitaet Berlin||
 |ptbtime1.ptb.de|AS1896|1|Germany|PTB||
@@ -314,7 +315,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.day.ir|AS42337|Unknown|Iran|Day ICT|From comments|
 ||
-|ntp.ubuntu.com|AS201815|2|Ubuntu|Canonical|From comments, Anycast|
+|ntp.ubuntu.com|AS201815|2|Ubuntu|Canonical|Anycast|
 ||
 |ntp.viarouge.net|AS207288|Unknown|France|Hubert Viarouge|From comments|
 ||
@@ -323,11 +324,11 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |time1.ntp.hr|AS49932|Unknown|Croatia|CARNET|From comments|
 |time2.ntp.hr|AS49932|Unknown|Croatia|CARNET|From comments|
-|os.ntp.carnet.hr|AS49932|2|Croatia|CARNET|From comments, Stratum 2|
-|ri.ntp.carnet.hr|AS49932|2|Croatia|CARNET|From comments, Stratum 2|
-|st.ntp.carnet.hr|AS49932|2|Croatia|CARNET|From comments, Stratum 2|
-|zg1.ntp.carnet.hr|AS49932|2|Croatia|CARNET|From comments, Stratum 2|
-|zg2.ntp.carnet.hr|AS49932|2|Croatia|CARNET|From comments, Stratum 2|
+|os.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
+|ri.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
+|st.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
+|zg1.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
+|zg2.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 ||
 |stdtime.gov.hk|AS4780|1|Hong Kong|Hong Kong Observatory|From comments|
 ||
@@ -345,4 +346,10 @@ The list is sourced from various public resources and aims to provide configurat
 |time.xtracloud.net|AS174|Unknown|Qualcomm|Qualcomm|From comments|
 
 ## Star History
-<!-- Placeholder for potential future Star History graph or section -->
+<a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jauderho/public-ntp-servers&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=jauderho/public-ntp-servers&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=jauderho/public-ntp-servers&type=Date" />
+  </picture>
+</a>

@@ -1,5 +1,5 @@
 #
-# NTS servers in ntpd-rs format - Modified to standard NTP server mode
+# NTP servers in ntpd-rs format
 #
 
 # Google Public NTP
@@ -28,7 +28,7 @@ mode = "server"
 address = "time.android.com"
 
 
-# public Amazon Time Sync Service
+# Amazon Time Sync Service
 [[source]]
 mode = "server"
 address = "time.aws.com"
@@ -328,7 +328,7 @@ mode = "server"
 address = "ntp7.ntp-servers.net"
 
 
-# Stratum 1 Russia
+# Russia
 [[source]]
 mode = "server"
 address = "ntp1.stratum1.ru"
@@ -349,8 +349,6 @@ address = "ntp4.stratum1.ru"
 mode = "server"
 address = "ntp5.stratum1.ru"
 
-
-# Stratum 2 Russia
 [[source]]
 mode = "server"
 address = "ntp1.stratum2.ru"
