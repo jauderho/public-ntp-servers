@@ -59,7 +59,7 @@ def generate_markdown(data):
 
 
 def generate_chrony_conf(data):
-    chrony_conf = "#\n# NTS servers in chrony format - Modified to standard NTP\n#\n\n"
+    chrony_conf = "#\n# NTP servers in chrony format\n#\n\n"
     current_location = None
     vm_servers = []
 
@@ -85,7 +85,7 @@ def generate_chrony_conf(data):
 
 
 def generate_ntp_toml(data):
-    ntp_toml = "#\n# NTS servers in ntpd-rs format - Modified to standard NTP server mode\n#\n\n"
+    ntp_toml = "#\n# NTP servers in ntpd-rs format\n#\n\n"
     current_location = None
     vm_servers = []
 
