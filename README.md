@@ -4,9 +4,28 @@
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/public-ntp-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/public-ntp-servers)
 
 This repository lists public NTP (Network Time Protocol) servers.
-The list is sourced from various public resources and aims to provide configuration files for common NTP clients.
+The list is sourced from various public resources and aims to provide configuration files for common NTP clients. The initial input for the list comes from the [Gist](https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453) created by mutin-sa.
 
-**Please note:** Server availability and accuracy can vary. Always verify servers before relying on them for critical applications. Contributions and updates to the list are welcome via pull requests to the `ntp-sources.yml` file.
+**WARNING:** Server availability and accuracy can vary. Always verify servers before relying on them for critical applications. Vist the companion repo of [NTP servers with NTS support](https://github.com/jauderho/nts-servers/e).
+
+## Contribute
+- Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
+- PR will not be merged until connectivity to server can be verified
+- Please specify if server is virtualized
+- Contributions and updates to the list are welcome via pull requests to `ntp-sources.yml` to modify the `README.md`, `chrony.conf`, and `ntp.toml`
+  - Run `./scripts/ntpServerConverter.py ntp-sources.yml`
+  - Use `git diff origin README.md chrony.conf ntp.toml` to verify that you have a clean update before submitting a PR
+- AI generated documentation: https://deepwiki.com/jauderho/public-ntp-servers
+
+## Usage
+- This repository provides NTP server lists in multiple formats:
+  - For use with chrony - [chrony.conf](chrony.conf)
+  - For use with ntpd-rs - [ntp.toml](ntp.toml)
+- Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
+- Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
+- Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available
+- Verify NTP server connectivity using the following command before submitting a pull request
+  - `./scripts/ntpCheck.sh <NTP_SERVER_NAME>` 
 
 ## The List
 |Hostname|AS|Stratum|Location|Owner|Notes|
