@@ -246,7 +246,7 @@ mode = "server"
 address = "utcnist2.colorado.edu"
 
 
-# VNIIFTRI
+# Russia
 [[source]]
 mode = "server"
 address = "ntp1.vniiftri.ru"
@@ -287,8 +287,6 @@ address = "vniiftri2.khv.ru"
 mode = "server"
 address = "ntp21.vniiftri.ru"
 
-
-# Mobatime
 [[source]]
 mode = "server"
 address = "ntp.mobatime.ru"
@@ -390,7 +388,7 @@ mode = "server"
 address = "ntp3.time.in.ua"
 
 
-# Company Delfa Co. Ltd.
+# Russia
 [[source]]
 mode = "server"
 address = "ntp.ru"
@@ -422,7 +420,7 @@ mode = "server"
 address = "ntp.gsu.edu"
 
 
-# University of Saskatchewan
+# Canada
 [[source]]
 mode = "server"
 address = "tick.usask.ca"
@@ -432,19 +430,15 @@ mode = "server"
 address = "tock.usask.ca"
 
 
-# NSU
+# Russia
 [[source]]
 mode = "server"
 address = "ntp.nsu.ru"
 
-
-# ITAEC
 [[source]]
 mode = "server"
 address = "ntp.psn.ru"
 
-
-# RSU
 [[source]]
 mode = "server"
 address = "ntp.rsu.edu.ru"
@@ -456,7 +450,7 @@ mode = "server"
 address = "ntp.nict.jp"
 
 
-# INTERNET MULTIFEED CO.
+# Japan
 [[source]]
 mode = "server"
 address = "ntp1.jst.mfeed.ad.jp"
@@ -494,7 +488,7 @@ mode = "server"
 address = "clock.nyc.he.net"
 
 
-# TRC Fiord
+# Russia
 [[source]]
 mode = "server"
 address = "ntp.fiord.ru"
@@ -538,7 +532,7 @@ mode = "server"
 address = "ntp.se"
 
 
-# QiX NTP
+# Canada
 [[source]]
 mode = "server"
 address = "ntp.qix.ca"
@@ -551,20 +545,18 @@ address = "ntp1.qix.ca"
 mode = "server"
 address = "ntp2.qix.ca"
 
-
-# YYCIX NTP
 [[source]]
 mode = "server"
 address = "ntp.yycix.ca"
 
 
-# MSK-IX NTP
+# Russia
 [[source]]
 mode = "server"
 address = "ntp.ix.ru"
 
 
-# Hetzner Online
+# Germany
 [[source]]
 mode = "server"
 address = "ntp1.hetzner.de"

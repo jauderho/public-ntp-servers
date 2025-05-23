@@ -76,27 +76,26 @@ The list is sourced from various public resources and aims to provide configurat
 |utcnist.colorado.edu|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Operated by University of Colorado for NIST|
 |utcnist2.colorado.edu|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Operated by University of Colorado for NIST|
 ||
-|ntp1.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp2.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp3.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp4.vniiftri.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp.sstf.nsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp1.niiftri.irkutsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp2.niiftri.irkutsk.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|vniiftri.khv.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|vniiftri2.khv.ru|Unknown|1|VNIIFTRI|VNIIFTRI||
-|ntp21.vniiftri.ru|Unknown|2|VNIIFTRI|VNIIFTRI||
+|ntp1.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp2.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp3.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp4.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp.sstf.nsk.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp1.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp2.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
+|vniiftri.khv.ru|Unknown|1|Russia|VNIIFTRI||
+|vniiftri2.khv.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp21.vniiftri.ru|Unknown|2|Russia|VNIIFTRI||
+|ntp.mobatime.ru|Unknown|1|Russia|Mobatime||
 ||
-|ntp.mobatime.ru|Unknown|1|Mobatime|Mobatime||
-||
-|ntp0.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
+|ntp0.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
 |ntp1.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp2.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
+|ntp2.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 |ntp3.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 |ntp4.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 |ntp5.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp6.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp7.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
+|ntp6.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
+|ntp7.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
 ||
 |ntp1.stratum1.ru|Unknown|1|Russia|stratum1.ru||
 |ntp2.stratum1.ru|Unknown|1|Russia|stratum1.ru||
@@ -109,13 +108,13 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp4.stratum2.ru|Unknown|2|Russia|stratum2.ru||
 |ntp5.stratum2.ru|Unknown|2|Russia|stratum2.ru||
 ||
-|stratum1.net|Unknown|2|stratum1.net|stratum1.net||
+|stratum1.net|Unknown|1|stratum1.net|stratum1.net||
 ||
-|ntp.time.in.ua|Unknown|2|time.in.ua|time.in.ua||
-|ntp2.time.in.ua|Unknown|2|time.in.ua|time.in.ua||
-|ntp3.time.in.ua|Unknown|3|time.in.ua|time.in.ua||
+|ntp.time.in.ua|Unknown|1|time.in.ua|time.in.ua||
+|ntp2.time.in.ua|Unknown|1|time.in.ua|time.in.ua||
+|ntp3.time.in.ua|Unknown|2|time.in.ua|time.in.ua||
 ||
-|ntp.ru|AS8915|Unknown|Company Delfa Co. Ltd.|Company Delfa Co. Ltd.||
+|ntp.ru|AS8915|Unknown|Russia|Company Delfa Co. Ltd.||
 ||
 |ts1.aco.net|AS1853|1|ACO.net|ACO.net||
 |ts2.aco.net|AS1853|1|ACO.net|ACO.net||
@@ -125,20 +124,18 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
 ||
-|tick.usask.ca|AS22950|1|University of Saskatchewan|University of Saskatchewan||
-|tock.usask.ca|AS22950|1|University of Saskatchewan|University of Saskatchewan||
+|tick.usask.ca|AS22950|1|Canada|University of Saskatchewan||
+|tock.usask.ca|AS22950|1|Canada|University of Saskatchewan||
 ||
-|ntp.nsu.ru|AS3335|2|NSU|Novosibirsk State University||
-||
-|ntp.psn.ru|AS41783|Unknown|ITAEC|ITAEC||
-||
-|ntp.rsu.edu.ru|AS47124|1|RSU|Rostov State University||
+|ntp.nsu.ru|AS3335|2|Russia|Novosibirsk State University||
+|ntp.psn.ru|AS41783|Unknown|Russia|ITAEC||
+|ntp.rsu.edu.ru|AS47124|1|Russia|Rostov State University||
 ||
 |ntp.nict.jp|AS9355|1|National Institute of Information and Communications Technology|NICT||
 ||
-|ntp1.jst.mfeed.ad.jp|AS7521|1|INTERNET MULTIFEED CO.|INTERNET MULTIFEED CO.||
-|ntp2.jst.mfeed.ad.jp|AS7521|1|INTERNET MULTIFEED CO.|INTERNET MULTIFEED CO.||
-|ntp3.jst.mfeed.ad.jp|AS7521|1|INTERNET MULTIFEED CO.|INTERNET MULTIFEED CO.||
+|ntp1.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
+|ntp2.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
+|ntp3.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
 ||
 |x.ns.gin.ntt.net|AS2914|2|NTT|NTT||
 |y.ns.gin.ntt.net|AS2914|2|NTT|NTT||
@@ -147,7 +144,7 @@ The list is sourced from various public resources and aims to provide configurat
 |clock.fmt.he.net|AS6939|2|US|HE.net|Fremont, CA|
 |clock.nyc.he.net|AS6939|3|US|HE.net|New York City, NY|
 ||
-|ntp.fiord.ru|AS28917|Unknown|TRC Fiord|TRC Fiord||
+|ntp.fiord.ru|AS28917|Unknown|Russia|TRC Fiord||
 ||
 |gbg1.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
 |gbg2.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
@@ -159,17 +156,16 @@ The list is sourced from various public resources and aims to provide configurat
 |svl2.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
 |ntp.se|AS57021|1|Sweden|Netnod|Anycast|
 ||
-|ntp.qix.ca|AS14086|1|QiX NTP|QiX||
-|ntp1.qix.ca|AS14086|1|QiX NTP|QiX||
-|ntp2.qix.ca|AS14086|1|QiX NTP|QiX||
+|ntp.qix.ca|AS14086|1|Canada|QiX||
+|ntp1.qix.ca|AS14086|1|Canada|QiX||
+|ntp2.qix.ca|AS14086|1|Canada|QiX||
+|ntp.yycix.ca|AS396515|Unknown|Canada|YYCIX||
 ||
-|ntp.yycix.ca|AS396515|Unknown|YYCIX NTP|YYCIX||
+|ntp.ix.ru|AS43832|1|Russia|MSK-IX||
 ||
-|ntp.ix.ru|AS43832|1|MSK-IX NTP|MSK-IX||
-||
-|ntp1.hetzner.de|AS24940|2|Hetzner Online|Hetzner Online||
-|ntp2.hetzner.de|AS24940|2|Hetzner Online|Hetzner Online||
-|ntp3.hetzner.de|AS24940|2|Hetzner Online|Hetzner Online||
+|ntp1.hetzner.de|AS24940|2|Germany|Hetzner Online||
+|ntp2.hetzner.de|AS24940|2|Germany|Hetzner Online||
+|ntp3.hetzner.de|AS24940|2|Germany|Hetzner Online||
 ||
 |time-a.as43289.net|AS43289|2|Trabia-Network|Trabia-Network||
 |time-b.as43289.net|AS43289|2|Trabia-Network|Trabia-Network||
@@ -186,7 +182,7 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp0.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 |ntp1.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 ||
-|ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|1|Chinese Academy of Sciences Nation Time Service Center|Chinese Academy of Sciences||
+|ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|Chinese Academy of Sciences Nation Time Service Center|Chinese Academy of Sciences||
 ||
 |ntp.nat.ms|AS30746|1|Nat Morris|Nat Morris||
 ||
