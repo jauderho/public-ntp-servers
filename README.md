@@ -18,12 +18,12 @@ The list is sourced from various public resources and aims to provide configurat
 |time4.google.com|AS15169|1|Google Public NTP|Google||
 |time.android.com|AS15169|1|Google Public NTP|Google|Anycast|
 ||
-|time.aws.com|AS14618, AS16509, AS399991|4|Amazon Time Sync Service|Amazon|Anycast|
-|amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon Time Sync Service|Amazon||
-|0.amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon Time Sync Service|Amazon||
-|1.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon Time Sync Service|Amazon||
-|2.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon Time Sync Service|Amazon||
-|3.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon Time Sync Service|Amazon||
+|time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
+|0.amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
+|1.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
+|2.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
+|3.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
 ||
 |time.cloudflare.com|AS13335|3|Cloudflare NTP|Cloudflare|Anycast|
 ||
@@ -123,7 +123,7 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp1.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley||
 |ntp2.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley||
 ||
-|ntp.gsu.edu|AS10631|Unknown|Georgia State University|Georgia State University||
+|ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
 ||
 |tick.usask.ca|AS22950|1|University of Saskatchewan|University of Saskatchewan||
 |tock.usask.ca|AS22950|1|University of Saskatchewan|University of Saskatchewan||
@@ -143,9 +143,9 @@ The list is sourced from various public resources and aims to provide configurat
 |x.ns.gin.ntt.net|AS2914|2|NTT|NTT||
 |y.ns.gin.ntt.net|AS2914|2|NTT|NTT||
 ||
-|clock.sjc.he.net|AS6939|3|HE.net Public Stratum 1 NTP servers|HE.net|San Jose, CA|
-|clock.fmt.he.net|AS6939|2|HE.net Public Stratum 1 NTP servers|HE.net|Fremont, CA|
-|clock.nyc.he.net|AS6939|3|HE.net Public Stratum 1 NTP servers|HE.net|New York City, NY|
+|clock.sjc.he.net|AS6939|3|US|HE.net|San Jose, CA|
+|clock.fmt.he.net|AS6939|2|US|HE.net|Fremont, CA|
+|clock.nyc.he.net|AS6939|3|US|HE.net|New York City, NY|
 ||
 |ntp.fiord.ru|AS28917|Unknown|TRC Fiord|TRC Fiord||
 ||
@@ -196,30 +196,25 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |timekeeper.isi.edu|AS2702|1|ISI|Information Sciences Institute||
 ||
-|rackety.udel.edu|AS300|Unknown|University of Delaware|University of Delaware||
-|mizbeaver.udel.edu|AS300|Unknown|University of Delaware|University of Delaware||
-||
-|otc1.psu.edu|AS38|Unknown|Pennsylvania State University|Pennsylvania State University||
-||
-|gnomon.cc.columbia.edu|AS117|Unknown|Columbia University|Columbia University||
+|rackety.udel.edu|AS300|Unknown|US|University of Delaware||
+|mizbeaver.udel.edu|AS300|Unknown|US|University of Delaware||
+|otc1.psu.edu|AS38|Unknown|US|Pennsylvania State University||
+|gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
 ||
 |navobs1.gatech.edu|AS2637|1|Georgia Institute of Technology|Georgia Institute of Technology||
 ||
-|navobs1.wustl.edu|AS288|1|Washington University in St. Louis|Washington University in St. Louis||
-||
-|now.okstate.edu|AS111|1|Oklahoma State University|Oklahoma State University||
+|navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
+|now.okstate.edu|AS111|1|US|Oklahoma State University||
 ||
 |ntp.colby.edu|AS10566|Unknown|Colby College|Colby College||
 ||
-|ntp-s1.cise.ufl.edu|AS5730|Unknown|University of Florida|University of Florida||
+|ntp-s1.cise.ufl.edu|AS5730|Unknown|US|University of Florida||
 ||
 |bonehed.lcs.mit.edu|AS3|1|MIT LCS|MIT||
 ||
-|level1e.cs.unc.edu|AS2807|Unknown|University of North Carolina at Chapel Hill|University of North Carolina at Chapel Hill||
-||
-|tick.ucla.edu|AS52|Unknown|University of California, Los Angeles|University of California, Los Angeles||
-||
-|tick.uh.edu|AS638|2|University of Hawaii|University of Hawaii||
+|level1e.cs.unc.edu|AS2807|Unknown|US|University of North Carolina at Chapel Hill||
+|tick.ucla.edu|AS52|Unknown|US|University of California, Los Angeles||
+|tick.uh.edu|AS638|2|US|University of Hawaii||
 ||
 |ntpstm.netbone-digital.com|Unknown|Unknown|NetBone Digital|NetBone Digital||
 ||

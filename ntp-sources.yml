@@ -44,42 +44,42 @@ servers:
   - hostname: time.aws.com
     AS: AS14618, AS16509, AS399991
     stratum: 4
-    location: Amazon Time Sync Service
+    location: Amazon NTP
     owner: Amazon
     notes: Anycast
     vm: false
   - hostname: amazon.pool.ntp.org
     AS: AS14618, AS16509, AS399991
     stratum: 1
-    location: Amazon Time Sync Service
+    location: Amazon NTP
     owner: Amazon
     notes: ""
     vm: false
   - hostname: 0.amazon.pool.ntp.org
     AS: AS14618, AS16509, AS399991
     stratum: 1
-    location: Amazon Time Sync Service
+    location: Amazon NTP
     owner: Amazon
     notes: ""
     vm: false
   - hostname: 1.amazon.pool.ntp.org
     AS: AS14618, AS16509, AS399991
     stratum: 2
-    location: Amazon Time Sync Service
+    location: Amazon NTP
     owner: Amazon
     notes: ""
     vm: false
   - hostname: 2.amazon.pool.ntp.org
     AS: AS14618, AS16509, AS399991
     stratum: 2
-    location: Amazon Time Sync Service
+    location: Amazon NTP
     owner: Amazon
     notes: ""
     vm: false
   - hostname: 3.amazon.pool.ntp.org
     AS: AS14618, AS16509, AS399991
     stratum: 2
-    location: Amazon Time Sync Service
+    location: Amazon NTP
     owner: Amazon
     notes: ""
     vm: false
@@ -667,7 +667,7 @@ servers:
   - hostname: ntp.gsu.edu
     AS: AS10631
     stratum: Unknown
-    location: Georgia State University
+    location: US
     owner: Georgia State University
     notes: ""
     vm: false
@@ -751,21 +751,21 @@ servers:
   - hostname: clock.sjc.he.net
     AS: AS6939
     stratum: 3
-    location: HE.net Public Stratum 1 NTP servers
+    location: US
     owner: HE.net
     notes: San Jose, CA
     vm: false
   - hostname: clock.fmt.he.net
     AS: AS6939
     stratum: 2
-    location: HE.net Public Stratum 1 NTP servers
+    location: US
     owner: HE.net
     notes: Fremont, CA
     vm: false
   - hostname: clock.nyc.he.net
     AS: AS6939
     stratum: 3
-    location: HE.net Public Stratum 1 NTP servers
+    location: US
     owner: HE.net
     notes: New York City, NY
     vm: false
@@ -1010,28 +1010,28 @@ servers:
   - hostname: rackety.udel.edu
     AS: AS300
     stratum: Unknown
-    location: University of Delaware
+    location: US
     owner: University of Delaware
     notes: ""
     vm: false
   - hostname: mizbeaver.udel.edu
     AS: AS300
     stratum: Unknown
-    location: University of Delaware
+    location: US
     owner: University of Delaware
     notes: ""
     vm: false
   - hostname: otc1.psu.edu
     AS: AS38
     stratum: Unknown
-    location: Pennsylvania State University
+    location: US
     owner: Pennsylvania State University
     notes: ""
     vm: false
   - hostname: gnomon.cc.columbia.edu
     AS: AS117
     stratum: Unknown
-    location: Columbia University
+    location: US
     owner: Columbia University
     notes: ""
     vm: false
@@ -1045,14 +1045,14 @@ servers:
   - hostname: navobs1.wustl.edu
     AS: AS288
     stratum: 1
-    location: Washington University in St. Louis
+    location: US
     owner: Washington University in St. Louis
     notes: ""
     vm: false
   - hostname: now.okstate.edu
     AS: AS111
     stratum: 1
-    location: Oklahoma State University
+    location: US
     owner: Oklahoma State University
     notes: ""
     vm: false
@@ -1066,7 +1066,7 @@ servers:
   - hostname: ntp-s1.cise.ufl.edu
     AS: AS5730
     stratum: Unknown
-    location: University of Florida
+    location: US
     owner: University of Florida
     notes: ""
     vm: false
@@ -1080,21 +1080,21 @@ servers:
   - hostname: level1e.cs.unc.edu
     AS: AS2807
     stratum: Unknown
-    location: University of North Carolina at Chapel Hill
+    location: US
     owner: University of North Carolina at Chapel Hill
     notes: ""
     vm: false
   - hostname: tick.ucla.edu
     AS: AS52
     stratum: Unknown
-    location: University of California, Los Angeles
+    location: US
     owner: University of California, Los Angeles
     notes: ""
     vm: false
   - hostname: tick.uh.edu
     AS: AS638
     stratum: 2
-    location: University of Hawaii
+    location: US
     owner: University of Hawaii
     notes: ""
     vm: false

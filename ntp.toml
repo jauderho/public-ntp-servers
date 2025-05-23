@@ -28,7 +28,7 @@ mode = "server"
 address = "time.android.com"
 
 
-# Amazon Time Sync Service
+# Amazon NTP
 [[source]]
 mode = "server"
 address = "time.aws.com"
@@ -416,7 +416,7 @@ mode = "server"
 address = "ntp2.net.berkeley.edu"
 
 
-# Georgia State University
+# US
 [[source]]
 mode = "server"
 address = "ntp.gsu.edu"
@@ -480,7 +480,7 @@ mode = "server"
 address = "y.ns.gin.ntt.net"
 
 
-# HE.net Public Stratum 1 NTP servers
+# US
 [[source]]
 mode = "server"
 address = "clock.sjc.he.net"
@@ -660,7 +660,7 @@ mode = "server"
 address = "timekeeper.isi.edu"
 
 
-# University of Delaware
+# US
 [[source]]
 mode = "server"
 address = "rackety.udel.edu"
@@ -669,14 +669,10 @@ address = "rackety.udel.edu"
 mode = "server"
 address = "mizbeaver.udel.edu"
 
-
-# Pennsylvania State University
 [[source]]
 mode = "server"
 address = "otc1.psu.edu"
 
-
-# Columbia University
 [[source]]
 mode = "server"
 address = "gnomon.cc.columbia.edu"
@@ -688,13 +684,11 @@ mode = "server"
 address = "navobs1.gatech.edu"
 
 
-# Washington University in St. Louis
+# US
 [[source]]
 mode = "server"
 address = "navobs1.wustl.edu"
 
-
-# Oklahoma State University
 [[source]]
 mode = "server"
 address = "now.okstate.edu"
@@ -706,7 +700,7 @@ mode = "server"
 address = "ntp.colby.edu"
 
 
-# University of Florida
+# US
 [[source]]
 mode = "server"
 address = "ntp-s1.cise.ufl.edu"
@@ -718,19 +712,15 @@ mode = "server"
 address = "bonehed.lcs.mit.edu"
 
 
-# University of North Carolina at Chapel Hill
+# US
 [[source]]
 mode = "server"
 address = "level1e.cs.unc.edu"
 
-
-# University of California, Los Angeles
 [[source]]
 mode = "server"
 address = "tick.ucla.edu"
 
-
-# University of Hawaii
 [[source]]
 mode = "server"
 address = "tick.uh.edu"
