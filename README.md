@@ -1,5 +1,6 @@
 # Public NTP Servers
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jauderho/public-ntp-servers)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/public-ntp-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/public-ntp-servers)
 
 This repository lists public NTP (Network Time Protocol) servers.
