@@ -20,8 +20,7 @@ def extract_hostname(hostname_field):
 
 
 def generate_markdown(data):
-    markdown = "## The List\n"  # Ensure this is a single line string with \n
-    markdown += "|Hostname|AS|Stratum|Location|Owner|Notes|\n"
+    markdown = "|Hostname|AS|Stratum|Location|Owner|Notes|\n" # Start directly with table header
     markdown += "|---|---|:---:|---|---|---|\n"
     current_location = None
     vm_servers = []
