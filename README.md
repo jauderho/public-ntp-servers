@@ -313,37 +313,37 @@ The list is sourced from various public resources and aims to provide configurat
 |time.esa.int|AS15559|Unknown|International|European Space Agency||
 |time1.esa.int|AS15559|Unknown|International|European Space Agency||
 ||
-|ntp.day.ir|AS42337|Unknown|Iran|Day ICT|From comments|
+|ntp.day.ir|AS42337|Unknown|Iran|Day ICT||
 ||
 |ntp.ubuntu.com|AS201815|2|Ubuntu|Canonical|Anycast|
 ||
-|ntp.viarouge.net|AS207288|Unknown|France|Hubert Viarouge|From comments|
+|ntp.viarouge.net|AS207288|Unknown|France|Hubert Viarouge||
 ||
-|ntp1.dmz.terryburton.co.uk|Unknown|Unknown|UK|Terry Burton|From comments|
-|ntp2.dmz.terryburton.co.uk|Unknown|Unknown|UK|Terry Burton|From comments|
+|ntp1.dmz.terryburton.co.uk|Unknown|Unknown|UK|Terry Burton||
+|ntp2.dmz.terryburton.co.uk|Unknown|Unknown|UK|Terry Burton||
 ||
-|time1.ntp.hr|AS49932|Unknown|Croatia|CARNET|From comments|
-|time2.ntp.hr|AS49932|Unknown|Croatia|CARNET|From comments|
+|time1.ntp.hr|AS49932|Unknown|Croatia|CARNET||
+|time2.ntp.hr|AS49932|Unknown|Croatia|CARNET||
 |os.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |ri.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |st.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |zg1.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |zg2.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 ||
-|stdtime.gov.hk|AS4780|1|Hong Kong|Hong Kong Observatory|From comments|
+|stdtime.gov.hk|AS4780|1|Hong Kong|Hong Kong Observatory||
 ||
-|ntp5.leontp.com|Unknown|Unknown|UK|Leo Bodnar|From comments|
-|ntp6.leontp.com|Unknown|Unknown|UK|Leo Bodnar|From comments|
-|ntp7.leontp.com|Unknown|Unknown|UK|Leo Bodnar|From comments|
-|ntp8.leontp.com|Unknown|Unknown|UK|Leo Bodnar|From comments|
-|ntp9.leontp.com|Unknown|Unknown|UK|Leo Bodnar|From comments|
-|timekeeper.webwiz.net|AS44929|Unknown|UK|Web Wiz|From comments|
-|ntp.theitman.uk|Unknown|Unknown|UK|TheITMan|From comments|
-|eshail.batc.org.uk|Unknown|Unknown|UK|BATC|From comments|
+|ntp5.leontp.com|Unknown|Unknown|UK|Leo Bodnar||
+|ntp6.leontp.com|Unknown|Unknown|UK|Leo Bodnar||
+|ntp7.leontp.com|Unknown|Unknown|UK|Leo Bodnar||
+|ntp8.leontp.com|Unknown|Unknown|UK|Leo Bodnar||
+|ntp9.leontp.com|Unknown|Unknown|UK|Leo Bodnar||
+|timekeeper.webwiz.net|AS44929|Unknown|UK|Web Wiz||
+|ntp.theitman.uk|Unknown|Unknown|UK|TheITMan||
+|eshail.batc.org.uk|Unknown|Unknown|UK|BATC||
 ||
-|ntp.heppen.be|Unknown|Unknown|Belgium|ON5HB Ham-radio users|From comments|
+|ntp.heppen.be|Unknown|Unknown|Belgium|ON5HB Ham-radio users||
 ||
-|time.xtracloud.net|AS174|Unknown|Qualcomm|Qualcomm|From comments|
+|time.xtracloud.net|AS174|Unknown|Qualcomm|Qualcomm||
 
 ## Star History
 <a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">
