@@ -779,65 +779,65 @@ servers:
   - hostname: gbg1.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: "G\xF6teborg"
     vm: false
   - hostname: gbg2.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: "G\xF6teborg"
     vm: false
   - hostname: mmo1.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: "Malm\xF6"
     vm: false
   - hostname: mmo2.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: "Malm\xF6"
     vm: false
   - hostname: sth1.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: Stockholm
     vm: false
   - hostname: sth2.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: Stockholm
     vm: false
   - hostname: svl1.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: Sundsvall
     vm: false
   - hostname: svl2.ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
     notes: Sundsvall
     vm: false
   - hostname: ntp.se
     AS: AS57021
     stratum: 1
-    location: Netnod NTP service
+    location: Sweden
     owner: Netnod
-    notes: Anycast address for nearest NTP server
+    notes: Anycast
     vm: false
   - hostname: ntp.qix.ca
     AS: AS14086
@@ -933,21 +933,21 @@ servers:
   - hostname: ntp.time.nl
     AS: AS1140
     stratum: 1
-    location: TimeNL/SIDN Labs
+    location: Netherlands
     owner: SIDN Labs
     notes: ntp1.time.nl
     vm: false
   - hostname: ntppool1.time.nl
     AS: AS1140
     stratum: 1
-    location: TimeNL/SIDN Labs
+    location: Netherlands
     owner: SIDN Labs
     notes: Preferred
     vm: false
   - hostname: ntppool2.time.nl
     AS: AS1140
     stratum: 1
-    location: TimeNL/SIDN Labs
+    location: Netherlands
     owner: SIDN Labs
     notes: Preferred
     vm: false

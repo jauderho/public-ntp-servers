@@ -500,7 +500,7 @@ mode = "server"
 address = "ntp.fiord.ru"
 
 
-# Netnod NTP service
+# Sweden
 [[source]]
 mode = "server"
 address = "gbg1.ntp.se"
@@ -604,7 +604,7 @@ mode = "server"
 address = "clock.isc.org"
 
 
-# TimeNL/SIDN Labs
+# Netherlands
 [[source]]
 mode = "server"
 address = "ntp.time.nl"

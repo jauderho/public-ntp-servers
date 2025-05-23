@@ -149,15 +149,15 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.fiord.ru|AS28917|Unknown|TRC Fiord|TRC Fiord||
 ||
-|gbg1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Göteborg|
-|gbg2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Göteborg|
-|mmo1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Malmö|
-|mmo2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Malmö|
-|sth1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stockholm|
-|sth2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Stockholm|
-|svl1.ntp.se|AS57021|1|Netnod NTP service|Netnod|Sundsvall|
-|svl2.ntp.se|AS57021|1|Netnod NTP service|Netnod|Sundsvall|
-|ntp.se|AS57021|1|Netnod NTP service|Netnod|Anycast address for nearest NTP server|
+|gbg1.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
+|gbg2.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
+|mmo1.ntp.se|AS57021|1|Sweden|Netnod|Malmö|
+|mmo2.ntp.se|AS57021|1|Sweden|Netnod|Malmö|
+|sth1.ntp.se|AS57021|1|Sweden|Netnod|Stockholm|
+|sth2.ntp.se|AS57021|1|Sweden|Netnod|Stockholm|
+|svl1.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
+|svl2.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
+|ntp.se|AS57021|1|Sweden|Netnod|Anycast|
 ||
 |ntp.qix.ca|AS14086|1|QiX NTP|QiX||
 |ntp1.qix.ca|AS14086|1|QiX NTP|QiX||
@@ -179,9 +179,9 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |clock.isc.org|AS1280|3|Internet Systems Consortium|ISC|prev ntp.isc.org|
 ||
-|ntp.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|ntp1.time.nl|
-|ntppool1.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|Preferred|
-|ntppool2.time.nl|AS1140|1|TimeNL/SIDN Labs|SIDN Labs|Preferred|
+|ntp.time.nl|AS1140|1|Netherlands|SIDN Labs|ntp1.time.nl|
+|ntppool1.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
+|ntppool2.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
 ||
 |ntp0.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 |ntp1.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
