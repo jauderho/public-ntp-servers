@@ -1,0 +1,1487 @@
+[
+    {
+        "hostname": "asynchronos.iiss.at",
+        "AS": "AS8401",
+        "stratum": "Unknown",
+        "location": "Austria",
+        "owner": "ACOnet / University of Vienna",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.i2t.ehu.eus",
+        "AS": "AS2110",
+        "stratum": 1,
+        "location": "Basque Country",
+        "owner": "University of the Basque Country (EHU)",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.heppen.be",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Belgium",
+        "owner": "ON5HB Ham-radio users",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.oma.be",
+        "AS": "AS5400",
+        "stratum": 1,
+        "location": "Belgium",
+        "owner": "Royal Observatory of Belgium",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.oma.be",
+        "AS": "AS5400",
+        "stratum": 1,
+        "location": "Belgium",
+        "owner": "Royal Observatory of Belgium",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntps1.pads.ufrj.br",
+        "AS": "AS1553",
+        "stratum": 1,
+        "location": "Brazil",
+        "owner": "Federal University of Rio de Janeiro",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time.nrc.ca",
+        "AS": "AS573",
+        "stratum": 2,
+        "location": "Canada",
+        "owner": "National Research Council Canada",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.qix.ca",
+        "AS": "AS14086",
+        "stratum": 1,
+        "location": "Canada",
+        "owner": "QiX",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.qix.ca",
+        "AS": "AS14086",
+        "stratum": 1,
+        "location": "Canada",
+        "owner": "QiX",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.qix.ca",
+        "AS": "AS14086",
+        "stratum": 1,
+        "location": "Canada",
+        "owner": "QiX",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "clock.uregina.ca",
+        "AS": "AS641",
+        "stratum": 1,
+        "location": "Canada",
+        "owner": "University of Regina",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tick.usask.ca",
+        "AS": "AS22950",
+        "stratum": 1,
+        "location": "Canada",
+        "owner": "University of Saskatchewan",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tock.usask.ca",
+        "AS": "AS22950",
+        "stratum": 1,
+        "location": "Canada",
+        "owner": "University of Saskatchewan",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.yycix.ca",
+        "AS": "AS396515",
+        "stratum": "Unknown",
+        "location": "Canada",
+        "owner": "YYCIX",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.shoa.cl",
+        "AS": "AS16299",
+        "stratum": 1,
+        "location": "Chile",
+        "owner": "Hydrographic and Oceanographic Service of the Chilean Navy",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.ntsc.ac.cn",
+        "AS": "AS4808, AS9808, AS23724",
+        "stratum": 2,
+        "location": "China",
+        "owner": "Chinese Academy of Sciences",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.neu.edu.cn",
+        "AS": "AS4538",
+        "stratum": "Unknown",
+        "location": "China",
+        "owner": "Northeastern University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time1.ntp.hr",
+        "AS": "AS49932",
+        "stratum": 1,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time2.ntp.hr",
+        "AS": "AS49932",
+        "stratum": 1,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "os.ntp.carnet.hr",
+        "AS": "AS49932",
+        "stratum": 2,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ri.ntp.carnet.hr",
+        "AS": "AS49932",
+        "stratum": 2,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "st.ntp.carnet.hr",
+        "AS": "AS49932",
+        "stratum": 2,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "zg1.ntp.carnet.hr",
+        "AS": "AS49932",
+        "stratum": 2,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "zg2.ntp.carnet.hr",
+        "AS": "AS49932",
+        "stratum": 2,
+        "location": "Croatia",
+        "owner": "CARNET",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.nic.cz",
+        "AS": "AS25204",
+        "stratum": 1,
+        "location": "Czech Republic",
+        "owner": "CZ.NIC",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time.ufe.cz",
+        "AS": "AS25192",
+        "stratum": 1,
+        "location": "Czech Republic",
+        "owner": "UFE CAS",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.viarouge.net",
+        "AS": "AS207288",
+        "stratum": 2,
+        "location": "France",
+        "owner": "Hubert Viarouge",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.dianacht.de",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Germany",
+        "owner": "dianacht.de",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time.fu-berlin.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "Freie Universitaet Berlin",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "zeit.fu-berlin.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "Freie Universitaet Berlin",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.hetzner.de",
+        "AS": "AS24940",
+        "stratum": 2,
+        "location": "Germany",
+        "owner": "Hetzner Online",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.hetzner.de",
+        "AS": "AS24940",
+        "stratum": 2,
+        "location": "Germany",
+        "owner": "Hetzner Online",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.hetzner.de",
+        "AS": "AS24940",
+        "stratum": 2,
+        "location": "Germany",
+        "owner": "Hetzner Online",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ptbtime1.ptb.de",
+        "AS": "AS1896",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "PTB",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ptbtime2.ptb.de",
+        "AS": "AS1896",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "PTB",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntps1-0.cs.tu-berlin.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "Technische Universitaet Berlin",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntps1-1.cs.tu-berlin.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "Technische Universitaet Berlin",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntps1-0.uni-erlangen.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "University of Erlangen-Nuremberg",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntps1-1.uni-erlangen.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "University of Erlangen-Nuremberg",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.fau.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "University of Erlangen-Nuremberg (FAU)",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.fau.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "University of Erlangen-Nuremberg (FAU)",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "rustime01.rus.uni-stuttgart.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "University of Stuttgart",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "rustime02.rus.uni-stuttgart.de",
+        "AS": "AS680",
+        "stratum": 1,
+        "location": "Germany",
+        "owner": "University of Stuttgart",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "stdtime.gov.hk",
+        "AS": "AS4780",
+        "stratum": 2,
+        "location": "Hong Kong",
+        "owner": "Hong Kong Observatory",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.atomki.mta.hu",
+        "AS": "AS197038",
+        "stratum": 2,
+        "location": "Hungary",
+        "owner": "ATOMKI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time.esa.int",
+        "AS": "AS15559",
+        "stratum": 1,
+        "location": "International",
+        "owner": "European Space Agency",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time1.esa.int",
+        "AS": "AS15559",
+        "stratum": 1,
+        "location": "International",
+        "owner": "European Space Agency",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.day.ir",
+        "AS": "AS42337",
+        "stratum": 3,
+        "location": "Iran",
+        "owner": "Day ICT",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.inrim.it",
+        "AS": "AS29109",
+        "stratum": 1,
+        "location": "Italy",
+        "owner": "INRIM",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.inrim.it",
+        "AS": "AS29109",
+        "stratum": 1,
+        "location": "Italy",
+        "owner": "INRIM",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.jst.mfeed.ad.jp",
+        "AS": "AS7521",
+        "stratum": 1,
+        "location": "Japan",
+        "owner": "INTERNET MULTIFEED CO.",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.jst.mfeed.ad.jp",
+        "AS": "AS7521",
+        "stratum": 1,
+        "location": "Japan",
+        "owner": "INTERNET MULTIFEED CO.",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.jst.mfeed.ad.jp",
+        "AS": "AS7521",
+        "stratum": 1,
+        "location": "Japan",
+        "owner": "INTERNET MULTIFEED CO.",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.nict.jp",
+        "AS": "AS9355",
+        "stratum": 1,
+        "location": "Japan",
+        "owner": "National Institute of Information and Communications Technology",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "x.ns.gin.ntt.net",
+        "AS": "AS2914",
+        "stratum": 2,
+        "location": "Japan",
+        "owner": "NTT",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "y.ns.gin.ntt.net",
+        "AS": "AS2914",
+        "stratum": 2,
+        "location": "Japan",
+        "owner": "NTT",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "cronos.cenam.mx",
+        "AS": "AS8017",
+        "stratum": 1,
+        "location": "Mexico",
+        "owner": "CENAM",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.lcf.mx",
+        "AS": "Unknown",
+        "stratum": "Unknown",
+        "location": "Mexico",
+        "owner": "lcf.mx",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.time.nl",
+        "AS": "AS1140",
+        "stratum": 1,
+        "location": "Netherlands",
+        "owner": "SIDN Labs",
+        "notes": "ntp1.time.nl",
+        "vm": false
+    },
+    {
+        "hostname": "ntppool1.time.nl",
+        "AS": "AS1140",
+        "stratum": 1,
+        "location": "Netherlands",
+        "owner": "SIDN Labs",
+        "notes": "Preferred",
+        "vm": false
+    },
+    {
+        "hostname": "ntppool2.time.nl",
+        "AS": "AS1140",
+        "stratum": 1,
+        "location": "Netherlands",
+        "owner": "SIDN Labs",
+        "notes": "Preferred",
+        "vm": false
+    },
+    {
+        "hostname": "chime1.surfnet.nl",
+        "AS": "AS1103",
+        "stratum": 1,
+        "location": "Netherlands",
+        "owner": "SURFnet",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.vsl.nl",
+        "AS": "AS34929",
+        "stratum": 1,
+        "location": "Netherlands",
+        "owner": "VSL",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tempus1.gum.gov.pl",
+        "AS": "AS43900",
+        "stratum": 1,
+        "location": "Poland",
+        "owner": "GUM",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tempus2.gum.gov.pl",
+        "AS": "AS43900",
+        "stratum": 1,
+        "location": "Poland",
+        "owner": "GUM",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.fizyka.umk.pl",
+        "AS": "AS8805",
+        "stratum": 1,
+        "location": "Poland",
+        "owner": "Nicolaus Copernicus University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.usv.ro",
+        "AS": "AS8713",
+        "stratum": "Unknown",
+        "location": "Romania",
+        "owner": "University Stefan cel Mare Suceava",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.usv.ro",
+        "AS": "AS8713",
+        "stratum": "Unknown",
+        "location": "Romania",
+        "owner": "University Stefan cel Mare Suceava",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.ru",
+        "AS": "AS8915",
+        "stratum": "Unknown",
+        "location": "Russia",
+        "owner": "Company Delfa Co. Ltd.",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.psn.ru",
+        "AS": "AS41783",
+        "stratum": "Unknown",
+        "location": "Russia",
+        "owner": "ITAEC",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.mobatime.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "Mobatime",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.ix.ru",
+        "AS": "AS43832",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "MSK-IX",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.nsu.ru",
+        "AS": "AS3335",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "Novosibirsk State University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.rsu.edu.ru",
+        "AS": "AS47124",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "Rostov State University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.stratum1.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "stratum1.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.stratum1.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "stratum1.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.stratum1.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "stratum1.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp4.stratum1.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "stratum1.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp5.stratum1.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "stratum1.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.stratum2.ru",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "stratum2.ru",
+        "notes": "\u041c\u043e\u0441\u043a\u0432\u0430",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.stratum2.ru",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "stratum2.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.stratum2.ru",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "stratum2.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp4.stratum2.ru",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "stratum2.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp5.stratum2.ru",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "stratum2.ru",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.fiord.ru",
+        "AS": "AS28917",
+        "stratum": "Unknown",
+        "location": "Russia",
+        "owner": "TRC Fiord",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.vniiftri.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.vniiftri.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.vniiftri.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp4.vniiftri.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.sstf.nsk.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.niiftri.irkutsk.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.niiftri.irkutsk.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "vniiftri.khv.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "vniiftri2.khv.ru",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp21.vniiftri.ru",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Russia",
+        "owner": "VNIIFTRI",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "hora.roa.es",
+        "AS": "AS31007",
+        "stratum": 1,
+        "location": "Spain",
+        "owner": "ROA",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "minuto.roa.es",
+        "AS": "AS31007",
+        "stratum": 1,
+        "location": "Spain",
+        "owner": "ROA",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "timehost.lysator.liu.se",
+        "AS": "AS1653",
+        "stratum": "Unknown",
+        "location": "Sweden",
+        "owner": "Academic Computer Club Lysator",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "gbg1.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "G\u00f6teborg",
+        "vm": false
+    },
+    {
+        "hostname": "gbg2.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "G\u00f6teborg",
+        "vm": false
+    },
+    {
+        "hostname": "mmo1.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Malm\u00f6",
+        "vm": false
+    },
+    {
+        "hostname": "mmo2.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Malm\u00f6",
+        "vm": false
+    },
+    {
+        "hostname": "sth1.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Stockholm",
+        "vm": false
+    },
+    {
+        "hostname": "sth2.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Stockholm",
+        "vm": false
+    },
+    {
+        "hostname": "svl1.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Sundsvall",
+        "vm": false
+    },
+    {
+        "hostname": "svl2.ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Sundsvall",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.se",
+        "AS": "AS57021",
+        "stratum": 1,
+        "location": "Sweden",
+        "owner": "Netnod",
+        "notes": "Anycast",
+        "vm": false
+    },
+    {
+        "hostname": "time1.stupi.se",
+        "AS": "Unknown",
+        "stratum": "Unknown",
+        "location": "Sweden",
+        "owner": "stupi.se",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.neel.ch",
+        "AS": "AS34569",
+        "stratum": "Unknown",
+        "location": "Switzerland",
+        "owner": "Neel Engineering",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "eshail.batc.org.uk",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "BATC",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp5.leontp.com",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Leo Bodnar",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp6.leontp.com",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Leo Bodnar",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp7.leontp.com",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Leo Bodnar",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp8.leontp.com",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Leo Bodnar",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp9.leontp.com",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Leo Bodnar",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.dmz.terryburton.co.uk",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Terry Burton",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.dmz.terryburton.co.uk",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Terry Burton",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.theitman.uk",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "TheITMan",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "timekeeper.webwiz.net",
+        "AS": "AS44929",
+        "stratum": 1,
+        "location": "UK",
+        "owner": "Web Wiz",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.time.in.ua",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Ukraine",
+        "owner": "time.in.ua",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.time.in.ua",
+        "AS": "Unknown",
+        "stratum": 1,
+        "location": "Ukraine",
+        "owner": "time.in.ua",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp3.time.in.ua",
+        "AS": "Unknown",
+        "stratum": 2,
+        "location": "Ukraine",
+        "owner": "time.in.ua",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.colby.edu",
+        "AS": "AS10566",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "Colby College",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "gnomon.cc.columbia.edu",
+        "AS": "AS117",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "Columbia University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "navobs1.gatech.edu",
+        "AS": "AS2637",
+        "stratum": 1,
+        "location": "US",
+        "owner": "Georgia Institute of Technology",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp.gsu.edu",
+        "AS": "AS10631",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "Georgia State University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "clock.sjc.he.net",
+        "AS": "AS6939",
+        "stratum": 3,
+        "location": "US",
+        "owner": "HE.net",
+        "notes": "San Jose, CA",
+        "vm": false
+    },
+    {
+        "hostname": "clock.fmt.he.net",
+        "AS": "AS6939",
+        "stratum": 2,
+        "location": "US",
+        "owner": "HE.net",
+        "notes": "Fremont, CA",
+        "vm": false
+    },
+    {
+        "hostname": "clock.nyc.he.net",
+        "AS": "AS6939",
+        "stratum": 3,
+        "location": "US",
+        "owner": "HE.net",
+        "notes": "New York City, NY",
+        "vm": false
+    },
+    {
+        "hostname": "bonehed.lcs.mit.edu",
+        "AS": "AS3",
+        "stratum": 1,
+        "location": "US",
+        "owner": "MIT",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-a-g.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-b-g.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-c-g.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-d-g.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-a-wwv.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-b-wwv.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-c-wwv.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-d-wwv.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-a-b.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-b-b.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-c-b.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-d-b.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "Anycast",
+        "vm": false
+    },
+    {
+        "hostname": "time-e-b.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-e-g.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-e-wwv.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-nw.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-a.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "time-b.nist.gov",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "utcnist.colorado.edu",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "Operated by University of Colorado",
+        "vm": false
+    },
+    {
+        "hostname": "utcnist2.colorado.edu",
+        "AS": "AS49, AS104",
+        "stratum": 1,
+        "location": "US",
+        "owner": "NIST",
+        "notes": "Operated by University of Colorado",
+        "vm": false
+    },
+    {
+        "hostname": "now.okstate.edu",
+        "AS": "AS111",
+        "stratum": 1,
+        "location": "US",
+        "owner": "Oklahoma State University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "otc1.psu.edu",
+        "AS": "AS38",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "Pennsylvania State University",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp1.net.berkeley.edu",
+        "AS": "AS25",
+        "stratum": 1,
+        "location": "US",
+        "owner": "University of California, Berkeley",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.net.berkeley.edu",
+        "AS": "AS25",
+        "stratum": 1,
+        "location": "US",
+        "owner": "University of California, Berkeley",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tick.ucla.edu",
+        "AS": "AS52",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "University of California, Los Angeles",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "rackety.udel.edu",
+        "AS": "AS300",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "University of Delaware",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "mizbeaver.udel.edu",
+        "AS": "AS300",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "University of Delaware",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp-s1.cise.ufl.edu",
+        "AS": "AS5730",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "University of Florida",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tick.uh.edu",
+        "AS": "AS638",
+        "stratum": 2,
+        "location": "US",
+        "owner": "University of Hawaii",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "level1e.cs.unc.edu",
+        "AS": "AS2807",
+        "stratum": "Unknown",
+        "location": "US",
+        "owner": "University of North Carolina at Chapel Hill",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tick.usno.navy.mil",
+        "AS": "AS747",
+        "stratum": 1,
+        "location": "US",
+        "owner": "US Navy",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "tock.usno.navy.mil",
+        "AS": "AS747",
+        "stratum": 1,
+        "location": "US",
+        "owner": "US Navy",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "ntp2.usno.navy.mil",
+        "AS": "AS747",
+        "stratum": 1,
+        "location": "US",
+        "owner": "US Navy",
+        "notes": "",
+        "vm": false
+    },
+    {
+        "hostname": "navobs1.wustl.edu",
+        "AS": "AS288",
+        "stratum": 1,
+        "location": "US",
+        "owner": "Washington University in St. Louis",
+        "notes": "",
+        "vm": false
+    }
+]
