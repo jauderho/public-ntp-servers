@@ -73,40 +73,6 @@ The list is sourced from various public resources and aims to provide configurat
 |clepsydra.hpl.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |usno.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 ||
-|time-a-g.nist.gov|AS49, AS104|1|US|NIST||
-|time-b-g.nist.gov|AS49, AS104|1|US|NIST||
-|time-c-g.nist.gov|AS49, AS104|1|US|NIST||
-|time-d-g.nist.gov|AS49, AS104|1|US|NIST||
-|time-a-wwv.nist.gov|AS49, AS104|1|US|NIST||
-|time-b-wwv.nist.gov|AS49, AS104|1|US|NIST||
-|time-c-wwv.nist.gov|AS49, AS104|1|US|NIST||
-|time-d-wwv.nist.gov|AS49, AS104|1|US|NIST||
-|time-a-b.nist.gov|AS49, AS104|1|US|NIST||
-|time-b-b.nist.gov|AS49, AS104|1|US|NIST||
-|time-c-b.nist.gov|AS49, AS104|1|US|NIST||
-|time-d-b.nist.gov|AS49, AS104|1|US|NIST||
-|time.nist.gov|AS49, AS104|1|US|NIST|Anycast|
-|time-e-b.nist.gov|AS49, AS104|1|US|NIST||
-|time-e-g.nist.gov|AS49, AS104|1|US|NIST||
-|time-e-wwv.nist.gov|AS49, AS104|1|US|NIST||
-|time-nw.nist.gov|AS49, AS104|1|US|NIST||
-|time-a.nist.gov|AS49, AS104|1|US|NIST||
-|time-b.nist.gov|AS49, AS104|1|US|NIST||
-|utcnist.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
-|utcnist2.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
-||
-|ntp1.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp2.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp3.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp4.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp.sstf.nsk.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp1.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp2.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
-|vniiftri.khv.ru|Unknown|1|Russia|VNIIFTRI||
-|vniiftri2.khv.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp21.vniiftri.ru|Unknown|2|Russia|VNIIFTRI||
-|ntp.mobatime.ru|Unknown|1|Russia|Mobatime||
-||
 |ntp0.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
 |ntp1.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 |ntp2.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
@@ -116,72 +82,10 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp6.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
 |ntp7.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
 ||
-|ntp1.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp2.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp3.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp4.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp5.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp1.stratum2.ru|Unknown|2|Russia|stratum2.ru|Москва|
-|ntp2.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp3.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp4.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp5.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-||
 |stratum1.net|Unknown|1|stratum1.net|stratum1.net||
-||
-|ntp.time.in.ua|Unknown|1|Ukraine|time.in.ua||
-|ntp2.time.in.ua|Unknown|1|Ukraine|time.in.ua||
-|ntp3.time.in.ua|Unknown|2|Ukraine|time.in.ua||
-||
-|ntp.ru|AS8915|Unknown|Russia|Company Delfa Co. Ltd.||
 ||
 |ts1.aco.net|AS1853|1|ACO.net|ACO.net||
 |ts2.aco.net|AS1853|1|ACO.net|ACO.net||
-||
-|ntp1.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
-|ntp2.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
-|ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
-||
-|tick.usask.ca|AS22950|1|Canada|University of Saskatchewan||
-|tock.usask.ca|AS22950|1|Canada|University of Saskatchewan||
-||
-|ntp.nsu.ru|AS3335|2|Russia|Novosibirsk State University||
-|ntp.psn.ru|AS41783|Unknown|Russia|ITAEC||
-|ntp.rsu.edu.ru|AS47124|1|Russia|Rostov State University||
-||
-|ntp.nict.jp|AS9355|1|Japan|National Institute of Information and Communications Technology||
-|ntp1.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
-|ntp2.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
-|ntp3.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
-|x.ns.gin.ntt.net|AS2914|2|Japan|NTT||
-|y.ns.gin.ntt.net|AS2914|2|Japan|NTT||
-||
-|clock.sjc.he.net|AS6939|3|US|HE.net|San Jose, CA|
-|clock.fmt.he.net|AS6939|2|US|HE.net|Fremont, CA|
-|clock.nyc.he.net|AS6939|3|US|HE.net|New York City, NY|
-||
-|ntp.fiord.ru|AS28917|Unknown|Russia|TRC Fiord||
-||
-|gbg1.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
-|gbg2.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
-|mmo1.ntp.se|AS57021|1|Sweden|Netnod|Malmö|
-|mmo2.ntp.se|AS57021|1|Sweden|Netnod|Malmö|
-|sth1.ntp.se|AS57021|1|Sweden|Netnod|Stockholm|
-|sth2.ntp.se|AS57021|1|Sweden|Netnod|Stockholm|
-|svl1.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
-|svl2.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
-|ntp.se|AS57021|1|Sweden|Netnod|Anycast|
-||
-|ntp.qix.ca|AS14086|1|Canada|QiX||
-|ntp1.qix.ca|AS14086|1|Canada|QiX||
-|ntp2.qix.ca|AS14086|1|Canada|QiX||
-|ntp.yycix.ca|AS396515|Unknown|Canada|YYCIX||
-||
-|ntp.ix.ru|AS43832|1|Russia|MSK-IX||
-||
-|ntp1.hetzner.de|AS24940|2|Germany|Hetzner Online||
-|ntp2.hetzner.de|AS24940|2|Germany|Hetzner Online||
-|ntp3.hetzner.de|AS24940|2|Germany|Hetzner Online||
 ||
 |time-a.as43289.net|AS43289|2|Trabia-Network|Trabia-Network||
 |time-b.as43289.net|AS43289|2|Trabia-Network|Trabia-Network||
@@ -191,36 +95,12 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |clock.isc.org|AS1280|3|Internet Systems Consortium|ISC|prev ntp.isc.org|
 ||
-|ntp.time.nl|AS1140|1|Netherlands|SIDN Labs|ntp1.time.nl|
-|ntppool1.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
-|ntppool2.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
-||
 |ntp0.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 |ntp1.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 ||
-|ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|China|Chinese Academy of Sciences||
-||
 |ntp.nat.ms|AS30746|1|Nat Morris|Nat Morris||
 ||
-|tick.usno.navy.mil|AS747|1|US|US Navy||
-|tock.usno.navy.mil|AS747|1|US|US Navy||
-|ntp2.usno.navy.mil|AS747|1|US|US Navy||
-||
 |timekeeper.isi.edu|AS2702|1|ISI|Information Sciences Institute||
-||
-|rackety.udel.edu|AS300|Unknown|US|University of Delaware||
-|mizbeaver.udel.edu|AS300|Unknown|US|University of Delaware||
-|otc1.psu.edu|AS38|Unknown|US|Pennsylvania State University||
-|gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
-|navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
-|navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
-|now.okstate.edu|AS111|1|US|Oklahoma State University||
-|ntp.colby.edu|AS10566|Unknown|US|Colby College||
-|ntp-s1.cise.ufl.edu|AS5730|Unknown|US|University of Florida||
-|bonehed.lcs.mit.edu|AS3|1|US|MIT||
-|level1e.cs.unc.edu|AS2807|Unknown|US|University of North Carolina at Chapel Hill||
-|tick.ucla.edu|AS52|Unknown|US|University of California, Los Angeles||
-|tick.uh.edu|AS638|2|US|University of Hawaii||
 ||
 |ntpstm.netbone-digital.com|Unknown|Unknown|NetBone Digital|NetBone Digital||
 ||
@@ -253,76 +133,33 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.mrow.org|Unknown|1|mrow.org|mrow.org||
 ||
-|time.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
-|ntps1-0.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
-|ntps1-1.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
-|ntps1-0.uni-erlangen.de|AS680|1|Germany|University of Erlangen-Nuremberg||
-|ntps1-1.uni-erlangen.de|AS680|1|Germany|University of Erlangen-Nuremberg||
-|ntp1.fau.de|AS680|1|Germany|University of Erlangen-Nuremberg (FAU)||
-|ntp2.fau.de|AS680|1|Germany|University of Erlangen-Nuremberg (FAU)||
-|ntp.dianacht.de|Unknown|2|Germany|dianacht.de||
-|zeit.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
-|ptbtime1.ptb.de|AS1896|1|Germany|PTB||
-|ptbtime2.ptb.de|AS1896|1|Germany|PTB||
-|rustime01.rus.uni-stuttgart.de|AS680|1|Germany|University of Stuttgart||
-|rustime02.rus.uni-stuttgart.de|AS680|1|Germany|University of Stuttgart||
+|ntp.ubuntu.com|AS201815|2|Ubuntu|Canonical|Anycast|
 ||
-|chime1.surfnet.nl|AS1103|1|Netherlands|SURFnet||
-|ntp.vsl.nl|AS34929|1|Netherlands|VSL||
+|time.xtracloud.net|AS174|4|Qualcomm|Qualcomm||
 ||
 |asynchronos.iiss.at|AS8401|Unknown|Austria|ACOnet / University of Vienna||
 ||
-|ntp.nic.cz|AS25204|1|Czech Republic|CZ.NIC||
-|time.ufe.cz|AS25192|1|Czech Republic|UFE CAS||
+|ntp.i2t.ehu.eus|AS2110|1|Basque Country|University of the Basque Country (EHU)||
 ||
-|ntp.fizyka.umk.pl|AS8805|1|Poland|Nicolaus Copernicus University||
-|tempus1.gum.gov.pl|AS43900|1|Poland|GUM||
-|tempus2.gum.gov.pl|AS43900|1|Poland|GUM||
-||
-|ntp1.usv.ro|AS8713|Unknown|Romania|University Stefan cel Mare Suceava||
-|ntp3.usv.ro|AS8713|Unknown|Romania|University Stefan cel Mare Suceava||
-||
-|timehost.lysator.liu.se|AS1653|Unknown|Sweden|Academic Computer Club Lysator||
-|time1.stupi.se|Unknown|Unknown|Sweden|stupi.se||
-||
-|time.nrc.ca|AS573|2|Canada|National Research Council Canada||
-|clock.uregina.ca|AS641|1|Canada|University of Regina||
-||
-|cronos.cenam.mx|AS8017|1|Mexico|CENAM||
-|ntp.lcf.mx|Unknown|Unknown|Mexico|lcf.mx||
-||
-|hora.roa.es|AS31007|1|Spain|ROA||
-|minuto.roa.es|AS31007|1|Spain|ROA||
-||
-|ntp1.inrim.it|AS29109|1|Italy|INRIM||
-|ntp2.inrim.it|AS29109|1|Italy|INRIM||
-||
+|ntp.heppen.be|Unknown|1|Belgium|ON5HB Ham-radio users||
 |ntp1.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
 |ntp2.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
 ||
-|ntp.atomki.mta.hu|AS197038|2|Hungary|ATOMKI||
-||
-|ntp.i2t.ehu.eus|AS2110|1|Basque Country|University of the Basque Country (EHU)||
-||
-|ntp.neel.ch|AS34569|Unknown|Switzerland|Neel Engineering||
-||
-|ntp.neu.edu.cn|AS4538|Unknown|China|Northeastern University||
-||
 |ntps1.pads.ufrj.br|AS1553|1|Brazil|Federal University of Rio de Janeiro||
+||
+|time.nrc.ca|AS573|2|Canada|National Research Council Canada||
+|ntp.qix.ca|AS14086|1|Canada|QiX||
+|ntp1.qix.ca|AS14086|1|Canada|QiX||
+|ntp2.qix.ca|AS14086|1|Canada|QiX||
+|clock.uregina.ca|AS641|1|Canada|University of Regina||
+|tick.usask.ca|AS22950|1|Canada|University of Saskatchewan||
+|tock.usask.ca|AS22950|1|Canada|University of Saskatchewan||
+|ntp.yycix.ca|AS396515|Unknown|Canada|YYCIX||
 ||
 |ntp.shoa.cl|AS16299|1|Chile|Hydrographic and Oceanographic Service of the Chilean Navy||
 ||
-|time.esa.int|AS15559|1|International|European Space Agency||
-|time1.esa.int|AS15559|1|International|European Space Agency||
-||
-|ntp.day.ir|AS42337|3|Iran|Day ICT||
-||
-|ntp.ubuntu.com|AS201815|2|Ubuntu|Canonical|Anycast|
-||
-|ntp.viarouge.net|AS207288|2|France|Hubert Viarouge||
-||
-|ntp1.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
-|ntp2.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
+|ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|China|Chinese Academy of Sciences||
+|ntp.neu.edu.cn|AS4538|Unknown|China|Northeastern University||
 ||
 |time1.ntp.hr|AS49932|1|Croatia|CARNET||
 |time2.ntp.hr|AS49932|1|Croatia|CARNET||
@@ -332,20 +169,166 @@ The list is sourced from various public resources and aims to provide configurat
 |zg1.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |zg2.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 ||
+|ntp.nic.cz|AS25204|1|Czech Republic|CZ.NIC||
+|time.ufe.cz|AS25192|1|Czech Republic|UFE CAS||
+||
+|ntp.viarouge.net|AS207288|2|France|Hubert Viarouge||
+||
+|ntp.dianacht.de|Unknown|2|Germany|dianacht.de||
+|time.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
+|zeit.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
+|ntp1.hetzner.de|AS24940|2|Germany|Hetzner Online||
+|ntp2.hetzner.de|AS24940|2|Germany|Hetzner Online||
+|ntp3.hetzner.de|AS24940|2|Germany|Hetzner Online||
+|ptbtime1.ptb.de|AS1896|1|Germany|PTB||
+|ptbtime2.ptb.de|AS1896|1|Germany|PTB||
+|ntps1-0.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
+|ntps1-1.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
+|ntps1-0.uni-erlangen.de|AS680|1|Germany|University of Erlangen-Nuremberg||
+|ntps1-1.uni-erlangen.de|AS680|1|Germany|University of Erlangen-Nuremberg||
+|ntp1.fau.de|AS680|1|Germany|University of Erlangen-Nuremberg (FAU)||
+|ntp2.fau.de|AS680|1|Germany|University of Erlangen-Nuremberg (FAU)||
+|rustime01.rus.uni-stuttgart.de|AS680|1|Germany|University of Stuttgart||
+|rustime02.rus.uni-stuttgart.de|AS680|1|Germany|University of Stuttgart||
+||
 |stdtime.gov.hk|AS4780|2|Hong Kong|Hong Kong Observatory||
 ||
+|ntp.atomki.mta.hu|AS197038|2|Hungary|ATOMKI||
+||
+|time.esa.int|AS15559|1|International|European Space Agency||
+|time1.esa.int|AS15559|1|International|European Space Agency||
+||
+|ntp.day.ir|AS42337|3|Iran|Day ICT||
+||
+|ntp1.inrim.it|AS29109|1|Italy|INRIM||
+|ntp2.inrim.it|AS29109|1|Italy|INRIM||
+||
+|ntp1.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
+|ntp2.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
+|ntp3.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
+|ntp.nict.jp|AS9355|1|Japan|National Institute of Information and Communications Technology||
+|x.ns.gin.ntt.net|AS2914|2|Japan|NTT||
+|y.ns.gin.ntt.net|AS2914|2|Japan|NTT||
+||
+|cronos.cenam.mx|AS8017|1|Mexico|CENAM||
+|ntp.lcf.mx|Unknown|Unknown|Mexico|lcf.mx||
+||
+|ntp.time.nl|AS1140|1|Netherlands|SIDN Labs|ntp1.time.nl|
+|ntppool1.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
+|ntppool2.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
+|chime1.surfnet.nl|AS1103|1|Netherlands|SURFnet||
+|ntp.vsl.nl|AS34929|1|Netherlands|VSL||
+||
+|tempus1.gum.gov.pl|AS43900|1|Poland|GUM||
+|tempus2.gum.gov.pl|AS43900|1|Poland|GUM||
+|ntp.fizyka.umk.pl|AS8805|1|Poland|Nicolaus Copernicus University||
+||
+|ntp1.usv.ro|AS8713|Unknown|Romania|University Stefan cel Mare Suceava||
+|ntp3.usv.ro|AS8713|Unknown|Romania|University Stefan cel Mare Suceava||
+||
+|ntp.ru|AS8915|Unknown|Russia|Company Delfa Co. Ltd.||
+|ntp.psn.ru|AS41783|Unknown|Russia|ITAEC||
+|ntp.mobatime.ru|Unknown|1|Russia|Mobatime||
+|ntp.ix.ru|AS43832|1|Russia|MSK-IX||
+|ntp.nsu.ru|AS3335|2|Russia|Novosibirsk State University||
+|ntp.rsu.edu.ru|AS47124|1|Russia|Rostov State University||
+|ntp1.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp2.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp3.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp4.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp5.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp1.stratum2.ru|Unknown|2|Russia|stratum2.ru|Москва|
+|ntp2.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp3.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp4.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp5.stratum2.ru|Unknown|2|Russia|stratum2.ru||
+|ntp.fiord.ru|AS28917|Unknown|Russia|TRC Fiord||
+|ntp1.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp2.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp3.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp4.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp.sstf.nsk.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp1.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp2.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
+|vniiftri.khv.ru|Unknown|1|Russia|VNIIFTRI||
+|vniiftri2.khv.ru|Unknown|1|Russia|VNIIFTRI||
+|ntp21.vniiftri.ru|Unknown|2|Russia|VNIIFTRI||
+||
+|hora.roa.es|AS31007|1|Spain|ROA||
+|minuto.roa.es|AS31007|1|Spain|ROA||
+||
+|timehost.lysator.liu.se|AS1653|Unknown|Sweden|Academic Computer Club Lysator||
+|gbg1.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
+|gbg2.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
+|mmo1.ntp.se|AS57021|1|Sweden|Netnod|Malmö|
+|mmo2.ntp.se|AS57021|1|Sweden|Netnod|Malmö|
+|sth1.ntp.se|AS57021|1|Sweden|Netnod|Stockholm|
+|sth2.ntp.se|AS57021|1|Sweden|Netnod|Stockholm|
+|svl1.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
+|svl2.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
+|ntp.se|AS57021|1|Sweden|Netnod|Anycast|
+|time1.stupi.se|Unknown|Unknown|Sweden|stupi.se||
+||
+|ntp.neel.ch|AS34569|Unknown|Switzerland|Neel Engineering||
+||
+|eshail.batc.org.uk|Unknown|1|UK|BATC||
 |ntp5.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp6.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp7.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp8.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp9.leontp.com|Unknown|1|UK|Leo Bodnar||
-|timekeeper.webwiz.net|AS44929|1|UK|Web Wiz||
+|ntp1.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
+|ntp2.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
 |ntp.theitman.uk|Unknown|1|UK|TheITMan||
-|eshail.batc.org.uk|Unknown|1|UK|BATC||
+|timekeeper.webwiz.net|AS44929|1|UK|Web Wiz||
 ||
-|ntp.heppen.be|Unknown|1|Belgium|ON5HB Ham-radio users||
+|ntp.time.in.ua|Unknown|1|Ukraine|time.in.ua||
+|ntp2.time.in.ua|Unknown|1|Ukraine|time.in.ua||
+|ntp3.time.in.ua|Unknown|2|Ukraine|time.in.ua||
 ||
-|time.xtracloud.net|AS174|4|Qualcomm|Qualcomm||
+|ntp.colby.edu|AS10566|Unknown|US|Colby College||
+|gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
+|navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
+|ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
+|clock.sjc.he.net|AS6939|3|US|HE.net|San Jose, CA|
+|clock.fmt.he.net|AS6939|2|US|HE.net|Fremont, CA|
+|clock.nyc.he.net|AS6939|3|US|HE.net|New York City, NY|
+|bonehed.lcs.mit.edu|AS3|1|US|MIT||
+|time-a-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-b-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-c-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-d-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-a-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-b-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-c-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-d-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-a-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-b-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-c-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-d-b.nist.gov|AS49, AS104|1|US|NIST||
+|time.nist.gov|AS49, AS104|1|US|NIST|Anycast|
+|time-e-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-e-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-e-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-nw.nist.gov|AS49, AS104|1|US|NIST||
+|time-a.nist.gov|AS49, AS104|1|US|NIST||
+|time-b.nist.gov|AS49, AS104|1|US|NIST||
+|utcnist.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
+|utcnist2.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
+|now.okstate.edu|AS111|1|US|Oklahoma State University||
+|otc1.psu.edu|AS38|Unknown|US|Pennsylvania State University||
+|ntp1.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
+|ntp2.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
+|tick.ucla.edu|AS52|Unknown|US|University of California, Los Angeles||
+|rackety.udel.edu|AS300|Unknown|US|University of Delaware||
+|mizbeaver.udel.edu|AS300|Unknown|US|University of Delaware||
+|ntp-s1.cise.ufl.edu|AS5730|Unknown|US|University of Florida||
+|tick.uh.edu|AS638|2|US|University of Hawaii||
+|level1e.cs.unc.edu|AS2807|Unknown|US|University of North Carolina at Chapel Hill||
+|tick.usno.navy.mil|AS747|1|US|US Navy||
+|tock.usno.navy.mil|AS747|1|US|US Navy||
+|ntp2.usno.navy.mil|AS747|1|US|US Navy||
+|navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
 
 ## Star History
 <a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">

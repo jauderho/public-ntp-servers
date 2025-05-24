@@ -160,138 +160,6 @@ mode = "server"
 address = "usno.labs.hp.com"
 
 
-# US
-[[source]]
-mode = "server"
-address = "time-a-g.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-b-g.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-c-g.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-d-g.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-a-wwv.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-b-wwv.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-c-wwv.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-d-wwv.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-a-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-b-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-c-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-d-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-e-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-e-g.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-e-wwv.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-nw.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-a.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "utcnist.colorado.edu"
-
-[[source]]
-mode = "server"
-address = "utcnist2.colorado.edu"
-
-
-# Russia
-[[source]]
-mode = "server"
-address = "ntp1.vniiftri.ru"
-
-[[source]]
-mode = "server"
-address = "ntp2.vniiftri.ru"
-
-[[source]]
-mode = "server"
-address = "ntp3.vniiftri.ru"
-
-[[source]]
-mode = "server"
-address = "ntp4.vniiftri.ru"
-
-[[source]]
-mode = "server"
-address = "ntp.sstf.nsk.ru"
-
-[[source]]
-mode = "server"
-address = "ntp1.niiftri.irkutsk.ru"
-
-[[source]]
-mode = "server"
-address = "ntp2.niiftri.irkutsk.ru"
-
-[[source]]
-mode = "server"
-address = "vniiftri.khv.ru"
-
-[[source]]
-mode = "server"
-address = "vniiftri2.khv.ru"
-
-[[source]]
-mode = "server"
-address = "ntp21.vniiftri.ru"
-
-[[source]]
-mode = "server"
-address = "ntp.mobatime.ru"
-
-
 # NTP SERVERS
 [[source]]
 mode = "server"
@@ -326,72 +194,10 @@ mode = "server"
 address = "ntp7.ntp-servers.net"
 
 
-# Russia
-[[source]]
-mode = "server"
-address = "ntp1.stratum1.ru"
-
-[[source]]
-mode = "server"
-address = "ntp2.stratum1.ru"
-
-[[source]]
-mode = "server"
-address = "ntp3.stratum1.ru"
-
-[[source]]
-mode = "server"
-address = "ntp4.stratum1.ru"
-
-[[source]]
-mode = "server"
-address = "ntp5.stratum1.ru"
-
-[[source]]
-mode = "server"
-address = "ntp1.stratum2.ru"
-
-[[source]]
-mode = "server"
-address = "ntp2.stratum2.ru"
-
-[[source]]
-mode = "server"
-address = "ntp3.stratum2.ru"
-
-[[source]]
-mode = "server"
-address = "ntp4.stratum2.ru"
-
-[[source]]
-mode = "server"
-address = "ntp5.stratum2.ru"
-
-
 # stratum1.net
 [[source]]
 mode = "server"
 address = "stratum1.net"
-
-
-# Ukraine
-[[source]]
-mode = "server"
-address = "ntp.time.in.ua"
-
-[[source]]
-mode = "server"
-address = "ntp2.time.in.ua"
-
-[[source]]
-mode = "server"
-address = "ntp3.time.in.ua"
-
-
-# Russia
-[[source]]
-mode = "server"
-address = "ntp.ru"
 
 
 # ACO.net
@@ -402,166 +208,6 @@ address = "ts1.aco.net"
 [[source]]
 mode = "server"
 address = "ts2.aco.net"
-
-
-# US
-[[source]]
-mode = "server"
-address = "ntp1.net.berkeley.edu"
-
-[[source]]
-mode = "server"
-address = "ntp2.net.berkeley.edu"
-
-[[source]]
-mode = "server"
-address = "ntp.gsu.edu"
-
-
-# Canada
-[[source]]
-mode = "server"
-address = "tick.usask.ca"
-
-[[source]]
-mode = "server"
-address = "tock.usask.ca"
-
-
-# Russia
-[[source]]
-mode = "server"
-address = "ntp.nsu.ru"
-
-[[source]]
-mode = "server"
-address = "ntp.psn.ru"
-
-[[source]]
-mode = "server"
-address = "ntp.rsu.edu.ru"
-
-
-# Japan
-[[source]]
-mode = "server"
-address = "ntp.nict.jp"
-
-[[source]]
-mode = "server"
-address = "ntp1.jst.mfeed.ad.jp"
-
-[[source]]
-mode = "server"
-address = "ntp2.jst.mfeed.ad.jp"
-
-[[source]]
-mode = "server"
-address = "ntp3.jst.mfeed.ad.jp"
-
-[[source]]
-mode = "server"
-address = "x.ns.gin.ntt.net"
-
-[[source]]
-mode = "server"
-address = "y.ns.gin.ntt.net"
-
-
-# US
-[[source]]
-mode = "server"
-address = "clock.sjc.he.net"
-
-[[source]]
-mode = "server"
-address = "clock.fmt.he.net"
-
-[[source]]
-mode = "server"
-address = "clock.nyc.he.net"
-
-
-# Russia
-[[source]]
-mode = "server"
-address = "ntp.fiord.ru"
-
-
-# Sweden
-[[source]]
-mode = "server"
-address = "gbg1.ntp.se"
-
-[[source]]
-mode = "server"
-address = "gbg2.ntp.se"
-
-[[source]]
-mode = "server"
-address = "mmo1.ntp.se"
-
-[[source]]
-mode = "server"
-address = "mmo2.ntp.se"
-
-[[source]]
-mode = "server"
-address = "sth1.ntp.se"
-
-[[source]]
-mode = "server"
-address = "sth2.ntp.se"
-
-[[source]]
-mode = "server"
-address = "svl1.ntp.se"
-
-[[source]]
-mode = "server"
-address = "svl2.ntp.se"
-
-[[source]]
-mode = "server"
-address = "ntp.se"
-
-
-# Canada
-[[source]]
-mode = "server"
-address = "ntp.qix.ca"
-
-[[source]]
-mode = "server"
-address = "ntp1.qix.ca"
-
-[[source]]
-mode = "server"
-address = "ntp2.qix.ca"
-
-[[source]]
-mode = "server"
-address = "ntp.yycix.ca"
-
-
-# Russia
-[[source]]
-mode = "server"
-address = "ntp.ix.ru"
-
-
-# Germany
-[[source]]
-mode = "server"
-address = "ntp1.hetzner.de"
-
-[[source]]
-mode = "server"
-address = "ntp2.hetzner.de"
-
-[[source]]
-mode = "server"
-address = "ntp3.hetzner.de"
 
 
 # Trabia-Network
@@ -590,20 +236,6 @@ mode = "server"
 address = "clock.isc.org"
 
 
-# Netherlands
-[[source]]
-mode = "server"
-address = "ntp.time.nl"
-
-[[source]]
-mode = "server"
-address = "ntppool1.time.nl"
-
-[[source]]
-mode = "server"
-address = "ntppool2.time.nl"
-
-
 # Kantonsschule Zug
 [[source]]
 mode = "server"
@@ -614,90 +246,16 @@ mode = "server"
 address = "ntp1.as34288.net"
 
 
-# China
-[[source]]
-mode = "server"
-address = "ntp.ntsc.ac.cn"
-
-
 # Nat Morris
 [[source]]
 mode = "server"
 address = "ntp.nat.ms"
 
 
-# US
-[[source]]
-mode = "server"
-address = "tick.usno.navy.mil"
-
-[[source]]
-mode = "server"
-address = "tock.usno.navy.mil"
-
-[[source]]
-mode = "server"
-address = "ntp2.usno.navy.mil"
-
-
 # ISI
 [[source]]
 mode = "server"
 address = "timekeeper.isi.edu"
-
-
-# US
-[[source]]
-mode = "server"
-address = "rackety.udel.edu"
-
-[[source]]
-mode = "server"
-address = "mizbeaver.udel.edu"
-
-[[source]]
-mode = "server"
-address = "otc1.psu.edu"
-
-[[source]]
-mode = "server"
-address = "gnomon.cc.columbia.edu"
-
-[[source]]
-mode = "server"
-address = "navobs1.gatech.edu"
-
-[[source]]
-mode = "server"
-address = "navobs1.wustl.edu"
-
-[[source]]
-mode = "server"
-address = "now.okstate.edu"
-
-[[source]]
-mode = "server"
-address = "ntp.colby.edu"
-
-[[source]]
-mode = "server"
-address = "ntp-s1.cise.ufl.edu"
-
-[[source]]
-mode = "server"
-address = "bonehed.lcs.mit.edu"
-
-[[source]]
-mode = "server"
-address = "level1e.cs.unc.edu"
-
-[[source]]
-mode = "server"
-address = "tick.ucla.edu"
-
-[[source]]
-mode = "server"
-address = "tick.uh.edu"
 
 
 # NetBone Digital
@@ -794,68 +352,16 @@ mode = "server"
 address = "ntp.mrow.org"
 
 
-# Germany
+# Ubuntu
 [[source]]
 mode = "server"
-address = "time.fu-berlin.de"
+address = "ntp.ubuntu.com"
 
+
+# Qualcomm
 [[source]]
 mode = "server"
-address = "ntps1-0.cs.tu-berlin.de"
-
-[[source]]
-mode = "server"
-address = "ntps1-1.cs.tu-berlin.de"
-
-[[source]]
-mode = "server"
-address = "ntps1-0.uni-erlangen.de"
-
-[[source]]
-mode = "server"
-address = "ntps1-1.uni-erlangen.de"
-
-[[source]]
-mode = "server"
-address = "ntp1.fau.de"
-
-[[source]]
-mode = "server"
-address = "ntp2.fau.de"
-
-[[source]]
-mode = "server"
-address = "ntp.dianacht.de"
-
-[[source]]
-mode = "server"
-address = "zeit.fu-berlin.de"
-
-[[source]]
-mode = "server"
-address = "ptbtime1.ptb.de"
-
-[[source]]
-mode = "server"
-address = "ptbtime2.ptb.de"
-
-[[source]]
-mode = "server"
-address = "rustime01.rus.uni-stuttgart.de"
-
-[[source]]
-mode = "server"
-address = "rustime02.rus.uni-stuttgart.de"
-
-
-# Netherlands
-[[source]]
-mode = "server"
-address = "chime1.surfnet.nl"
-
-[[source]]
-mode = "server"
-address = "ntp.vsl.nl"
+address = "time.xtracloud.net"
 
 
 # Austria
@@ -864,91 +370,17 @@ mode = "server"
 address = "asynchronos.iiss.at"
 
 
-# Czech Republic
+# Basque Country
 [[source]]
 mode = "server"
-address = "ntp.nic.cz"
-
-[[source]]
-mode = "server"
-address = "time.ufe.cz"
-
-
-# Poland
-[[source]]
-mode = "server"
-address = "ntp.fizyka.umk.pl"
-
-[[source]]
-mode = "server"
-address = "tempus1.gum.gov.pl"
-
-[[source]]
-mode = "server"
-address = "tempus2.gum.gov.pl"
-
-
-# Romania
-[[source]]
-mode = "server"
-address = "ntp1.usv.ro"
-
-[[source]]
-mode = "server"
-address = "ntp3.usv.ro"
-
-
-# Sweden
-[[source]]
-mode = "server"
-address = "timehost.lysator.liu.se"
-
-[[source]]
-mode = "server"
-address = "time1.stupi.se"
-
-
-# Canada
-[[source]]
-mode = "server"
-address = "time.nrc.ca"
-
-[[source]]
-mode = "server"
-address = "clock.uregina.ca"
-
-
-# Mexico
-[[source]]
-mode = "server"
-address = "cronos.cenam.mx"
-
-[[source]]
-mode = "server"
-address = "ntp.lcf.mx"
-
-
-# Spain
-[[source]]
-mode = "server"
-address = "hora.roa.es"
-
-[[source]]
-mode = "server"
-address = "minuto.roa.es"
-
-
-# Italy
-[[source]]
-mode = "server"
-address = "ntp1.inrim.it"
-
-[[source]]
-mode = "server"
-address = "ntp2.inrim.it"
+address = "ntp.i2t.ehu.eus"
 
 
 # Belgium
+[[source]]
+mode = "server"
+address = "ntp.heppen.be"
+
 [[source]]
 mode = "server"
 address = "ntp1.oma.be"
@@ -958,34 +390,44 @@ mode = "server"
 address = "ntp2.oma.be"
 
 
-# Hungary
-[[source]]
-mode = "server"
-address = "ntp.atomki.mta.hu"
-
-
-# Basque Country
-[[source]]
-mode = "server"
-address = "ntp.i2t.ehu.eus"
-
-
-# Switzerland
-[[source]]
-mode = "server"
-address = "ntp.neel.ch"
-
-
-# China
-[[source]]
-mode = "server"
-address = "ntp.neu.edu.cn"
-
-
 # Brazil
 [[source]]
 mode = "server"
 address = "ntps1.pads.ufrj.br"
+
+
+# Canada
+[[source]]
+mode = "server"
+address = "time.nrc.ca"
+
+[[source]]
+mode = "server"
+address = "ntp.qix.ca"
+
+[[source]]
+mode = "server"
+address = "ntp1.qix.ca"
+
+[[source]]
+mode = "server"
+address = "ntp2.qix.ca"
+
+[[source]]
+mode = "server"
+address = "clock.uregina.ca"
+
+[[source]]
+mode = "server"
+address = "tick.usask.ca"
+
+[[source]]
+mode = "server"
+address = "tock.usask.ca"
+
+[[source]]
+mode = "server"
+address = "ntp.yycix.ca"
 
 
 # Chile
@@ -994,42 +436,14 @@ mode = "server"
 address = "ntp.shoa.cl"
 
 
-# International
+# China
 [[source]]
 mode = "server"
-address = "time.esa.int"
-
-[[source]]
-mode = "server"
-address = "time1.esa.int"
-
-
-# Iran
-[[source]]
-mode = "server"
-address = "ntp.day.ir"
-
-
-# Ubuntu
-[[source]]
-mode = "server"
-address = "ntp.ubuntu.com"
-
-
-# France
-[[source]]
-mode = "server"
-address = "ntp.viarouge.net"
-
-
-# UK
-[[source]]
-mode = "server"
-address = "ntp1.dmz.terryburton.co.uk"
+address = "ntp.ntsc.ac.cn"
 
 [[source]]
 mode = "server"
-address = "ntp2.dmz.terryburton.co.uk"
+address = "ntp.neu.edu.cn"
 
 
 # Croatia
@@ -1062,13 +476,385 @@ mode = "server"
 address = "zg2.ntp.carnet.hr"
 
 
+# Czech Republic
+[[source]]
+mode = "server"
+address = "ntp.nic.cz"
+
+[[source]]
+mode = "server"
+address = "time.ufe.cz"
+
+
+# France
+[[source]]
+mode = "server"
+address = "ntp.viarouge.net"
+
+
+# Germany
+[[source]]
+mode = "server"
+address = "ntp.dianacht.de"
+
+[[source]]
+mode = "server"
+address = "time.fu-berlin.de"
+
+[[source]]
+mode = "server"
+address = "zeit.fu-berlin.de"
+
+[[source]]
+mode = "server"
+address = "ntp1.hetzner.de"
+
+[[source]]
+mode = "server"
+address = "ntp2.hetzner.de"
+
+[[source]]
+mode = "server"
+address = "ntp3.hetzner.de"
+
+[[source]]
+mode = "server"
+address = "ptbtime1.ptb.de"
+
+[[source]]
+mode = "server"
+address = "ptbtime2.ptb.de"
+
+[[source]]
+mode = "server"
+address = "ntps1-0.cs.tu-berlin.de"
+
+[[source]]
+mode = "server"
+address = "ntps1-1.cs.tu-berlin.de"
+
+[[source]]
+mode = "server"
+address = "ntps1-0.uni-erlangen.de"
+
+[[source]]
+mode = "server"
+address = "ntps1-1.uni-erlangen.de"
+
+[[source]]
+mode = "server"
+address = "ntp1.fau.de"
+
+[[source]]
+mode = "server"
+address = "ntp2.fau.de"
+
+[[source]]
+mode = "server"
+address = "rustime01.rus.uni-stuttgart.de"
+
+[[source]]
+mode = "server"
+address = "rustime02.rus.uni-stuttgart.de"
+
+
 # Hong Kong
 [[source]]
 mode = "server"
 address = "stdtime.gov.hk"
 
 
+# Hungary
+[[source]]
+mode = "server"
+address = "ntp.atomki.mta.hu"
+
+
+# International
+[[source]]
+mode = "server"
+address = "time.esa.int"
+
+[[source]]
+mode = "server"
+address = "time1.esa.int"
+
+
+# Iran
+[[source]]
+mode = "server"
+address = "ntp.day.ir"
+
+
+# Italy
+[[source]]
+mode = "server"
+address = "ntp1.inrim.it"
+
+[[source]]
+mode = "server"
+address = "ntp2.inrim.it"
+
+
+# Japan
+[[source]]
+mode = "server"
+address = "ntp1.jst.mfeed.ad.jp"
+
+[[source]]
+mode = "server"
+address = "ntp2.jst.mfeed.ad.jp"
+
+[[source]]
+mode = "server"
+address = "ntp3.jst.mfeed.ad.jp"
+
+[[source]]
+mode = "server"
+address = "ntp.nict.jp"
+
+[[source]]
+mode = "server"
+address = "x.ns.gin.ntt.net"
+
+[[source]]
+mode = "server"
+address = "y.ns.gin.ntt.net"
+
+
+# Mexico
+[[source]]
+mode = "server"
+address = "cronos.cenam.mx"
+
+[[source]]
+mode = "server"
+address = "ntp.lcf.mx"
+
+
+# Netherlands
+[[source]]
+mode = "server"
+address = "ntp.time.nl"
+
+[[source]]
+mode = "server"
+address = "ntppool1.time.nl"
+
+[[source]]
+mode = "server"
+address = "ntppool2.time.nl"
+
+[[source]]
+mode = "server"
+address = "chime1.surfnet.nl"
+
+[[source]]
+mode = "server"
+address = "ntp.vsl.nl"
+
+
+# Poland
+[[source]]
+mode = "server"
+address = "tempus1.gum.gov.pl"
+
+[[source]]
+mode = "server"
+address = "tempus2.gum.gov.pl"
+
+[[source]]
+mode = "server"
+address = "ntp.fizyka.umk.pl"
+
+
+# Romania
+[[source]]
+mode = "server"
+address = "ntp1.usv.ro"
+
+[[source]]
+mode = "server"
+address = "ntp3.usv.ro"
+
+
+# Russia
+[[source]]
+mode = "server"
+address = "ntp.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.psn.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.mobatime.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.ix.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.nsu.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.rsu.edu.ru"
+
+[[source]]
+mode = "server"
+address = "ntp1.stratum1.ru"
+
+[[source]]
+mode = "server"
+address = "ntp2.stratum1.ru"
+
+[[source]]
+mode = "server"
+address = "ntp3.stratum1.ru"
+
+[[source]]
+mode = "server"
+address = "ntp4.stratum1.ru"
+
+[[source]]
+mode = "server"
+address = "ntp5.stratum1.ru"
+
+[[source]]
+mode = "server"
+address = "ntp1.stratum2.ru"
+
+[[source]]
+mode = "server"
+address = "ntp2.stratum2.ru"
+
+[[source]]
+mode = "server"
+address = "ntp3.stratum2.ru"
+
+[[source]]
+mode = "server"
+address = "ntp4.stratum2.ru"
+
+[[source]]
+mode = "server"
+address = "ntp5.stratum2.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.fiord.ru"
+
+[[source]]
+mode = "server"
+address = "ntp1.vniiftri.ru"
+
+[[source]]
+mode = "server"
+address = "ntp2.vniiftri.ru"
+
+[[source]]
+mode = "server"
+address = "ntp3.vniiftri.ru"
+
+[[source]]
+mode = "server"
+address = "ntp4.vniiftri.ru"
+
+[[source]]
+mode = "server"
+address = "ntp.sstf.nsk.ru"
+
+[[source]]
+mode = "server"
+address = "ntp1.niiftri.irkutsk.ru"
+
+[[source]]
+mode = "server"
+address = "ntp2.niiftri.irkutsk.ru"
+
+[[source]]
+mode = "server"
+address = "vniiftri.khv.ru"
+
+[[source]]
+mode = "server"
+address = "vniiftri2.khv.ru"
+
+[[source]]
+mode = "server"
+address = "ntp21.vniiftri.ru"
+
+
+# Spain
+[[source]]
+mode = "server"
+address = "hora.roa.es"
+
+[[source]]
+mode = "server"
+address = "minuto.roa.es"
+
+
+# Sweden
+[[source]]
+mode = "server"
+address = "timehost.lysator.liu.se"
+
+[[source]]
+mode = "server"
+address = "gbg1.ntp.se"
+
+[[source]]
+mode = "server"
+address = "gbg2.ntp.se"
+
+[[source]]
+mode = "server"
+address = "mmo1.ntp.se"
+
+[[source]]
+mode = "server"
+address = "mmo2.ntp.se"
+
+[[source]]
+mode = "server"
+address = "sth1.ntp.se"
+
+[[source]]
+mode = "server"
+address = "sth2.ntp.se"
+
+[[source]]
+mode = "server"
+address = "svl1.ntp.se"
+
+[[source]]
+mode = "server"
+address = "svl2.ntp.se"
+
+[[source]]
+mode = "server"
+address = "ntp.se"
+
+[[source]]
+mode = "server"
+address = "time1.stupi.se"
+
+
+# Switzerland
+[[source]]
+mode = "server"
+address = "ntp.neel.ch"
+
+
 # UK
+[[source]]
+mode = "server"
+address = "eshail.batc.org.uk"
+
 [[source]]
 mode = "server"
 address = "ntp5.leontp.com"
@@ -1091,7 +877,11 @@ address = "ntp9.leontp.com"
 
 [[source]]
 mode = "server"
-address = "timekeeper.webwiz.net"
+address = "ntp1.dmz.terryburton.co.uk"
+
+[[source]]
+mode = "server"
+address = "ntp2.dmz.terryburton.co.uk"
 
 [[source]]
 mode = "server"
@@ -1099,17 +889,193 @@ address = "ntp.theitman.uk"
 
 [[source]]
 mode = "server"
-address = "eshail.batc.org.uk"
+address = "timekeeper.webwiz.net"
 
 
-# Belgium
+# Ukraine
 [[source]]
 mode = "server"
-address = "ntp.heppen.be"
+address = "ntp.time.in.ua"
 
-
-# Qualcomm
 [[source]]
 mode = "server"
-address = "time.xtracloud.net"
+address = "ntp2.time.in.ua"
+
+[[source]]
+mode = "server"
+address = "ntp3.time.in.ua"
+
+
+# US
+[[source]]
+mode = "server"
+address = "ntp.colby.edu"
+
+[[source]]
+mode = "server"
+address = "gnomon.cc.columbia.edu"
+
+[[source]]
+mode = "server"
+address = "navobs1.gatech.edu"
+
+[[source]]
+mode = "server"
+address = "ntp.gsu.edu"
+
+[[source]]
+mode = "server"
+address = "clock.sjc.he.net"
+
+[[source]]
+mode = "server"
+address = "clock.fmt.he.net"
+
+[[source]]
+mode = "server"
+address = "clock.nyc.he.net"
+
+[[source]]
+mode = "server"
+address = "bonehed.lcs.mit.edu"
+
+[[source]]
+mode = "server"
+address = "time-a-g.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-b-g.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-c-g.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-d-g.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-a-wwv.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-b-wwv.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-c-wwv.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-d-wwv.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-a-b.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-b-b.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-c-b.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-d-b.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-e-b.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-e-g.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-e-wwv.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-nw.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-a.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-b.nist.gov"
+
+[[source]]
+mode = "server"
+address = "utcnist.colorado.edu"
+
+[[source]]
+mode = "server"
+address = "utcnist2.colorado.edu"
+
+[[source]]
+mode = "server"
+address = "now.okstate.edu"
+
+[[source]]
+mode = "server"
+address = "otc1.psu.edu"
+
+[[source]]
+mode = "server"
+address = "ntp1.net.berkeley.edu"
+
+[[source]]
+mode = "server"
+address = "ntp2.net.berkeley.edu"
+
+[[source]]
+mode = "server"
+address = "tick.ucla.edu"
+
+[[source]]
+mode = "server"
+address = "rackety.udel.edu"
+
+[[source]]
+mode = "server"
+address = "mizbeaver.udel.edu"
+
+[[source]]
+mode = "server"
+address = "ntp-s1.cise.ufl.edu"
+
+[[source]]
+mode = "server"
+address = "tick.uh.edu"
+
+[[source]]
+mode = "server"
+address = "level1e.cs.unc.edu"
+
+[[source]]
+mode = "server"
+address = "tick.usno.navy.mil"
+
+[[source]]
+mode = "server"
+address = "tock.usno.navy.mil"
+
+[[source]]
+mode = "server"
+address = "ntp2.usno.navy.mil"
+
+[[source]]
+mode = "server"
+address = "navobs1.wustl.edu"
 
