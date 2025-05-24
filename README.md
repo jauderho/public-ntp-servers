@@ -30,12 +30,12 @@ The list is sourced from various public resources and aims to provide configurat
 ## The List
 |Hostname|AS|Stratum|Location|Owner|Notes|
 |---|---|:---:|---|---|---|
-|time.google.com|AS15169|1|Google Public NTP|Google|Anycast|
-|time1.google.com|AS15169|1|Google Public NTP|Google||
-|time2.google.com|AS15169|1|Google Public NTP|Google||
-|time3.google.com|AS15169|1|Google Public NTP|Google||
-|time4.google.com|AS15169|1|Google Public NTP|Google||
-|time.android.com|AS15169|1|Google Public NTP|Google|Anycast|
+|time.google.com|AS15169|1|Google NTP|Google|Anycast|
+|time1.google.com|AS15169|1|Google NTP|Google||
+|time2.google.com|AS15169|1|Google NTP|Google||
+|time3.google.com|AS15169|1|Google NTP|Google||
+|time4.google.com|AS15169|1|Google NTP|Google||
+|time.android.com|AS15169|1|Google NTP|Google|Anycast|
 ||
 |time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
 |amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
@@ -53,47 +53,47 @@ The list is sourced from various public resources and aims to provide configurat
 |time4.facebook.com|AS32934|1|Facebook NTP|Facebook||
 |time5.facebook.com|AS32934|1|Facebook NTP|Facebook||
 ||
-|time.windows.com|AS8075|3|Microsoft NTP server|Microsoft|Anycast|
+|time.windows.com|AS8075|3|Microsoft NTP|Microsoft|Anycast|
 ||
-|time.apple.com|AS714, AS6185|1|Apple NTP server|Apple|Anycast|
-|time-macos.apple.com|AS714, AS6185|1|Apple NTP server|Apple||
-|time-ios.apple.com|AS714, AS6185|1|Apple NTP server|Apple||
-|time1.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time2.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time3.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time4.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time5.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time6.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time7.apple.com|AS714, AS6185|2|Apple NTP server|Apple||
-|time.euro.apple.com|AS714, AS6185|1|Apple NTP server|Apple|Europe region|
-|time.asia.apple.com|AS714, AS6185|1|Apple NTP server|Apple|Asia region|
+|time.apple.com|AS714, AS6185|1|Apple NTP|Apple|Anycast|
+|time-macos.apple.com|AS714, AS6185|1|Apple NTP|Apple||
+|time-ios.apple.com|AS714, AS6185|1|Apple NTP|Apple||
+|time1.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time2.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time3.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time4.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time5.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time6.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time7.apple.com|AS714, AS6185|2|Apple NTP|Apple||
+|time.euro.apple.com|AS714, AS6185|1|Apple NTP|Apple|Europe region|
+|time.asia.apple.com|AS714, AS6185|1|Apple NTP|Apple|Asia region|
 ||
 |clepsydra.dec.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |clepsydra.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |clepsydra.hpl.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |usno.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 ||
-|time-a-g.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-b-g.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-c-g.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-d-g.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-a-wwv.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-b-wwv.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-c-wwv.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-d-wwv.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-a-b.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-b-b.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-c-b.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-d-b.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Anycast|
-|time-e-b.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-e-g.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-e-wwv.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-nw.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-a.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|time-b.nist.gov|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST||
-|utcnist.colorado.edu|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Operated by University of Colorado for NIST|
-|utcnist2.colorado.edu|AS49, AS104|1|NIST Internet Time Service (ITS)|NIST|Operated by University of Colorado for NIST|
+|time-a-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-b-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-c-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-d-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-a-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-b-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-c-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-d-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-a-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-b-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-c-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-d-b.nist.gov|AS49, AS104|1|US|NIST||
+|time.nist.gov|AS49, AS104|1|US|NIST|Anycast|
+|time-e-b.nist.gov|AS49, AS104|1|US|NIST||
+|time-e-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-e-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-nw.nist.gov|AS49, AS104|1|US|NIST||
+|time-a.nist.gov|AS49, AS104|1|US|NIST||
+|time-b.nist.gov|AS49, AS104|1|US|NIST||
+|utcnist.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
+|utcnist2.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
 ||
 |ntp1.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
 |ntp2.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
@@ -129,18 +129,17 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |stratum1.net|Unknown|1|stratum1.net|stratum1.net||
 ||
-|ntp.time.in.ua|Unknown|1|time.in.ua|time.in.ua||
-|ntp2.time.in.ua|Unknown|1|time.in.ua|time.in.ua||
-|ntp3.time.in.ua|Unknown|2|time.in.ua|time.in.ua||
+|ntp.time.in.ua|Unknown|1|Ukraine|time.in.ua||
+|ntp2.time.in.ua|Unknown|1|Ukraine|time.in.ua||
+|ntp3.time.in.ua|Unknown|2|Ukraine|time.in.ua||
 ||
 |ntp.ru|AS8915|Unknown|Russia|Company Delfa Co. Ltd.||
 ||
 |ts1.aco.net|AS1853|1|ACO.net|ACO.net||
 |ts2.aco.net|AS1853|1|ACO.net|ACO.net||
 ||
-|ntp1.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley||
-|ntp2.net.berkeley.edu|AS25|1|Berkeley|University of California, Berkeley||
-||
+|ntp1.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
+|ntp2.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
 |ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
 ||
 |tick.usask.ca|AS22950|1|Canada|University of Saskatchewan||
@@ -150,14 +149,12 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.psn.ru|AS41783|Unknown|Russia|ITAEC||
 |ntp.rsu.edu.ru|AS47124|1|Russia|Rostov State University||
 ||
-|ntp.nict.jp|AS9355|1|National Institute of Information and Communications Technology|NICT||
-||
+|ntp.nict.jp|AS9355|1|Japan|National Institute of Information and Communications Technology||
 |ntp1.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
 |ntp2.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
 |ntp3.jst.mfeed.ad.jp|AS7521|1|Japan|INTERNET MULTIFEED CO.||
-||
-|x.ns.gin.ntt.net|AS2914|2|NTT|NTT||
-|y.ns.gin.ntt.net|AS2914|2|NTT|NTT||
+|x.ns.gin.ntt.net|AS2914|2|Japan|NTT||
+|y.ns.gin.ntt.net|AS2914|2|Japan|NTT||
 ||
 |clock.sjc.he.net|AS6939|3|US|HE.net|San Jose, CA|
 |clock.fmt.he.net|AS6939|2|US|HE.net|Fremont, CA|
@@ -201,13 +198,13 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp0.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 |ntp1.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
 ||
-|ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|Chinese Academy of Sciences Nation Time Service Center|Chinese Academy of Sciences||
+|ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|China|Chinese Academy of Sciences||
 ||
 |ntp.nat.ms|AS30746|1|Nat Morris|Nat Morris||
 ||
-|tick.usno.navy.mil|AS747|1|US Naval Observatory|US Navy||
-|tock.usno.navy.mil|AS747|1|US Naval Observatory|US Navy||
-|ntp2.usno.navy.mil|AS747|1|US Naval Observatory|US Navy||
+|tick.usno.navy.mil|AS747|1|US|US Navy||
+|tock.usno.navy.mil|AS747|1|US|US Navy||
+|ntp2.usno.navy.mil|AS747|1|US|US Navy||
 ||
 |timekeeper.isi.edu|AS2702|1|ISI|Information Sciences Institute||
 ||
@@ -215,18 +212,12 @@ The list is sourced from various public resources and aims to provide configurat
 |mizbeaver.udel.edu|AS300|Unknown|US|University of Delaware||
 |otc1.psu.edu|AS38|Unknown|US|Pennsylvania State University||
 |gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
-||
-|navobs1.gatech.edu|AS2637|1|Georgia Institute of Technology|Georgia Institute of Technology||
-||
+|navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
 |navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
 |now.okstate.edu|AS111|1|US|Oklahoma State University||
-||
-|ntp.colby.edu|AS10566|Unknown|Colby College|Colby College||
-||
+|ntp.colby.edu|AS10566|Unknown|US|Colby College||
 |ntp-s1.cise.ufl.edu|AS5730|Unknown|US|University of Florida||
-||
-|bonehed.lcs.mit.edu|AS3|1|MIT LCS|MIT||
-||
+|bonehed.lcs.mit.edu|AS3|1|US|MIT||
 |level1e.cs.unc.edu|AS2807|Unknown|US|University of North Carolina at Chapel Hill||
 |tick.ucla.edu|AS52|Unknown|US|University of California, Los Angeles||
 |tick.uh.edu|AS638|2|US|University of Hawaii||

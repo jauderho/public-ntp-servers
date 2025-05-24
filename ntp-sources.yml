@@ -2,42 +2,42 @@ servers:
 - hostname: time.google.com
   AS: AS15169
   stratum: 1
-  location: Google Public NTP
+  location: Google NTP
   owner: Google
   notes: Anycast
   vm: false
 - hostname: time1.google.com
   AS: AS15169
   stratum: 1
-  location: Google Public NTP
+  location: Google NTP
   owner: Google
   notes: ''
   vm: false
 - hostname: time2.google.com
   AS: AS15169
   stratum: 1
-  location: Google Public NTP
+  location: Google NTP
   owner: Google
   notes: ''
   vm: false
 - hostname: time3.google.com
   AS: AS15169
   stratum: 1
-  location: Google Public NTP
+  location: Google NTP
   owner: Google
   notes: ''
   vm: false
 - hostname: time4.google.com
   AS: AS15169
   stratum: 1
-  location: Google Public NTP
+  location: Google NTP
   owner: Google
   notes: ''
   vm: false
 - hostname: time.android.com
   AS: AS15169
   stratum: 1
-  location: Google Public NTP
+  location: Google NTP
   owner: Google
   notes: Anycast
   vm: false
@@ -135,91 +135,91 @@ servers:
 - hostname: time.windows.com
   AS: AS8075
   stratum: 3
-  location: Microsoft NTP server
+  location: Microsoft NTP
   owner: Microsoft
   notes: Anycast
   vm: false
 - hostname: time.apple.com
   AS: AS714, AS6185
   stratum: 1
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: Anycast
   vm: false
 - hostname: time-macos.apple.com
   AS: AS714, AS6185
   stratum: 1
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time-ios.apple.com
   AS: AS714, AS6185
   stratum: 1
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time1.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time2.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time3.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time4.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time5.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time6.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time7.apple.com
   AS: AS714, AS6185
   stratum: 2
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: ''
   vm: false
 - hostname: time.euro.apple.com
   AS: AS714, AS6185
   stratum: 1
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: Europe region
   vm: false
 - hostname: time.asia.apple.com
   AS: AS714, AS6185
   stratum: 1
-  location: Apple NTP server
+  location: Apple NTP
   owner: Apple
   notes: Asia region
   vm: false
@@ -254,149 +254,149 @@ servers:
 - hostname: time-a-g.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-b-g.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-c-g.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-d-g.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-a-wwv.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-b-wwv.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-c-wwv.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-d-wwv.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-a-b.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-b-b.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-c-b.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-d-b.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: Anycast
   vm: false
 - hostname: time-e-b.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-e-g.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-e-wwv.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-nw.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-a.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: time-b.nist.gov
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
   notes: ''
   vm: false
 - hostname: utcnist.colorado.edu
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
-  notes: Operated by University of Colorado for NIST
+  notes: Operated by University of Colorado
   vm: false
 - hostname: utcnist2.colorado.edu
   AS: AS49, AS104
   stratum: 1
-  location: NIST Internet Time Service (ITS)
+  location: US
   owner: NIST
-  notes: Operated by University of Colorado for NIST
+  notes: Operated by University of Colorado
   vm: false
 - hostname: ntp1.vniiftri.ru
   AS: Unknown
@@ -611,21 +611,21 @@ servers:
 - hostname: ntp.time.in.ua
   AS: Unknown
   stratum: 1
-  location: time.in.ua
+  location: Ukraine
   owner: time.in.ua
   notes: ''
   vm: false
 - hostname: ntp2.time.in.ua
   AS: Unknown
   stratum: 1
-  location: time.in.ua
+  location: Ukraine
   owner: time.in.ua
   notes: ''
   vm: false
 - hostname: ntp3.time.in.ua
   AS: Unknown
   stratum: 2
-  location: time.in.ua
+  location: Ukraine
   owner: time.in.ua
   notes: ''
   vm: false
@@ -653,14 +653,14 @@ servers:
 - hostname: ntp1.net.berkeley.edu
   AS: AS25
   stratum: 1
-  location: Berkeley
+  location: US
   owner: University of California, Berkeley
   notes: ''
   vm: false
 - hostname: ntp2.net.berkeley.edu
   AS: AS25
   stratum: 1
-  location: Berkeley
+  location: US
   owner: University of California, Berkeley
   notes: ''
   vm: false
@@ -709,8 +709,8 @@ servers:
 - hostname: ntp.nict.jp
   AS: AS9355
   stratum: 1
-  location: National Institute of Information and Communications Technology
-  owner: NICT
+  location: Japan
+  owner: National Institute of Information and Communications Technology
   notes: ''
   vm: false
 - hostname: ntp1.jst.mfeed.ad.jp
@@ -737,14 +737,14 @@ servers:
 - hostname: x.ns.gin.ntt.net
   AS: AS2914
   stratum: 2
-  location: NTT
+  location: Japan
   owner: NTT
   notes: ''
   vm: false
 - hostname: y.ns.gin.ntt.net
   AS: AS2914
   stratum: 2
-  location: NTT
+  location: Japan
   owner: NTT
   notes: ''
   vm: false
@@ -968,7 +968,7 @@ servers:
 - hostname: ntp.ntsc.ac.cn
   AS: AS4808, AS9808, AS23724
   stratum: 2
-  location: Chinese Academy of Sciences Nation Time Service Center
+  location: China
   owner: Chinese Academy of Sciences
   notes: ''
   vm: false
@@ -982,21 +982,21 @@ servers:
 - hostname: tick.usno.navy.mil
   AS: AS747
   stratum: 1
-  location: US Naval Observatory
+  location: US
   owner: US Navy
   notes: ''
   vm: false
 - hostname: tock.usno.navy.mil
   AS: AS747
   stratum: 1
-  location: US Naval Observatory
+  location: US
   owner: US Navy
   notes: ''
   vm: false
 - hostname: ntp2.usno.navy.mil
   AS: AS747
   stratum: 1
-  location: US Naval Observatory
+  location: US
   owner: US Navy
   notes: ''
   vm: false
@@ -1038,7 +1038,7 @@ servers:
 - hostname: navobs1.gatech.edu
   AS: AS2637
   stratum: 1
-  location: Georgia Institute of Technology
+  location: US
   owner: Georgia Institute of Technology
   notes: ''
   vm: false
@@ -1059,7 +1059,7 @@ servers:
 - hostname: ntp.colby.edu
   AS: AS10566
   stratum: Unknown
-  location: Colby College
+  location: US
   owner: Colby College
   notes: ''
   vm: false
@@ -1073,7 +1073,7 @@ servers:
 - hostname: bonehed.lcs.mit.edu
   AS: AS3
   stratum: 1
-  location: MIT LCS
+  location: US
   owner: MIT
   notes: ''
   vm: false

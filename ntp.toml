@@ -2,7 +2,7 @@
 # NTP servers in ntpd-rs format
 #
 
-# Google Public NTP
+# Google NTP
 [[source]]
 mode = "server"
 address = "time.google.com"
@@ -86,13 +86,13 @@ mode = "server"
 address = "time5.facebook.com"
 
 
-# Microsoft NTP server
+# Microsoft NTP
 [[source]]
 mode = "server"
 address = "time.windows.com"
 
 
-# Apple NTP server
+# Apple NTP
 [[source]]
 mode = "server"
 address = "time.apple.com"
@@ -160,7 +160,7 @@ mode = "server"
 address = "usno.labs.hp.com"
 
 
-# NIST Internet Time Service (ITS)
+# US
 [[source]]
 mode = "server"
 address = "time-a-g.nist.gov"
@@ -374,7 +374,7 @@ mode = "server"
 address = "stratum1.net"
 
 
-# time.in.ua
+# Ukraine
 [[source]]
 mode = "server"
 address = "ntp.time.in.ua"
@@ -404,7 +404,7 @@ mode = "server"
 address = "ts2.aco.net"
 
 
-# Berkeley
+# US
 [[source]]
 mode = "server"
 address = "ntp1.net.berkeley.edu"
@@ -413,8 +413,6 @@ address = "ntp1.net.berkeley.edu"
 mode = "server"
 address = "ntp2.net.berkeley.edu"
 
-
-# US
 [[source]]
 mode = "server"
 address = "ntp.gsu.edu"
@@ -444,13 +442,11 @@ mode = "server"
 address = "ntp.rsu.edu.ru"
 
 
-# National Institute of Information and Communications Technology
+# Japan
 [[source]]
 mode = "server"
 address = "ntp.nict.jp"
 
-
-# Japan
 [[source]]
 mode = "server"
 address = "ntp1.jst.mfeed.ad.jp"
@@ -463,8 +459,6 @@ address = "ntp2.jst.mfeed.ad.jp"
 mode = "server"
 address = "ntp3.jst.mfeed.ad.jp"
 
-
-# NTT
 [[source]]
 mode = "server"
 address = "x.ns.gin.ntt.net"
@@ -620,7 +614,7 @@ mode = "server"
 address = "ntp1.as34288.net"
 
 
-# Chinese Academy of Sciences Nation Time Service Center
+# China
 [[source]]
 mode = "server"
 address = "ntp.ntsc.ac.cn"
@@ -632,7 +626,7 @@ mode = "server"
 address = "ntp.nat.ms"
 
 
-# US Naval Observatory
+# US
 [[source]]
 mode = "server"
 address = "tick.usno.navy.mil"
@@ -669,14 +663,10 @@ address = "otc1.psu.edu"
 mode = "server"
 address = "gnomon.cc.columbia.edu"
 
-
-# Georgia Institute of Technology
 [[source]]
 mode = "server"
 address = "navobs1.gatech.edu"
 
-
-# US
 [[source]]
 mode = "server"
 address = "navobs1.wustl.edu"
@@ -685,26 +675,18 @@ address = "navobs1.wustl.edu"
 mode = "server"
 address = "now.okstate.edu"
 
-
-# Colby College
 [[source]]
 mode = "server"
 address = "ntp.colby.edu"
 
-
-# US
 [[source]]
 mode = "server"
 address = "ntp-s1.cise.ufl.edu"
 
-
-# MIT LCS
 [[source]]
 mode = "server"
 address = "bonehed.lcs.mit.edu"
 
-
-# US
 [[source]]
 mode = "server"
 address = "level1e.cs.unc.edu"
