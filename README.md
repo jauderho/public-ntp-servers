@@ -65,8 +65,8 @@ The list is sourced from various public resources and aims to provide configurat
 |time5.apple.com|AS714, AS6185|2|Apple NTP|Apple||
 |time6.apple.com|AS714, AS6185|2|Apple NTP|Apple||
 |time7.apple.com|AS714, AS6185|2|Apple NTP|Apple||
-|time.euro.apple.com|AS714, AS6185|1|Apple NTP|Apple|Europe region|
-|time.asia.apple.com|AS714, AS6185|1|Apple NTP|Apple|Asia region|
+|time.euro.apple.com|AS714, AS6185|1|Apple NTP|Apple|Europe|
+|time.asia.apple.com|AS714, AS6185|1|Apple NTP|Apple|Asia|
 ||
 |clepsydra.dec.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |clepsydra.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
@@ -93,10 +93,10 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.ripe.net|AS3333|1|RIPE|RIPE NCC||
 ||
-|clock.isc.org|AS1280|3|Internet Systems Consortium|ISC|prev ntp.isc.org|
+|clock.isc.org|AS1280|3|ISC|ISC|prev ntp.isc.org|
 ||
-|ntp0.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
-|ntp1.as34288.net|AS34288|2|Kantonsschule Zug|Kantonsschule Zug||
+|ntp0.as34288.net|AS34288|2|KSZ|Kantonsschule Zug||
+|ntp1.as34288.net|AS34288|2|KSZ|Kantonsschule Zug||
 ||
 |ntp.nat.ms|AS30746|1|Nat Morris|Nat Morris||
 ||
@@ -104,7 +104,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntpstm.netbone-digital.com|Unknown|Unknown|NetBone Digital|NetBone Digital||
 ||
-|nist1.symmetricom.com|AS3608|1|Microsemi/Symmetricom|Microsemi||
+|nist1.symmetricom.com|AS3608|1|Microchip|Microchip||
 ||
 |ntp.quintex.com|Unknown|Unknown|Quintex|Quintex||
 ||
@@ -120,8 +120,8 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |sesku.planeacion.net|Unknown|Unknown|planeacion.net|planeacion.net||
 ||
-|ntp0.nl.uu.net|AS8283|1|KPN International Carrier|KPN International Carrier||
-|ntp1.nl.uu.net|AS8283|1|KPN International Carrier|KPN International Carrier||
+|ntp0.nl.uu.net|AS8283|1|KPN|KPN International Carrier||
+|ntp1.nl.uu.net|AS8283|1|KPN|KPN International Carrier||
 ||
 |navobs1.oar.net|Unknown|2|oar.net|oar.net||
 ||

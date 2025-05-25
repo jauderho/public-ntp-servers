@@ -214,14 +214,14 @@ servers:
   stratum: 1
   location: Apple NTP
   owner: Apple
-  notes: Europe region
+  notes: Europe
   vm: false
 - hostname: time.asia.apple.com
   AS: AS714, AS6185
   stratum: 1
   location: Apple NTP
   owner: Apple
-  notes: Asia region
+  notes: Asia
   vm: false
 - hostname: clepsydra.dec.com
   AS: Unknown
@@ -359,21 +359,21 @@ servers:
 - hostname: clock.isc.org
   AS: AS1280
   stratum: 3
-  location: Internet Systems Consortium
+  location: ISC
   owner: ISC
   notes: prev ntp.isc.org
   vm: false
 - hostname: ntp0.as34288.net
   AS: AS34288
   stratum: 2
-  location: Kantonsschule Zug
+  location: KSZ
   owner: Kantonsschule Zug
   notes: ''
   vm: false
 - hostname: ntp1.as34288.net
   AS: AS34288
   stratum: 2
-  location: Kantonsschule Zug
+  location: KSZ
   owner: Kantonsschule Zug
   notes: ''
   vm: false
@@ -401,8 +401,8 @@ servers:
 - hostname: nist1.symmetricom.com
   AS: AS3608
   stratum: 1
-  location: Microsemi/Symmetricom
-  owner: Microsemi
+  location: Microchip
+  owner: Microchip
   notes: ''
   vm: false
 - hostname: ntp.quintex.com
@@ -457,14 +457,14 @@ servers:
 - hostname: ntp0.nl.uu.net
   AS: AS8283
   stratum: 1
-  location: KPN International Carrier
+  location: KPN
   owner: KPN International Carrier
   notes: ''
   vm: false
 - hostname: ntp1.nl.uu.net
   AS: AS8283
   stratum: 1
-  location: KPN International Carrier
+  location: KPN
   owner: KPN International Carrier
   notes: ''
   vm: false

@@ -230,13 +230,13 @@ mode = "server"
 address = "ntp.ripe.net"
 
 
-# Internet Systems Consortium
+# ISC
 [[source]]
 mode = "server"
 address = "clock.isc.org"
 
 
-# Kantonsschule Zug
+# KSZ
 [[source]]
 mode = "server"
 address = "ntp0.as34288.net"
@@ -264,7 +264,7 @@ mode = "server"
 address = "ntpstm.netbone-digital.com"
 
 
-# Microsemi/Symmetricom
+# Microchip
 [[source]]
 mode = "server"
 address = "nist1.symmetricom.com"
@@ -312,7 +312,7 @@ mode = "server"
 address = "sesku.planeacion.net"
 
 
-# KPN International Carrier
+# KPN
 [[source]]
 mode = "server"
 address = "ntp0.nl.uu.net"
