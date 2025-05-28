@@ -3,7 +3,8 @@
 YAML Hostname to Markdown Converter
 
 Processes YAML files to convert plaintext hostnames to markdown links
-when the hostname has an active website (HTTP/HTTPS).
+when the hostname has an active HTTPS website. Also verifies existing
+markdown links and converts back to plaintext if unreachable.
 """
 
 import argparse
@@ -22,6 +23,21 @@ def is_markdown_link(hostname):
     return bool(re.match(r'^\[.*\]\(.*\)$', hostname.strip()))
 
 
+def extract_hostname_from_markdown(markdown_text):
+    """Extract hostname from markdown link format [text](url)."""
+    match = re.match(r'^\[(.*?)\]\((.*?)\)$', markdown_text.strip())
+    if match:
+        link_text, url = match.groups()
+        # Extract hostname from URL
+        if url.startswith(('http://', 'https://')):
+            hostname = url.split('://', 1)[1].split('/')[0]
+            return hostname, url, link_text
+        else:
+            # URL without protocol, assume it's just the hostname
+            return url.split('/')[0], url, link_text
+    return None, None, None
+
+
 class NoRedirectHandler(urllib.request.HTTPRedirectHandler):
     """Custom handler that prevents automatic redirect following."""
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -34,19 +50,18 @@ class NoRedirectHandler(urllib.request.HTTPRedirectHandler):
         return fp
 
 
-def test_url_connectivity(hostname, timeout=5):
+def test_https_connectivity(hostname, timeout=5):
     """
-    Test if hostname is reachable via HTTP or HTTPS.
+    Test if hostname is reachable via HTTPS only.
     Skips processing if the first response is a redirect (301/302).
     Skips processing if HTTPS has invalid or self-signed certificates.
-    Prefers HTTPS over HTTP if both are available.
     
     Args:
         hostname (str): The hostname to test
         timeout (int): Connection timeout in seconds
     
     Returns:
-        str or None: Returns the working URL (with protocol) or None if unreachable
+        str or None: Returns the working HTTPS URL or None if unreachable
     """
     # Clean hostname - remove any existing protocol
     clean_hostname = hostname.strip()
@@ -56,66 +71,53 @@ def test_url_connectivity(hostname, timeout=5):
     # Remove trailing slash and path
     clean_hostname = clean_hostname.split('/')[0].lower()
     
-    # Test both protocols and collect results
-    working_urls = []
-    protocols = ['https', 'http']
+    # Only test HTTPS
+    url = f"https://{clean_hostname}"
     
-    for protocol in protocols:
-        url = f"{protocol}://{clean_hostname}"
-        try:
-            # Create opener with no-redirect handler
-            no_redirect_handler = NoRedirectHandler()
-            
-            if protocol == 'https':
-                # Use default SSL context with proper certificate validation
-                ssl_context = ssl.create_default_context()
-                # Do NOT disable certificate verification for HTTPS
-                https_handler = urllib.request.HTTPSHandler(context=ssl_context)
-                opener = urllib.request.build_opener(https_handler, no_redirect_handler)
-            else:
-                opener = urllib.request.build_opener(no_redirect_handler)
-            
-            opener.addheaders = [('User-Agent', 'Mozilla/5.0 (compatible; YAML-Processor/1.0)')]
-            
-            # Create request
-            req = urllib.request.Request(url)
-            
-            response = opener.open(req, timeout=timeout)
-            
-            if 200 <= response.status < 300:
-                # Direct success (2xx status) - no redirect
-                working_urls.append(url)
-                print(f"Success: {url} returned {response.status}")
-            elif 300 <= response.status < 400:
-                # Any redirect (301/302/etc.) - skip processing
-                print(f"Skipping {url} - returns redirect ({response.status})")
-                continue
-                        
-        except ssl.SSLError as e:
-            # SSL certificate errors (invalid, self-signed, expired, etc.)
-            print(f"Skipping {url} - SSL certificate error: {e}")
-            continue
-        except ssl.CertificateError as e:
-            # Certificate validation errors
-            print(f"Skipping {url} - certificate validation error: {e}")
-            continue
-        except urllib.error.HTTPError as e:
-            # Handle HTTP errors (4xx, 5xx) and redirects caught as errors
-            if 300 <= e.code < 400:
-                print(f"Skipping {url} - returns redirect ({e.code})")
-            continue
-        except (urllib.error.URLError, socket.timeout, 
-                ConnectionRefusedError, OSError) as e:
-            # Check if the error is SSL-related within URLError
-            if isinstance(e.reason, ssl.SSLError):
-                print(f"Skipping {url} - SSL error: {e.reason}")
-            continue
-    
-    # Return preferred URL: HTTPS over HTTP
-    if working_urls:
-        # Sort to prefer HTTPS
-        working_urls.sort(key=lambda x: (not x.startswith('https://'), x))
-        return working_urls[0]
+    try:
+        # Create opener with no-redirect handler
+        no_redirect_handler = NoRedirectHandler()
+        
+        # Use default SSL context with proper certificate validation
+        ssl_context = ssl.create_default_context()
+        https_handler = urllib.request.HTTPSHandler(context=ssl_context)
+        opener = urllib.request.build_opener(https_handler, no_redirect_handler)
+        
+        opener.addheaders = [('User-Agent', 'Mozilla/5.0 (compatible; YAML-Processor/1.0)')]
+        
+        # Create request
+        req = urllib.request.Request(url)
+        
+        response = opener.open(req, timeout=timeout)
+        
+        if 200 <= response.status < 300:
+            # Direct success (2xx status) - no redirect
+            print(f"Success: {url} returned {response.status}")
+            return url
+        elif 300 <= response.status < 400:
+            # Any redirect (301/302/etc.) - skip processing
+            print(f"Skipping {url} - returns redirect ({response.status})")
+            return None
+                    
+    except ssl.SSLError as e:
+        # SSL certificate errors (invalid, self-signed, expired, etc.)
+        print(f"Skipping {url} - SSL certificate error: {e}")
+        return None
+    except ssl.CertificateError as e:
+        # Certificate validation errors
+        print(f"Skipping {url} - certificate validation error: {e}")
+        return None
+    except urllib.error.HTTPError as e:
+        # Handle HTTP errors (4xx, 5xx) and redirects caught as errors
+        if 300 <= e.code < 400:
+            print(f"Skipping {url} - returns redirect ({e.code})")
+        return None
+    except (urllib.error.URLError, socket.timeout, 
+            ConnectionRefusedError, OSError) as e:
+        # Check if the error is SSL-related within URLError
+        if isinstance(e.reason, ssl.SSLError):
+            print(f"Skipping {url} - SSL error: {e.reason}")
+        return None
     
     return None
 
@@ -125,13 +127,14 @@ def create_markdown_link(hostname, url):
     return f"[{hostname}]({url})"
 
 
-def process_yaml_content(content, dry_run=False):
+def process_yaml_content(content, dry_run=False, timeout=5):
     """
-    Process YAML content to convert hostnames to markdown links.
+    Process YAML content to convert hostnames to/from markdown links.
     
     Args:
         content (dict): Parsed YAML content
         dry_run (bool): If True, only show what would be changed
+        timeout (int): Connection timeout in seconds
     
     Returns:
         tuple: (modified_content, changes_made)
@@ -146,40 +149,83 @@ def process_yaml_content(content, dry_run=False):
         if 'hostname' not in server:
             continue
             
-        hostname = server['hostname']
+        hostname_field = server['hostname']
         
-        # Skip if already markdown
-        if is_markdown_link(hostname):
-            print(f"Skipping {hostname} (already markdown)")
+        # Handle existing markdown links
+        if is_markdown_link(hostname_field):
+            extracted_hostname, original_url, link_text = extract_hostname_from_markdown(hostname_field)
+            
+            if extracted_hostname:
+                print(f"Testing existing markdown link: {hostname_field}")
+                
+                # Skip NTP pool hostnames
+                if extracted_hostname.lower().endswith('.pool.ntp.org'):
+                    print(f"Skipping {extracted_hostname} (NTP pool hostname)")
+                    continue
+                
+                # Test if the extracted hostname is still reachable via HTTPS
+                working_url = test_https_connectivity(extracted_hostname, timeout)
+                
+                if not working_url:
+                    # Convert back to plaintext hostname
+                    if dry_run:
+                        print(f"[DRY RUN] Would revert to plaintext: {hostname_field} -> {extracted_hostname}")
+                        changes_made.append({
+                            'index': i,
+                            'old': hostname_field,
+                            'new': extracted_hostname,
+                            'action': 'revert_to_plaintext'
+                        })
+                    else:
+                        print(f"Reverting to plaintext: {hostname_field} -> {extracted_hostname}")
+                        server['hostname'] = extracted_hostname
+                        changes_made.append({
+                            'index': i,
+                            'old': hostname_field,
+                            'new': extracted_hostname,
+                            'action': 'revert_to_plaintext'
+                        })
+                else:
+                    print(f"Existing markdown link is valid: {hostname_field}")
             continue
         
-        print(f"Testing hostname: {hostname}")
+        # Handle plaintext hostnames
+        hostname = hostname_field.strip()
         
-        # Test connectivity
-        working_url = test_url_connectivity(hostname)
+        # Skip NTP pool hostnames
+        if hostname.lower().endswith('.pool.ntp.org'):
+            print(f"Skipping {hostname} (NTP pool hostname)")
+            continue
+        
+        print(f"Testing plaintext hostname: {hostname}")
+        
+        # Test HTTPS connectivity
+        working_url = test_https_connectivity(hostname, timeout)
         
         if working_url:
             markdown_link = create_markdown_link(hostname, working_url)
             
             if dry_run:
-                print(f"[DRY RUN] Would change: {hostname} -> {markdown_link}")
+                print(f"[DRY RUN] Would convert to markdown: {hostname} -> {markdown_link}")
                 changes_made.append({
                     'index': i,
                     'old': hostname,
                     'new': markdown_link,
-                    'url': working_url
+                    'url': working_url,
+                    'action': 'convert_to_markdown'
                 })
             else:
-                print(f"Converting: {hostname} -> {markdown_link}")
+                print(f"Converting to markdown: {hostname} -> {markdown_link}")
                 server['hostname'] = markdown_link
                 changes_made.append({
                     'index': i,
                     'old': hostname, 
                     'new': markdown_link,
-                    'url': working_url
+                    'url': working_url,
+                    'action': 'convert_to_markdown'
                 })
         else:
-            print(f"No working URL found for: {hostname}")
+            print(f"No working HTTPS URL found for: {hostname}")
     
     return content, changes_made
 
@@ -217,7 +263,8 @@ def write_yaml_with_formatting(content, output_path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert plaintext hostnames to markdown links in YAML files'
+        description='Convert plaintext hostnames to HTTPS markdown links in YAML files. '
+                   'Also verifies existing markdown links and reverts to plaintext if unreachable.'
     )
     parser.add_argument('input_file', help='Input YAML file path')
     parser.add_argument('-o', '--output', help='Output file path (default: overwrite input)')
@@ -234,8 +281,17 @@ def main():
         print(f"Error: Input file '{input_path}' does not exist")
         sys.exit(1)
     
+    if not input_path.is_file():
+        print(f"Error: '{input_path}' is not a file")
+        sys.exit(1)
+    
     # Set output path
     output_path = Path(args.output) if args.output else input_path
+    
+    # Validate output path (only if different from input)
+    if args.output and output_path.exists() and output_path.is_dir():
+        print(f"Error: Output path '{output_path}' is a directory")
+        sys.exit(1)
     
     try:
         # Load YAML content
@@ -246,20 +302,34 @@ def main():
             print("Error: Empty or invalid YAML file")
             sys.exit(1)
         
-        print(f"Processing {len(content.get('servers', []))} server entries...")
+        server_count = len(content.get('servers', []))
+        print(f"Processing {server_count} server entries...")
+        
+        if server_count == 0:
+            print("Warning: No server entries found in YAML")
+            return
         
         # Process content
-        modified_content, changes = process_yaml_content(content, args.dry_run)
+        modified_content, changes = process_yaml_content(content, args.dry_run, args.timeout)
         
         # Report results
         if changes:
             print(f"\n{'[DRY RUN] ' if args.dry_run else ''}Summary:")
-            print(f"- {len(changes)} hostname(s) processed")
             
+            convert_count = sum(1 for c in changes if c.get('action') == 'convert_to_markdown')
+            revert_count = sum(1 for c in changes if c.get('action') == 'revert_to_plaintext')
+            
+            if convert_count > 0:
+                print(f"- {convert_count} hostname(s) converted to HTTPS markdown links")
+            if revert_count > 0:
+                print(f"- {revert_count} markdown link(s) reverted to plaintext (unreachable)")
+            
+            print("\nChanges:")
             for change in changes:
-                print(f"  • {change['old']} -> {change['new']}")
+                action_desc = "→ HTTPS link" if change.get('action') == 'convert_to_markdown' else "→ plaintext"
+                print(f"  • {change['old']} {action_desc}")
         else:
-            print("\nNo changes made - no plaintext hostnames with working URLs found")
+            print("\nNo changes made - all hostnames are already in correct format")
         
         # Write output (unless dry run)
         if not args.dry_run and changes:
@@ -270,6 +340,9 @@ def main():
             
     except yaml.YAMLError as e:
         print(f"Error parsing YAML: {e}")
+        sys.exit(1)
+    except PermissionError as e:
+        print(f"Error: Permission denied - {e}")
         sys.exit(1)
     except IOError as e:
         print(f"Error reading/writing file: {e}")
