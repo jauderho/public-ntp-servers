@@ -93,7 +93,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.ripe.net|AS3333|1|RIPE|RIPE NCC||
 ||
-|clock.isc.org|AS1280|3|ISC|ISC|prev ntp.isc.org|
+|[clock.isc.org](https://clock.isc.org)|AS1280|3|ISC|ISC|prev ntp.isc.org|
 ||
 |ntp0.as34288.net|AS34288|2|KSZ|Kantonsschule Zug||
 |ntp1.as34288.net|AS34288|2|KSZ|Kantonsschule Zug||
@@ -269,9 +269,9 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.se|AS57021|1|Sweden|Netnod|Anycast|
 |time1.stupi.se|Unknown|Unknown|Sweden|stupi.se||
 ||
-|ntp.neel.ch|AS34569|Unknown|Switzerland|Neel Engineering||
+|[ntp.neel.ch](https://ntp.neel.ch)|AS34569|Unknown|Switzerland|Neel Engineering||
 ||
-|eshail.batc.org.uk|Unknown|1|UK|BATC||
+|[eshail.batc.org.uk](https://eshail.batc.org.uk)|Unknown|1|UK|BATC||
 |ntp5.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp6.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp7.leontp.com|Unknown|1|UK|Leo Bodnar||
@@ -279,7 +279,7 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp9.leontp.com|Unknown|1|UK|Leo Bodnar||
 |ntp1.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
 |ntp2.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
-|ntp.theitman.uk|Unknown|1|UK|TheITMan||
+|[ntp.theitman.uk](https://ntp.theitman.uk)|Unknown|1|UK|TheITMan||
 |timekeeper.webwiz.net|AS44929|1|UK|Web Wiz||
 ||
 |ntp.time.in.ua|Unknown|1|Ukraine|time.in.ua||
