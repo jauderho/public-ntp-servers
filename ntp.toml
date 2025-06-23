@@ -797,6 +797,14 @@ address = "hora.roa.es"
 mode = "server"
 address = "minuto.roa.es"
 
+[[source]]
+mode = "server"
+address = "tick.espanix.net"
+
+[[source]]
+mode = "server"
+address = "tock.espanix.net"
+
 
 # Sweden
 [[source]]

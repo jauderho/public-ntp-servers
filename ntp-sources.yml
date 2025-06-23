@@ -1375,6 +1375,22 @@ servers:
   notes: ''
   vm: false
 
+- hostname: tick.espanix.net
+  AS: Unknown
+  stratum: 1
+  location: Spain
+  owner: Espanix
+  notes: ''
+  vm: false
+
+- hostname: tock.espanix.net
+  AS: Unknown
+  stratum: 1
+  location: Spain
+  owner: Espanix
+  notes: ''
+  vm: false
+
 - hostname: timehost.lysator.liu.se
   AS: AS1653
   stratum: Unknown
