@@ -631,6 +631,14 @@ servers:
   notes: ''
   vm: false
 
+- hostname: ntp.teambelgium.net
+  AS: AS5432
+  stratum: 2
+  location: Belgium
+  owner: Team Belgium
+  notes: ''
+  vm: false
+
 - hostname: ntps1.pads.ufrj.br
   AS: AS1553
   stratum: 1
