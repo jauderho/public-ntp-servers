@@ -1934,3 +1934,43 @@ servers:
   owner: Washington University in St. Louis
   notes: ''
   vm: false
+
+- hostname: time.nplindia.org
+  AS: Unknown
+  stratum: 1
+  location: India
+  owner: NPL India
+  notes: ''
+  vm: false
+
+- hostname: time.nplindia.in
+  AS: Unknown
+  stratum: 1
+  location: India
+  owner: NPL India
+  notes: ''
+  vm: false
+
+- hostname: samay1.nic.in
+  AS: Unknown
+  stratum: 2
+  location: India
+  owner: NIC India
+  notes: ''
+  vm: false
+
+- hostname: samay2.nic.in
+  AS: Unknown
+  stratum: 2
+  location: India
+  owner: NIC India
+  notes: ''
+  vm: false
+
+- hostname: ntp.iitb.ac.in
+  AS: Unknown
+  stratum: 2
+  location: India
+  owner: IIT Bombay
+  notes: ''
+  vm: false
