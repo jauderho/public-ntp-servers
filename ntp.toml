@@ -389,6 +389,10 @@ address = "ntp1.oma.be"
 mode = "server"
 address = "ntp2.oma.be"
 
+[[source]]
+mode = "server"
+address = "ntp.teambelgium.net"
+
 
 # Brazil
 [[source]]

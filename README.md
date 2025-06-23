@@ -144,6 +144,7 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.heppen.be|Unknown|1|Belgium|ON5HB Ham-radio users||
 |ntp1.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
 |ntp2.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
+|ntp.teambelgium.net|AS5432|2|Belgium|Team Belgium||
 ||
 |ntps1.pads.ufrj.br|AS1553|1|Brazil|Federal University of Rio de Janeiro||
 ||
@@ -256,6 +257,8 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |hora.roa.es|AS31007|1|Spain|ROA||
 |minuto.roa.es|AS31007|1|Spain|ROA||
+|tick.espanix.net|Unknown|1|Spain|Espanix||
+|tock.espanix.net|Unknown|1|Spain|Espanix||
 ||
 |timehost.lysator.liu.se|AS1653|Unknown|Sweden|Academic Computer Club Lysator||
 |gbg1.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
