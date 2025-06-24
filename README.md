@@ -196,6 +196,12 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.atomki.mta.hu|AS197038|2|Hungary|ATOMKI||
 ||
+|time.nplindia.org|Unknown|1|India|NPL India||
+|time.nplindia.in|Unknown|1|India|NPL India||
+|samay1.nic.in|Unknown|2|India|NIC India||
+|samay2.nic.in|Unknown|2|India|NIC India||
+|ntp.iitb.ac.in|Unknown|2|India|IIT Bombay||
+||
 |time.esa.int|AS15559|1|International|European Space Agency||
 |time1.esa.int|AS15559|1|International|European Space Agency||
 ||

@@ -574,6 +574,28 @@ mode = "server"
 address = "ntp.atomki.mta.hu"
 
 
+# India
+[[source]]
+mode = "server"
+address = "time.nplindia.org"
+
+[[source]]
+mode = "server"
+address = "time.nplindia.in"
+
+[[source]]
+mode = "server"
+address = "samay1.nic.in"
+
+[[source]]
+mode = "server"
+address = "samay2.nic.in"
+
+[[source]]
+mode = "server"
+address = "ntp.iitb.ac.in"
+
+
 # International
 [[source]]
 mode = "server"
