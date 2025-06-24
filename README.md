@@ -39,8 +39,8 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
 |amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
-|0.amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
-|1.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
+|0.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
+|1.amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
 |2.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
 |3.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
 ||
@@ -73,14 +73,14 @@ The list is sourced from various public resources and aims to provide configurat
 |clepsydra.hpl.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 |usno.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
 ||
-|ntp0.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
+|ntp0.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 |ntp1.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 |ntp2.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp3.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp4.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
+|ntp3.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
+|ntp4.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
 |ntp5.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp6.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
-|ntp7.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
+|ntp6.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
+|ntp7.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
 ||
 |stratum1.net|Unknown|1|stratum1.net|stratum1.net||
 ||
@@ -129,7 +129,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp1.ona.org|Unknown|Unknown|ona.org|ona.org||
 ||
-|ntp.your.org|Unknown|Unknown|your.org|your.org||
+|ntp.your.org|Unknown|1|your.org|your.org||
 ||
 |ntp.mrow.org|Unknown|1|mrow.org|mrow.org||
 ||
@@ -144,7 +144,7 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.heppen.be|Unknown|1|Belgium|ON5HB Ham-radio users||
 |ntp1.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
 |ntp2.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
-|ntp.teambelgium.net|AS5432|2|Belgium|Team Belgium||
+|ntp.teambelgium.net|AS5432|1|Belgium|Team Belgium||
 ||
 |ntps1.pads.ufrj.br|AS1553|1|Brazil|Federal University of Rio de Janeiro||
 ||
@@ -205,7 +205,7 @@ The list is sourced from various public resources and aims to provide configurat
 |time.esa.int|AS15559|1|International|European Space Agency||
 |time1.esa.int|AS15559|1|International|European Space Agency||
 ||
-|ntp.day.ir|AS42337|3|Iran|Day ICT||
+|ntp.day.ir|AS42337|10|Iran|Day ICT||
 ||
 |ntp1.inrim.it|AS29109|1|Italy|INRIM||
 |ntp2.inrim.it|AS29109|1|Italy|INRIM||
@@ -299,9 +299,9 @@ The list is sourced from various public resources and aims to provide configurat
 |gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
 |navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
 |ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
-|clock.sjc.he.net|AS6939|3|US|HE.net|San Jose, CA|
-|clock.fmt.he.net|AS6939|2|US|HE.net|Fremont, CA|
-|clock.nyc.he.net|AS6939|3|US|HE.net|New York City, NY|
+|clock.sjc.he.net|AS6939|2|US|HE.net|San Jose, CA|
+|clock.fmt.he.net|AS6939|1|US|HE.net|Fremont, CA|
+|clock.nyc.he.net|AS6939|2|US|HE.net|New York City, NY|
 |bonehed.lcs.mit.edu|AS3|1|US|MIT||
 |time-a-g.nist.gov|AS49, AS104|1|US|NIST||
 |time-b-g.nist.gov|AS49, AS104|1|US|NIST||
