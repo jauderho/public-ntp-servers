@@ -1728,3 +1728,17 @@ servers:
   owner: Washington University in St. Louis
   notes: ''
   vm: false
+- hostname: '[ntp1.wiktel.com](https://ntp1.wiktel.com)'
+  AS: AS33362
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: ''
+  vm: false
+- hostname: '[ntp2.wiktel.com](https://ntp2.wiktel.com)'
+  AS: AS33362
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: ''
+  vm: false
