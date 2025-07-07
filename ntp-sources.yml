@@ -566,6 +566,27 @@ servers:
   owner: Federal University of Rio de Janeiro
   notes: ''
   vm: false
+- hostname: '[time1.mbix.ca](https://time1.mbix.ca)'
+  AS: AS395611
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: ''
+  vm: false
+- hostname: '[time2.mbix.ca](https://time2.mbix.ca)'
+  AS: AS395611
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: ''
+  vm: false
+- hostname: '[time3.mbix.ca](https://time3.mbix.ca)'
+  AS: AS395611
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: ''
+  vm: false
 - hostname: time.nrc.ca
   AS: AS573
   stratum: 2
