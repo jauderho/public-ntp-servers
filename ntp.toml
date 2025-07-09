@@ -403,6 +403,18 @@ address = "ntps1.pads.ufrj.br"
 # Canada
 [[source]]
 mode = "server"
+address = "time1.mbix.ca"
+
+[[source]]
+mode = "server"
+address = "time2.mbix.ca"
+
+[[source]]
+mode = "server"
+address = "time3.mbix.ca"
+
+[[source]]
+mode = "server"
 address = "time.nrc.ca"
 
 [[source]]
@@ -1112,4 +1124,12 @@ address = "ntp2.usno.navy.mil"
 [[source]]
 mode = "server"
 address = "navobs1.wustl.edu"
+
+[[source]]
+mode = "server"
+address = "ntp1.wiktel.com"
+
+[[source]]
+mode = "server"
+address = "ntp2.wiktel.com"
 

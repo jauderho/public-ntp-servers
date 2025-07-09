@@ -148,6 +148,9 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntps1.pads.ufrj.br|AS1553|1|Brazil|Federal University of Rio de Janeiro||
 ||
+|[time1.mbix.ca](https://time1.mbix.ca)|AS395611|1|Canada|Manitoba Internet Exchange||
+|[time2.mbix.ca](https://time2.mbix.ca)|AS395611|1|Canada|Manitoba Internet Exchange||
+|[time3.mbix.ca](https://time3.mbix.ca)|AS395611|1|Canada|Manitoba Internet Exchange||
 |time.nrc.ca|AS573|2|Canada|National Research Council Canada||
 |ntp.qix.ca|AS14086|1|Canada|QiX||
 |ntp1.qix.ca|AS14086|1|Canada|QiX||
@@ -338,6 +341,8 @@ The list is sourced from various public resources and aims to provide configurat
 |tock.usno.navy.mil|AS747|1|US|US Navy||
 |ntp2.usno.navy.mil|AS747|1|US|US Navy||
 |navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
+|[ntp1.wiktel.com](https://ntp1.wiktel.com)|AS33362|1|US|Wikstrom Telephone Company||
+|[ntp2.wiktel.com](https://ntp2.wiktel.com)|AS33362|1|US|Wikstrom Telephone Company||
 
 ## Star History
 <a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">
