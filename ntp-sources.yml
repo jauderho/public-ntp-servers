@@ -1504,6 +1504,13 @@ servers:
   owner: MIT
   notes: ''
   vm: false
+- hostname: time.nist.gov
+  AS: AS49, AS104
+  stratum: 1
+  location: US
+  owner: NIST
+  notes: Anycast
+  vm: false
 - hostname: time-a-g.nist.gov
   AS: AS49, AS104
   stratum: 1
@@ -1526,6 +1533,13 @@ servers:
   notes: ''
   vm: false
 - hostname: time-d-g.nist.gov
+  AS: AS49, AS104
+  stratum: 1
+  location: US
+  owner: NIST
+  notes: ''
+  vm: false
+- hostname: time-e-g.nist.gov
   AS: AS49, AS104
   stratum: 1
   location: US
@@ -1560,6 +1574,13 @@ servers:
   owner: NIST
   notes: ''
   vm: false
+- hostname: time-e-wwv.nist.gov
+  AS: AS49, AS104
+  stratum: 1
+  location: US
+  owner: NIST
+  notes: ''
+  vm: false
 - hostname: time-a-b.nist.gov
   AS: AS49, AS104
   stratum: 1
@@ -1588,28 +1609,7 @@ servers:
   owner: NIST
   notes: ''
   vm: false
-- hostname: time.nist.gov
-  AS: AS49, AS104
-  stratum: 1
-  location: US
-  owner: NIST
-  notes: Anycast
-  vm: false
 - hostname: time-e-b.nist.gov
-  AS: AS49, AS104
-  stratum: 1
-  location: US
-  owner: NIST
-  notes: ''
-  vm: false
-- hostname: time-e-g.nist.gov
-  AS: AS49, AS104
-  stratum: 1
-  location: US
-  owner: NIST
-  notes: ''
-  vm: false
-- hostname: time-e-wwv.nist.gov
   AS: AS49, AS104
   stratum: 1
   location: US
@@ -1645,6 +1645,13 @@ servers:
   notes: Operated by University of Colorado
   vm: false
 - hostname: utcnist2.colorado.edu
+  AS: AS49, AS104
+  stratum: 1
+  location: US
+  owner: NIST
+  notes: Operated by University of Colorado
+  vm: false
+- hostname: utcnist3.colorado.edu
   AS: AS49, AS104
   stratum: 1
   location: US
