@@ -987,6 +987,10 @@ address = "bonehed.lcs.mit.edu"
 
 [[source]]
 mode = "server"
+address = "time.nist.gov"
+
+[[source]]
+mode = "server"
 address = "time-a-g.nist.gov"
 
 [[source]]
@@ -1000,6 +1004,10 @@ address = "time-c-g.nist.gov"
 [[source]]
 mode = "server"
 address = "time-d-g.nist.gov"
+
+[[source]]
+mode = "server"
+address = "time-e-g.nist.gov"
 
 [[source]]
 mode = "server"
@@ -1019,6 +1027,10 @@ address = "time-d-wwv.nist.gov"
 
 [[source]]
 mode = "server"
+address = "time-e-wwv.nist.gov"
+
+[[source]]
+mode = "server"
 address = "time-a-b.nist.gov"
 
 [[source]]
@@ -1035,19 +1047,7 @@ address = "time-d-b.nist.gov"
 
 [[source]]
 mode = "server"
-address = "time.nist.gov"
-
-[[source]]
-mode = "server"
 address = "time-e-b.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-e-g.nist.gov"
-
-[[source]]
-mode = "server"
-address = "time-e-wwv.nist.gov"
 
 [[source]]
 mode = "server"
@@ -1068,6 +1068,10 @@ address = "utcnist.colorado.edu"
 [[source]]
 mode = "server"
 address = "utcnist2.colorado.edu"
+
+[[source]]
+mode = "server"
+address = "utcnist3.colorado.edu"
 
 [[source]]
 mode = "server"

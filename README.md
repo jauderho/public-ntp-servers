@@ -306,27 +306,28 @@ The list is sourced from various public resources and aims to provide configurat
 |clock.fmt.he.net|AS6939|1|US|HE.net|Fremont, CA|
 |clock.nyc.he.net|AS6939|2|US|HE.net|New York City, NY|
 |bonehed.lcs.mit.edu|AS3|1|US|MIT||
+|time.nist.gov|AS49, AS104|1|US|NIST|Anycast|
 |time-a-g.nist.gov|AS49, AS104|1|US|NIST||
 |time-b-g.nist.gov|AS49, AS104|1|US|NIST||
 |time-c-g.nist.gov|AS49, AS104|1|US|NIST||
 |time-d-g.nist.gov|AS49, AS104|1|US|NIST||
+|time-e-g.nist.gov|AS49, AS104|1|US|NIST||
 |time-a-wwv.nist.gov|AS49, AS104|1|US|NIST||
 |time-b-wwv.nist.gov|AS49, AS104|1|US|NIST||
 |time-c-wwv.nist.gov|AS49, AS104|1|US|NIST||
 |time-d-wwv.nist.gov|AS49, AS104|1|US|NIST||
+|time-e-wwv.nist.gov|AS49, AS104|1|US|NIST||
 |time-a-b.nist.gov|AS49, AS104|1|US|NIST||
 |time-b-b.nist.gov|AS49, AS104|1|US|NIST||
 |time-c-b.nist.gov|AS49, AS104|1|US|NIST||
 |time-d-b.nist.gov|AS49, AS104|1|US|NIST||
-|time.nist.gov|AS49, AS104|1|US|NIST|Anycast|
 |time-e-b.nist.gov|AS49, AS104|1|US|NIST||
-|time-e-g.nist.gov|AS49, AS104|1|US|NIST||
-|time-e-wwv.nist.gov|AS49, AS104|1|US|NIST||
 |time-nw.nist.gov|AS49, AS104|1|US|NIST||
 |time-a.nist.gov|AS49, AS104|1|US|NIST||
 |time-b.nist.gov|AS49, AS104|1|US|NIST||
 |utcnist.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
 |utcnist2.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
+|utcnist3.colorado.edu|AS49, AS104|1|US|NIST|Operated by University of Colorado|
 |now.okstate.edu|AS111|1|US|Oklahoma State University||
 |otc1.psu.edu|AS38|Unknown|US|Pennsylvania State University||
 |ntp1.net.berkeley.edu|AS25|1|US|University of California, Berkeley||
