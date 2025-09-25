@@ -38,10 +38,10 @@ The list is sourced from various public resources and aims to provide configurat
 |time.android.com|AS15169|1|Google NTP|Google|Anycast|
 ||
 |time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
-|time0.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
-|time1.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
-|time2.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
-|time3.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|0.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|1.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|2.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|3.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
 ||
 |pool.ntp.org|||NTP global public Pool|pool.ntp.org||
 |0.pool.ntp.org|||NTP global public Pool|pool.ntp.org||
