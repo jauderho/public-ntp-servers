@@ -38,11 +38,26 @@ The list is sourced from various public resources and aims to provide configurat
 |time.android.com|AS15169|1|Google NTP|Google|Anycast|
 ||
 |time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
-|amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
-|0.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
-|1.amazon.pool.ntp.org|AS14618, AS16509, AS399991|1|Amazon NTP|Amazon||
-|2.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
-|3.amazon.pool.ntp.org|AS14618, AS16509, AS399991|2|Amazon NTP|Amazon||
+|0.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|1.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|2.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+|3.time.aws.com|AS14618, AS16509, AS399991|4|Amazon NTP|Amazon|Anycast|
+||
+|pool.ntp.org|||NTP global public Pool|pool.ntp.org||
+|0.pool.ntp.org|||NTP global public Pool|pool.ntp.org||
+|1.pool.ntp.org|||NTP global public Pool|pool.ntp.org||
+|2.pool.ntp.org|||NTP global public Pool|pool.ntp.org||
+|3.pool.ntp.org|||NTP global public Pool|pool.ntp.org||
+|amazon.pool.ntp.org|||NTP public Pool for Amazon|pool.ntp.org||
+|0.amazon.pool.ntp.org|||NTP public Pool for Amazon|pool.ntp.org||
+|1.amazon.pool.ntp.org|||NTP public Pool for Amazon|pool.ntp.org||
+|2.amazon.pool.ntp.org|||NTP public Pool for Amazon|pool.ntp.org||
+|3.amazon.pool.ntp.org|||NTP public Pool for Amazon|pool.ntp.org||
+|ubnt.pool.ntp.org|||NTP public Pool for Ubiquiti Unifi|pool.ntp.org||
+|0.ubnt.pool.ntp.org|||NTP public Pool for Ubiquiti Unifi|pool.ntp.org||
+|1.ubnt.pool.ntp.org|||NTP public Pool for Ubiquiti Unifi|pool.ntp.org||
+|2.ubnt.pool.ntp.org|||NTP public Pool for Ubiquiti Unifi|pool.ntp.org||
+|3.ubnt.pool.ntp.org|||NTP public Pool for Ubiquiti Unifi|pool.ntp.org||
 ||
 |time.cloudflare.com|AS13335|3|Cloudflare NTP|Cloudflare|Anycast|
 ||
