@@ -861,35 +861,35 @@ servers:
   notes: ''
   vm: false
 - hostname: time.nplindia.org
-  AS: Unknown
+  AS: AS55824
   stratum: 1
   location: India
   owner: NPL India
   notes: ''
   vm: false
 - hostname: time.nplindia.in
-  AS: Unknown
+  AS: AS55824
   stratum: 1
   location: India
   owner: NPL India
   notes: ''
   vm: false
 - hostname: samay1.nic.in
-  AS: Unknown
+  AS: AS4758
   stratum: 2
   location: India
   owner: NIC India
   notes: ''
   vm: false
 - hostname: samay2.nic.in
-  AS: Unknown
+  AS: AS4758
   stratum: 2
   location: India
   owner: NIC India
   notes: ''
   vm: false
 - hostname: ntp.iitb.ac.in
-  AS: Unknown
+  AS: AS132423
   stratum: 2
   location: India
   owner: IIT Bombay
