@@ -6,7 +6,7 @@
 This repository lists public NTP (Network Time Protocol) servers.
 The list is sourced from various public resources and aims to provide configuration files for common NTP clients. The initial input for the list comes from the [Gist](https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453) created by [mutin-sa](https://github.com/mutin-sa).
 
-**WARNING:** Server availability and accuracy can vary. Always verify servers before relying on them for critical applications. Visit the companion repo of [NTP servers with NTS support](https://github.com/jauderho/nts-servers/).
+**WARNING:** Server availability and accuracy can vary. Always verify servers before relying on them for critical applications. Visit the companion repsitory of [NTP servers with NTS support](https://github.com/jauderho/nts-servers/).
 
 ## Contribute
 - Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
