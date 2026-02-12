@@ -231,84 +231,84 @@ servers:
   notes: ''
   vm: false
 - hostname: clepsydra.labs.hp.com
-  AS: Unknown
+  AS: AS16509
   stratum: Unknown
   location: DEC/Compaq/HP
   owner: HP
   notes: ''
   vm: false
 - hostname: clepsydra.hpl.hp.com
-  AS: Unknown
+  AS: AS16509
   stratum: Unknown
   location: DEC/Compaq/HP
   owner: HP
   notes: ''
   vm: false
 - hostname: usno.labs.hp.com
-  AS: Unknown
+  AS: AS16509
   stratum: Unknown
   location: DEC/Compaq/HP
   owner: HP
   notes: ''
   vm: false
 - hostname: ntp0.ntp-servers.net
-  AS: Unknown
+  AS: AS8473, AS197540, AS206238, AS209847
   stratum: 2
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp1.ntp-servers.net
-  AS: Unknown
+  AS: AS8359, AS24940, AS41075, AS206238
   stratum: 2
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp2.ntp-servers.net
-  AS: Unknown
+  AS: AS3209, AS5410, AS8560, AS24940
   stratum: 2
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp3.ntp-servers.net
-  AS: Unknown
+  AS: AS16276, AS35540, AS57169, AS216275
   stratum: 1
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp4.ntp-servers.net
-  AS: Unknown
+  AS: AS13335, AS24940, AS43206, AS63949
   stratum: 1
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp5.ntp-servers.net
-  AS: Unknown
+  AS: AS24940, AS63949, AS207841
   stratum: 2
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp6.ntp-servers.net
-  AS: Unknown
+  AS: AS1136, AS1955, AS8560, AS41781
   stratum: 2
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: ntp7.ntp-servers.net
-  AS: Unknown
+  AS: AS43832
   stratum: 2
   location: NTP SERVERS
   owner: ntp-servers.net
   notes: ''
   vm: false
 - hostname: stratum1.net
-  AS: Unknown
+  AS: AS43667
   stratum: 1
   location: stratum1.net
   owner: stratum1.net
@@ -406,7 +406,7 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp.quintex.com
-  AS: Unknown
+  AS: AS62744
   stratum: Unknown
   location: Quintex
   owner: Quintex
@@ -420,14 +420,14 @@ servers:
   notes: ''
   vm: false
 - hostname: tock.usshc.com
-  AS: Unknown
+  AS: AS14935
   stratum: 1
   location: USSHC
   owner: USSHC
   notes: ''
   vm: false
 - hostname: t2.timegps.net
-  AS: Unknown
+  AS: AS7506
   stratum: Unknown
   location: timegps.net
   owner: timegps.net
@@ -469,7 +469,7 @@ servers:
   notes: ''
   vm: false
 - hostname: navobs1.oar.net
-  AS: Unknown
+  AS: AS600
   stratum: 2
   location: oar.net
   owner: oar.net
@@ -490,14 +490,14 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp.your.org
-  AS: Unknown
+  AS: AS19255
   stratum: 1
   location: your.org
   owner: your.org
   notes: ''
   vm: false
 - hostname: ntp.mrow.org
-  AS: Unknown
+  AS: AS19165
   stratum: 1
   location: mrow.org
   owner: mrow.org
@@ -532,7 +532,7 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp.heppen.be
-  AS: Unknown
+  AS: AS16276, AS29066, AS31103, AS33915, AS48408
   stratum: 1
   location: Belgium
   owner: ON5HB Ham-radio users
@@ -638,7 +638,7 @@ servers:
   vm: false
 - hostname: ntp.yycix.ca
   AS: AS396515
-  stratum: Unknown
+  stratum: 2
   location: Canada
   owner: YYCIX
   notes: ''
@@ -735,7 +735,7 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp.dianacht.de
-  AS: Unknown
+  AS: AS24940
   stratum: 2
   location: Germany
   owner: dianacht.de
@@ -861,35 +861,35 @@ servers:
   notes: ''
   vm: false
 - hostname: time.nplindia.org
-  AS: Unknown
+  AS: AS55824
   stratum: 1
   location: India
   owner: NPL India
   notes: ''
   vm: false
 - hostname: time.nplindia.in
-  AS: Unknown
+  AS: AS55824
   stratum: 1
   location: India
   owner: NPL India
   notes: ''
   vm: false
 - hostname: samay1.nic.in
-  AS: Unknown
+  AS: AS4758
   stratum: 2
   location: India
   owner: NIC India
   notes: ''
   vm: false
 - hostname: samay2.nic.in
-  AS: Unknown
+  AS: AS4758
   stratum: 2
   location: India
   owner: NIC India
   notes: ''
   vm: false
 - hostname: ntp.iitb.ac.in
-  AS: Unknown
+  AS: AS132423
   stratum: 2
   location: India
   owner: IIT Bombay
@@ -980,8 +980,8 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp.lcf.mx
-  AS: Unknown
-  stratum: Unknown
+  AS: AS28548
+  stratum: 15
   location: Mexico
   owner: lcf.mx
   notes: ''
@@ -1099,28 +1099,28 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp1.stratum1.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: stratum1.ru
   notes: ''
   vm: false
 - hostname: ntp2.stratum1.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: stratum1.ru
   notes: ''
   vm: false
 - hostname: ntp3.stratum1.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: stratum1.ru
   notes: ''
   vm: false
 - hostname: ntp4.stratum1.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: stratum1.ru
@@ -1134,35 +1134,35 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp1.stratum2.ru
-  AS: Unknown
+  AS: AS9123, AS25515, AS48347, AS200350
   stratum: 2
   location: Russia
   owner: stratum2.ru
   notes: "\u041C\u043E\u0441\u043A\u0432\u0430"
   vm: false
 - hostname: ntp2.stratum2.ru
-  AS: Unknown
+  AS: AS8334, AS12389, AS13238, AS47764
   stratum: 2
   location: Russia
   owner: stratum2.ru
   notes: ''
   vm: false
 - hostname: ntp3.stratum2.ru
-  AS: Unknown
+  AS: AS8342, AS9123, AS12695, AS12714
   stratum: 2
   location: Russia
   owner: stratum2.ru
   notes: ''
   vm: false
 - hostname: ntp4.stratum2.ru
-  AS: Unknown
+  AS: AS3216, AS6863, AS202984, AS215314
   stratum: 2
   location: Russia
   owner: stratum2.ru
   notes: ''
   vm: false
 - hostname: ntp5.stratum2.ru
-  AS: Unknown
+  AS: AS3216, AS13335, AS48642, AS58002
   stratum: 2
   location: Russia
   owner: stratum2.ru
@@ -1170,76 +1170,76 @@ servers:
   vm: false
 - hostname: ntp.fiord.ru
   AS: AS28917
-  stratum: Unknown
+  stratum: 2
   location: Russia
   owner: TRC Fiord
   notes: ''
   vm: false
 - hostname: ntp1.vniiftri.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp2.vniiftri.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp3.vniiftri.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp4.vniiftri.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp.sstf.nsk.ru
-  AS: Unknown
+  AS: AS43478
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp1.niiftri.irkutsk.ru
-  AS: Unknown
+  AS: AS5547
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp2.niiftri.irkutsk.ru
-  AS: Unknown
+  AS: AS5547
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: vniiftri.khv.ru
-  AS: Unknown
+  AS: AS8749
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: vniiftri2.khv.ru
-  AS: Unknown
+  AS: AS8749
   stratum: 1
   location: Russia
   owner: VNIIFTRI
   notes: ''
   vm: false
 - hostname: ntp21.vniiftri.ru
-  AS: Unknown
+  AS: AS25515
   stratum: 2
   location: Russia
   owner: VNIIFTRI
@@ -1260,14 +1260,14 @@ servers:
   notes: ''
   vm: false
 - hostname: tick.espanix.net
-  AS: Unknown
+  AS: AS215424
   stratum: 1
   location: Spain
   owner: Espanix
   notes: ''
   vm: false
 - hostname: tock.espanix.net
-  AS: Unknown
+  AS: AS215424
   stratum: 1
   location: Spain
   owner: Espanix
@@ -1344,77 +1344,77 @@ servers:
   notes: Anycast
   vm: false
 - hostname: time1.stupi.se
-  AS: Unknown
-  stratum: Unknown
+  AS: AS1880
+  stratum: 1
   location: Sweden
   owner: stupi.se
   notes: ''
   vm: false
 - hostname: '[ntp.neel.ch](https://ntp.neel.ch)'
   AS: AS34569
-  stratum: Unknown
+  stratum: 1
   location: Switzerland
   owner: Neel Engineering
   notes: ''
   vm: false
 - hostname: '[eshail.batc.org.uk](https://eshail.batc.org.uk)'
-  AS: Unknown
+  AS: AS51048
   stratum: 1
   location: UK
   owner: BATC
   notes: ''
   vm: false
 - hostname: ntp5.leontp.com
-  AS: Unknown
+  AS: AS61337
   stratum: 1
   location: UK
   owner: Leo Bodnar
   notes: ''
   vm: false
 - hostname: ntp6.leontp.com
-  AS: Unknown
+  AS: AS61337
   stratum: 1
   location: UK
   owner: Leo Bodnar
   notes: ''
   vm: false
 - hostname: ntp7.leontp.com
-  AS: Unknown
+  AS: AS61337
   stratum: 1
   location: UK
   owner: Leo Bodnar
   notes: ''
   vm: false
 - hostname: ntp8.leontp.com
-  AS: Unknown
+  AS: AS61337
   stratum: 1
   location: UK
   owner: Leo Bodnar
   notes: ''
   vm: false
 - hostname: ntp9.leontp.com
-  AS: Unknown
+  AS: AS61337
   stratum: 1
   location: UK
   owner: Leo Bodnar
   notes: ''
   vm: false
 - hostname: ntp1.dmz.terryburton.co.uk
-  AS: Unknown
+  AS: AS20712
   stratum: 1
   location: UK
   owner: Terry Burton
   notes: ''
   vm: false
 - hostname: ntp2.dmz.terryburton.co.uk
-  AS: Unknown
+  AS: AS20712
   stratum: 1
   location: UK
   owner: Terry Burton
   notes: ''
   vm: false
 - hostname: '[ntp.theitman.uk](https://ntp.theitman.uk)'
-  AS: Unknown
+  AS: AS212655
   stratum: 1
   location: UK
   owner: TheITMan
@@ -1428,21 +1428,21 @@ servers:
   notes: ''
   vm: false
 - hostname: ntp.time.in.ua
-  AS: Unknown
+  AS: AS15497
   stratum: 1
   location: Ukraine
   owner: time.in.ua
   notes: ''
   vm: false
 - hostname: ntp2.time.in.ua
-  AS: Unknown
+  AS: AS15497
   stratum: 1
   location: Ukraine
   owner: time.in.ua
   notes: ''
   vm: false
 - hostname: ntp3.time.in.ua
-  AS: Unknown
+  AS: AS15497
   stratum: 2
   location: Ukraine
   owner: time.in.ua
