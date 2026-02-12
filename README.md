@@ -69,20 +69,20 @@ The list is sourced from various public resources and aims to provide configurat
 |time.asia.apple.com|AS714, AS6185|1|Apple NTP|Apple|Asia|
 ||
 |clepsydra.dec.com|Unknown|Unknown|DEC/Compaq/HP|HP||
-|clepsydra.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
-|clepsydra.hpl.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
-|usno.labs.hp.com|Unknown|Unknown|DEC/Compaq/HP|HP||
+|clepsydra.labs.hp.com|AS16509|Unknown|DEC/Compaq/HP|HP||
+|clepsydra.hpl.hp.com|AS16509|Unknown|DEC/Compaq/HP|HP||
+|usno.labs.hp.com|AS16509|Unknown|DEC/Compaq/HP|HP||
 ||
-|ntp0.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp1.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp2.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp3.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
-|ntp4.ntp-servers.net|Unknown|1|NTP SERVERS|ntp-servers.net||
-|ntp5.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp6.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
-|ntp7.ntp-servers.net|Unknown|2|NTP SERVERS|ntp-servers.net||
+|ntp0.ntp-servers.net|AS8473, AS197540, AS206238, AS209847|2|NTP SERVERS|ntp-servers.net||
+|ntp1.ntp-servers.net|AS8359, AS24940, AS41075, AS206238|2|NTP SERVERS|ntp-servers.net||
+|ntp2.ntp-servers.net|AS3209, AS5410, AS8560, AS24940|2|NTP SERVERS|ntp-servers.net||
+|ntp3.ntp-servers.net|AS16276, AS35540, AS57169, AS216275|1|NTP SERVERS|ntp-servers.net||
+|ntp4.ntp-servers.net|AS13335, AS24940, AS43206, AS63949|1|NTP SERVERS|ntp-servers.net||
+|ntp5.ntp-servers.net|AS24940, AS63949, AS207841|2|NTP SERVERS|ntp-servers.net||
+|ntp6.ntp-servers.net|AS1136, AS1955, AS8560, AS41781|2|NTP SERVERS|ntp-servers.net||
+|ntp7.ntp-servers.net|AS43832|2|NTP SERVERS|ntp-servers.net||
 ||
-|stratum1.net|Unknown|1|stratum1.net|stratum1.net||
+|stratum1.net|AS43667|1|stratum1.net|stratum1.net||
 ||
 |ts1.aco.net|AS1853|1|ACO.net|ACO.net||
 |ts2.aco.net|AS1853|1|ACO.net|ACO.net||
@@ -106,13 +106,13 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |nist1.symmetricom.com|AS3608|1|Microchip|Microchip||
 ||
-|ntp.quintex.com|Unknown|Unknown|Quintex|Quintex||
+|ntp.quintex.com|AS62744|Unknown|Quintex|Quintex||
 ||
 |ntp1.conectiv.com|AS16069|Unknown|Conectiv|Conectiv||
 ||
-|tock.usshc.com|Unknown|1|USSHC|USSHC||
+|tock.usshc.com|AS14935|1|USSHC|USSHC||
 ||
-|t2.timegps.net|Unknown|Unknown|timegps.net|timegps.net||
+|t2.timegps.net|AS7506|Unknown|timegps.net|timegps.net||
 ||
 |gps.layer42.net|AS11491|Unknown|Layer42|Layer42||
 ||
@@ -123,15 +123,15 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp0.nl.uu.net|AS8283|1|KPN|KPN International Carrier||
 |ntp1.nl.uu.net|AS8283|1|KPN|KPN International Carrier||
 ||
-|navobs1.oar.net|Unknown|2|oar.net|oar.net||
+|navobs1.oar.net|AS600|2|oar.net|oar.net||
 ||
 |ntp-galway.hea.net|AS1213|2|HEAnet|HEAnet|Galway|
 ||
 |ntp1.ona.org|Unknown|Unknown|ona.org|ona.org||
 ||
-|ntp.your.org|Unknown|1|your.org|your.org||
+|ntp.your.org|AS19255|1|your.org|your.org||
 ||
-|ntp.mrow.org|Unknown|1|mrow.org|mrow.org||
+|ntp.mrow.org|AS19165|1|mrow.org|mrow.org||
 ||
 |ntp.ubuntu.com|AS201815|2|Ubuntu|Canonical|Anycast|
 ||
@@ -141,7 +141,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.i2t.ehu.eus|AS2110|1|Basque Country|University of the Basque Country (EHU)||
 ||
-|ntp.heppen.be|Unknown|1|Belgium|ON5HB Ham-radio users||
+|ntp.heppen.be|AS16276, AS29066, AS31103, AS33915, AS48408|1|Belgium|ON5HB Ham-radio users||
 |ntp1.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
 |ntp2.oma.be|AS5400|1|Belgium|Royal Observatory of Belgium||
 |ntp.teambelgium.net|AS5432|1|Belgium|Team Belgium||
@@ -158,7 +158,7 @@ The list is sourced from various public resources and aims to provide configurat
 |clock.uregina.ca|AS641|1|Canada|University of Regina||
 |tick.usask.ca|AS22950|1|Canada|University of Saskatchewan||
 |tock.usask.ca|AS22950|1|Canada|University of Saskatchewan||
-|ntp.yycix.ca|AS396515|Unknown|Canada|YYCIX||
+|ntp.yycix.ca|AS396515|2|Canada|YYCIX||
 ||
 |ntp.shoa.cl|AS16299|1|Chile|Hydrographic and Oceanographic Service of the Chilean Navy||
 ||
@@ -178,7 +178,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.viarouge.net|AS207288|2|France|Hubert Viarouge||
 ||
-|ntp.dianacht.de|Unknown|2|Germany|dianacht.de||
+|ntp.dianacht.de|AS24940|2|Germany|dianacht.de||
 |time.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
 |zeit.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
 |ntp1.hetzner.de|AS24940|2|Germany|Hetzner Online||
@@ -199,11 +199,11 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.atomki.mta.hu|AS197038|2|Hungary|ATOMKI||
 ||
-|time.nplindia.org|Unknown|1|India|NPL India||
-|time.nplindia.in|Unknown|1|India|NPL India||
-|samay1.nic.in|Unknown|2|India|NIC India||
-|samay2.nic.in|Unknown|2|India|NIC India||
-|ntp.iitb.ac.in|Unknown|2|India|IIT Bombay||
+|time.nplindia.org|AS55824|1|India|NPL India||
+|time.nplindia.in|AS55824|1|India|NPL India||
+|samay1.nic.in|AS4758|2|India|NIC India||
+|samay2.nic.in|AS4758|2|India|NIC India||
+|ntp.iitb.ac.in|AS132423|2|India|IIT Bombay||
 ||
 |time.esa.int|AS15559|1|International|European Space Agency||
 |time1.esa.int|AS15559|1|International|European Space Agency||
@@ -221,7 +221,7 @@ The list is sourced from various public resources and aims to provide configurat
 |y.ns.gin.ntt.net|AS2914|2|Japan|NTT||
 ||
 |cronos.cenam.mx|AS8017|1|Mexico|CENAM||
-|ntp.lcf.mx|Unknown|Unknown|Mexico|lcf.mx||
+|ntp.lcf.mx|AS28548|15|Mexico|lcf.mx||
 ||
 |ntp.time.nl|AS1140|1|Netherlands|SIDN Labs|ntp1.time.nl|
 |ntppool1.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
@@ -242,32 +242,32 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.ix.ru|AS43832|1|Russia|MSK-IX||
 |ntp.nsu.ru|AS3335|2|Russia|Novosibirsk State University||
 |ntp.rsu.edu.ru|AS47124|1|Russia|Rostov State University||
-|ntp1.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp2.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp3.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp4.stratum1.ru|Unknown|1|Russia|stratum1.ru||
+|ntp1.stratum1.ru|AS25515|1|Russia|stratum1.ru||
+|ntp2.stratum1.ru|AS25515|1|Russia|stratum1.ru||
+|ntp3.stratum1.ru|AS25515|1|Russia|stratum1.ru||
+|ntp4.stratum1.ru|AS25515|1|Russia|stratum1.ru||
 |ntp5.stratum1.ru|Unknown|1|Russia|stratum1.ru||
-|ntp1.stratum2.ru|Unknown|2|Russia|stratum2.ru|Москва|
-|ntp2.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp3.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp4.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp5.stratum2.ru|Unknown|2|Russia|stratum2.ru||
-|ntp.fiord.ru|AS28917|Unknown|Russia|TRC Fiord||
-|ntp1.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp2.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp3.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp4.vniiftri.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp.sstf.nsk.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp1.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp2.niiftri.irkutsk.ru|Unknown|1|Russia|VNIIFTRI||
-|vniiftri.khv.ru|Unknown|1|Russia|VNIIFTRI||
-|vniiftri2.khv.ru|Unknown|1|Russia|VNIIFTRI||
-|ntp21.vniiftri.ru|Unknown|2|Russia|VNIIFTRI||
+|ntp1.stratum2.ru|AS9123, AS25515, AS48347, AS200350|2|Russia|stratum2.ru|Москва|
+|ntp2.stratum2.ru|AS8334, AS12389, AS13238, AS47764|2|Russia|stratum2.ru||
+|ntp3.stratum2.ru|AS8342, AS9123, AS12695, AS12714|2|Russia|stratum2.ru||
+|ntp4.stratum2.ru|AS3216, AS6863, AS202984, AS215314|2|Russia|stratum2.ru||
+|ntp5.stratum2.ru|AS3216, AS13335, AS48642, AS58002|2|Russia|stratum2.ru||
+|ntp.fiord.ru|AS28917|2|Russia|TRC Fiord||
+|ntp1.vniiftri.ru|AS25515|1|Russia|VNIIFTRI||
+|ntp2.vniiftri.ru|AS25515|1|Russia|VNIIFTRI||
+|ntp3.vniiftri.ru|AS25515|1|Russia|VNIIFTRI||
+|ntp4.vniiftri.ru|AS25515|1|Russia|VNIIFTRI||
+|ntp.sstf.nsk.ru|AS43478|1|Russia|VNIIFTRI||
+|ntp1.niiftri.irkutsk.ru|AS5547|1|Russia|VNIIFTRI||
+|ntp2.niiftri.irkutsk.ru|AS5547|1|Russia|VNIIFTRI||
+|vniiftri.khv.ru|AS8749|1|Russia|VNIIFTRI||
+|vniiftri2.khv.ru|AS8749|1|Russia|VNIIFTRI||
+|ntp21.vniiftri.ru|AS25515|2|Russia|VNIIFTRI||
 ||
 |hora.roa.es|AS31007|1|Spain|ROA||
 |minuto.roa.es|AS31007|1|Spain|ROA||
-|tick.espanix.net|Unknown|1|Spain|Espanix||
-|tock.espanix.net|Unknown|1|Spain|Espanix||
+|tick.espanix.net|AS215424|1|Spain|Espanix||
+|tock.espanix.net|AS215424|1|Spain|Espanix||
 ||
 |timehost.lysator.liu.se|AS1653|Unknown|Sweden|Academic Computer Club Lysator||
 |gbg1.ntp.se|AS57021|1|Sweden|Netnod|Göteborg|
@@ -279,24 +279,24 @@ The list is sourced from various public resources and aims to provide configurat
 |svl1.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
 |svl2.ntp.se|AS57021|1|Sweden|Netnod|Sundsvall|
 |ntp.se|AS57021|1|Sweden|Netnod|Anycast|
-|time1.stupi.se|Unknown|Unknown|Sweden|stupi.se||
+|time1.stupi.se|AS1880|1|Sweden|stupi.se||
 ||
-|[ntp.neel.ch](https://ntp.neel.ch)|AS34569|Unknown|Switzerland|Neel Engineering||
+|[ntp.neel.ch](https://ntp.neel.ch)|AS34569|1|Switzerland|Neel Engineering||
 ||
-|[eshail.batc.org.uk](https://eshail.batc.org.uk)|Unknown|1|UK|BATC||
-|ntp5.leontp.com|Unknown|1|UK|Leo Bodnar||
-|ntp6.leontp.com|Unknown|1|UK|Leo Bodnar||
-|ntp7.leontp.com|Unknown|1|UK|Leo Bodnar||
-|ntp8.leontp.com|Unknown|1|UK|Leo Bodnar||
-|ntp9.leontp.com|Unknown|1|UK|Leo Bodnar||
-|ntp1.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
-|ntp2.dmz.terryburton.co.uk|Unknown|1|UK|Terry Burton||
-|[ntp.theitman.uk](https://ntp.theitman.uk)|Unknown|1|UK|TheITMan||
+|[eshail.batc.org.uk](https://eshail.batc.org.uk)|AS51048|1|UK|BATC||
+|ntp5.leontp.com|AS61337|1|UK|Leo Bodnar||
+|ntp6.leontp.com|AS61337|1|UK|Leo Bodnar||
+|ntp7.leontp.com|AS61337|1|UK|Leo Bodnar||
+|ntp8.leontp.com|AS61337|1|UK|Leo Bodnar||
+|ntp9.leontp.com|AS61337|1|UK|Leo Bodnar||
+|ntp1.dmz.terryburton.co.uk|AS20712|1|UK|Terry Burton||
+|ntp2.dmz.terryburton.co.uk|AS20712|1|UK|Terry Burton||
+|[ntp.theitman.uk](https://ntp.theitman.uk)|AS212655|1|UK|TheITMan||
 |timekeeper.webwiz.net|AS44929|1|UK|Web Wiz||
 ||
-|ntp.time.in.ua|Unknown|1|Ukraine|time.in.ua||
-|ntp2.time.in.ua|Unknown|1|Ukraine|time.in.ua||
-|ntp3.time.in.ua|Unknown|2|Ukraine|time.in.ua||
+|ntp.time.in.ua|AS15497|1|Ukraine|time.in.ua||
+|ntp2.time.in.ua|AS15497|1|Ukraine|time.in.ua||
+|ntp3.time.in.ua|AS15497|2|Ukraine|time.in.ua||
 ||
 |ntp.colby.edu|AS10566|Unknown|US|Colby College||
 |gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
