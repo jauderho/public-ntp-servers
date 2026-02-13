@@ -314,14 +314,14 @@ def write_yaml_with_formatting(content: dict, output_path: Path) -> None:
     # Add newlines between server entries for readability
     lines = yaml_str.split('\n')
     formatted_lines = []
-    
+    first_hostname = True
+
     for i, line in enumerate(lines):
+        if line.strip().startswith('- hostname:'):
+            if not first_hostname:
+                formatted_lines.append('')
+            first_hostname = False
         formatted_lines.append(line)
-        # Add blank line after 'vm: false' (end of server entry)
-        if (line.strip().startswith('vm:') and 
-            i < len(lines) - 1 and 
-            lines[i + 1].strip().startswith('- hostname:')):
-            formatted_lines.append('')
     
     output_path.write_text('\n'.join(formatted_lines), encoding='utf-8')
 

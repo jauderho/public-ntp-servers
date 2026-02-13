@@ -170,6 +170,39 @@ def get_stratum(hostname):
         logger.error(f"Error getting stratum for {hostname}: {e}")
         return None
 
+def write_yaml_with_formatting(data, filepath):
+    """Write YAML with proper formatting including newlines between entries."""
+    def str_presenter(dumper, data):
+        if '\n' in data:
+            return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
+        return dumper.represent_scalar('tag:yaml.org,2002:str', data)
+
+    yaml.add_representer(str, str_presenter)
+
+    yaml_str = yaml.dump(
+        data,
+        default_flow_style=False,
+        sort_keys=False,
+        allow_unicode=True,
+        width=1000,
+        indent=2
+    )
+
+    lines = yaml_str.split('\n')
+    formatted_lines = []
+    first_hostname = True
+
+    for i, line in enumerate(lines):
+        if line.strip().startswith('- hostname:'):
+            if not first_hostname:
+                formatted_lines.append('')
+            first_hostname = False
+        formatted_lines.append(line)
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(formatted_lines))
+
+
 def update_ntp_sources(yaml_file, dry_run=False):
     """
     Update NTP sources YAML file with AS numbers and stratum information
@@ -295,8 +328,7 @@ def update_ntp_sources(yaml_file, dry_run=False):
             logger.info(f"Created backup: {backup_file}")
             
             # Write updated data
-            with open(yaml_file, 'w') as f:
-                yaml.dump(data, f, default_flow_style=False, sort_keys=False, indent=2)
+            write_yaml_with_formatting(data, yaml_file)
             
             logger.info(f"Updated {yaml_file}")
             logger.info(f"Applied {len(changes_made)} changes:")
