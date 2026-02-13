@@ -15,6 +15,38 @@ def extract_hostname(hostname_field):
             return match.group(1)
     return hostname_field
 
+def write_yaml_with_formatting(data, filepath):
+    """Write YAML with proper formatting including newlines between entries."""
+    def str_presenter(dumper, data):
+        if '\n' in data:
+            return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
+        return dumper.represent_scalar('tag:yaml.org,2002:str', data)
+
+    yaml.add_representer(str, str_presenter)
+
+    yaml_str = yaml.dump(
+        data,
+        default_flow_style=False,
+        sort_keys=False,
+        allow_unicode=True,
+        width=1000,
+        indent=2
+    )
+
+    lines = yaml_str.split('\n')
+    formatted_lines = []
+    first_hostname = True
+
+    for i, line in enumerate(lines):
+        if line.strip().startswith('- hostname:'):
+            if not first_hostname:
+                formatted_lines.append('')
+            first_hostname = False
+        formatted_lines.append(line)
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(formatted_lines))
+
 def get_stratum(hostname):
     client = ntplib.NTPClient()
     try:
@@ -96,8 +128,7 @@ def main():
                     print(f"  Could not determine AS for {hostname}")
 
     if updated:
-        with open(yaml_file, 'w') as f:
-            yaml.dump(data, f, default_flow_style=False, sort_keys=False, indent=2)
+        write_yaml_with_formatting(data, yaml_file)
         print(f"\nSuccessfully updated {yaml_file}")
     else:
         print("\nNo updates were made.")
