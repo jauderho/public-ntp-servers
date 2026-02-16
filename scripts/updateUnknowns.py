@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "ntplib>=0.4.0",
+# ]
+# ///
 import yaml
 import ntplib
 import socket
