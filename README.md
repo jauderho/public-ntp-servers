@@ -165,8 +165,8 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|China|Chinese Academy of Sciences||
 |ntp.neu.edu.cn|AS4538|Unknown|China|Northeastern University||
 ||
-|time1.ntp.hr|AS49932|1|Croatia|CARNET||
-|time2.ntp.hr|AS49932|1|Croatia|CARNET||
+|time1.ntp.hr|AS49932|1|Croatia|UNIZG-FER-REMLAB||
+|time2.ntp.hr|AS49932|1|Croatia|UNIZG-FER-REMLAB||
 |os.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |ri.ntp.carnet.hr|AS49932|2|Croatia|CARNET||
 |st.ntp.carnet.hr|AS49932|2|Croatia|CARNET||

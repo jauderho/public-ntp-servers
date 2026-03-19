@@ -763,7 +763,7 @@ servers:
   AS: AS49932
   stratum: 1
   location: Croatia
-  owner: CARNET
+  owner: UNIZG-FER-REMLAB
   notes: ''
   vm: false
 
@@ -771,7 +771,7 @@ servers:
   AS: AS49932
   stratum: 1
   location: Croatia
-  owner: CARNET
+  owner: UNIZG-FER-REMLAB
   notes: ''
   vm: false
 
