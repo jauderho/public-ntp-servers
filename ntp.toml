@@ -461,6 +461,10 @@ address = "ntp.ntsc.ac.cn"
 mode = "server"
 address = "ntp.neu.edu.cn"
 
+[[source]]
+mode = "server"
+address = "ntp1.neu.edu.cn"
+
 
 # Croatia
 [[source]]

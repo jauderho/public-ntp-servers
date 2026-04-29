@@ -164,7 +164,8 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp.shoa.cl|AS16299|1|Chile|Hydrographic and Oceanographic Service of the Chilean Navy||
 ||
 |ntp.ntsc.ac.cn|AS4808, AS9808, AS23724|2|China|Chinese Academy of Sciences||
-|ntp.neu.edu.cn|AS4538|Unknown|China|Northeastern University||
+|ntp.neu.edu.cn|AS4538|1|China|[Northeastern University](https://www.neu.edu.cn)||
+|ntp1.neu.edu.cn|AS4538|1|China|[Northeastern University](https://www.neu.edu.cn)||
 ||
 |time1.ntp.hr|AS49932|1|Croatia|UNIZG-FER-REMLAB||
 |time2.ntp.hr|AS49932|1|Croatia|UNIZG-FER-REMLAB||
