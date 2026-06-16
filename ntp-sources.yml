@@ -753,9 +753,17 @@ servers:
 
 - hostname: ntp.neu.edu.cn
   AS: AS4538
-  stratum: Unknown
+  stratum: 1
   location: China
-  owner: Northeastern University
+  owner: "[Northeastern University](https://www.neu.edu.cn)"
+  notes: ''
+  vm: false
+
+- hostname: ntp1.neu.edu.cn
+  AS: AS4538
+  stratum: 1
+  location: China
+  owner: "[Northeastern University](https://www.neu.edu.cn)"
   notes: ''
   vm: false
 
