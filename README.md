@@ -225,9 +225,10 @@ The list is sourced from various public resources and aims to provide configurat
 |cronos.cenam.mx|AS8017|1|Mexico|CENAM||
 |ntp.lcf.mx|AS28548|15|Mexico|lcf.mx||
 ||
-|ntp.time.nl|AS1140|1|Netherlands|SIDN Labs|ntp1.time.nl|
-|ntppool1.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
-|ntppool2.time.nl|AS1140|1|Netherlands|SIDN Labs|Preferred|
+|ntppool1.time.nl|AS1140|1|Netherlands|[TimeNL](https://time.nl)|Part of ntppool.time.nl|
+|ntppool2.time.nl|AS1140|1|Netherlands|[TimeNL](https://time.nl)|Part of ntppool.time.nl|
+|ntppool3.time.nl|AS215088|1|Netherlands|[TimeNL](https://time.nl)|Part of ntppool.time.nl|
+|ntppool4.time.nl|AS215088|1|Netherlands|[TimeNL](https://time.nl)|Part of ntppool.time.nl|
 |chime1.surfnet.nl|AS1103|1|Netherlands|SURFnet||
 |ntp.vsl.nl|AS34929|1|Netherlands|VSL||
 ||
@@ -346,6 +347,13 @@ The list is sourced from various public resources and aims to provide configurat
 |navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
 |[ntp1.wiktel.com](https://ntp1.wiktel.com)|AS33362|1|US|Wikstrom Telephone Company||
 |[ntp2.wiktel.com](https://ntp2.wiktel.com)|AS33362|1|US|Wikstrom Telephone Company||
+
+
+The following servers are known to be virtualized and may be less accurate. YMMV.
+
+|Hostname|AS|Stratum|Location|Owner|Notes|
+|---|---|:---:|---|---|---|
+|any.time.nl|AS210004|2|Global|[TimeNL](https://time.nl)|Anycast|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">
