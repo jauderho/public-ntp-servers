@@ -511,6 +511,10 @@ address = "time.ufe.cz"
 mode = "server"
 address = "ntp.viarouge.net"
 
+[[source]]
+mode = "server"
+address = "ntp-0-hq.rdem-systems.com"
+
 
 # Germany
 [[source]]
@@ -536,6 +540,10 @@ address = "ntp2.hetzner.de"
 [[source]]
 mode = "server"
 address = "ntp3.hetzner.de"
+
+[[source]]
+mode = "server"
+address = "ntp7.rdem-systems.com"
 
 [[source]]
 mode = "server"
@@ -1140,4 +1148,50 @@ address = "ntp1.wiktel.com"
 [[source]]
 mode = "server"
 address = "ntp2.wiktel.com"
+
+
+# Known VM servers (may be less accurate)
+[[source]]
+mode = "server"
+address = "ntp1.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp2.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp3.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp4.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp5.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp6.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp8.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp9.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp10.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp11.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp12.rdem-systems.com"
 
