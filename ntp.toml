@@ -677,15 +677,19 @@ address = "ntp.lcf.mx"
 # Netherlands
 [[source]]
 mode = "server"
-address = "ntp.time.nl"
-
-[[source]]
-mode = "server"
 address = "ntppool1.time.nl"
 
 [[source]]
 mode = "server"
 address = "ntppool2.time.nl"
+
+[[source]]
+mode = "server"
+address = "ntppool3.time.nl"
+
+[[source]]
+mode = "server"
+address = "ntppool4.time.nl"
 
 [[source]]
 mode = "server"
@@ -1140,4 +1144,10 @@ address = "ntp1.wiktel.com"
 [[source]]
 mode = "server"
 address = "ntp2.wiktel.com"
+
+
+# Known VM servers (may be less accurate)
+[[source]]
+mode = "server"
+address = "any.time.nl"
 
