@@ -847,6 +847,102 @@ servers:
   notes: ''
   vm: false
 
+- hostname: ntp-0-hq.rdem-systems.com
+  AS: AS12322
+  stratum: 1
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: GPS/PPS refclock, IPv4 only
+  vm: false
+
+- hostname: ntp1.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA4, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp2.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA4, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp3.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA3, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp4.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA3, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp5.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA5, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp6.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA5, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp8.rdem-systems.com
+  AS: AS206014
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA5, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp9.rdem-systems.com
+  AS: AS1299
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA4, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp10.rdem-systems.com
+  AS: AS29075
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Equinix PA3, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp11.rdem-systems.com
+  AS: AS199275
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: TH2 Paris, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp12.rdem-systems.com
+  AS: AS51167
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Lauterbourg, NTS, IPv4 and IPv6
+  vm: true
+
 - hostname: ntp.dianacht.de
   AS: AS24940
   stratum: 2
@@ -893,6 +989,14 @@ servers:
   location: Germany
   owner: Hetzner Online
   notes: ''
+  vm: false
+
+- hostname: ntp7.rdem-systems.com
+  AS: AS16276
+  stratum: 2
+  location: Germany
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: Frankfurt area, NTS, IPv4 and IPv6
   vm: false
 
 - hostname: ptbtime1.ptb.de
