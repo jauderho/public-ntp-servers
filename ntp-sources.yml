@@ -647,6 +647,30 @@ servers:
   notes: ''
   vm: false
 
+- hostname: ntp.yul.canix.ca
+  AS: AS14086
+  stratum: 1
+  location: Canada
+  owner: CANIX
+  notes: Montreal
+  vm: false
+
+- hostname: ntp1.yul.canix.ca
+  AS: AS14086
+  stratum: 1
+  location: Canada
+  owner: CANIX
+  notes: Montreal
+  vm: false
+
+- hostname: ntp2.yul.canix.ca
+  AS: AS14086
+  stratum: 1
+  location: Canada
+  owner: CANIX
+  notes: Montreal
+  vm: false
+
 - hostname: '[time1.mbix.ca](https://time1.mbix.ca)'
   AS: AS395611
   stratum: 1
@@ -676,30 +700,6 @@ servers:
   stratum: 2
   location: Canada
   owner: National Research Council Canada
-  notes: ''
-  vm: false
-
-- hostname: ntp.qix.ca
-  AS: AS14086
-  stratum: 1
-  location: Canada
-  owner: QiX
-  notes: ''
-  vm: false
-
-- hostname: ntp1.qix.ca
-  AS: AS14086
-  stratum: 1
-  location: Canada
-  owner: QiX
-  notes: ''
-  vm: false
-
-- hostname: ntp2.qix.ca
-  AS: AS14086
-  stratum: 1
-  location: Canada
-  owner: QiX
   notes: ''
   vm: false
 

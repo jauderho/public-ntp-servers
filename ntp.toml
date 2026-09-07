@@ -403,6 +403,18 @@ address = "ntps1.pads.ufrj.br"
 # Canada
 [[source]]
 mode = "server"
+address = "ntp.yul.canix.ca"
+
+[[source]]
+mode = "server"
+address = "ntp1.yul.canix.ca"
+
+[[source]]
+mode = "server"
+address = "ntp2.yul.canix.ca"
+
+[[source]]
+mode = "server"
 address = "time1.mbix.ca"
 
 [[source]]
@@ -416,18 +428,6 @@ address = "time3.mbix.ca"
 [[source]]
 mode = "server"
 address = "time.nrc.ca"
-
-[[source]]
-mode = "server"
-address = "ntp.qix.ca"
-
-[[source]]
-mode = "server"
-address = "ntp1.qix.ca"
-
-[[source]]
-mode = "server"
-address = "ntp2.qix.ca"
 
 [[source]]
 mode = "server"
