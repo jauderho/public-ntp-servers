@@ -1135,29 +1135,45 @@ servers:
   notes: ''
   vm: false
 
-- hostname: ntp.time.nl
-  AS: AS1140
-  stratum: 1
-  location: Netherlands
-  owner: SIDN Labs
-  notes: ntp1.time.nl
-  vm: false
-
 - hostname: ntppool1.time.nl
   AS: AS1140
   stratum: 1
   location: Netherlands
-  owner: SIDN Labs
-  notes: Preferred
+  owner: '[TimeNL](https://time.nl)'
+  notes: Part of ntppool.time.nl
   vm: false
 
 - hostname: ntppool2.time.nl
   AS: AS1140
   stratum: 1
   location: Netherlands
-  owner: SIDN Labs
-  notes: Preferred
+  owner: '[TimeNL](https://time.nl)'
+  notes: Part of ntppool.time.nl
   vm: false
+  
+- hostname: ntppool3.time.nl
+  AS: AS215088
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://time.nl)'
+  notes: Part of ntppool.time.nl
+  vm: false
+
+- hostname: ntppool4.time.nl
+  AS: AS215088
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://time.nl)'
+  notes: Part of ntppool.time.nl
+  vm: false
+
+- hostname: any.time.nl
+  AS: AS210004
+  stratum: 2
+  location: Global
+  owner: '[TimeNL](https://time.nl)'
+  notes: Anycast
+  vm: true
 
 - hostname: chime1.surfnet.nl
   AS: AS1103
