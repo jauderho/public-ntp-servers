@@ -1708,7 +1708,7 @@ servers:
   stratum: 2
   location: US
   owner: Global Entry Systems
-  notes: Colorado. GPS/PPS stratum 1 upstream, hardware timestamping
+  notes: Colorado. GPS/PPS stratum 1 upstream
   vm: false
 
 - hostname: clock.sjc.he.net
