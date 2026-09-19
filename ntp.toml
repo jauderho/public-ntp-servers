@@ -987,6 +987,10 @@ address = "ntp.gsu.edu"
 
 [[source]]
 mode = "server"
+address = "time-gps.globalentry.systems"
+
+[[source]]
+mode = "server"
 address = "clock.sjc.he.net"
 
 [[source]]
@@ -1202,4 +1206,8 @@ address = "ntp12.rdem-systems.com"
 [[source]]
 mode = "server"
 address = "any.time.nl"
+
+[[source]]
+mode = "server"
+address = "time.globalentry.systems"
 
