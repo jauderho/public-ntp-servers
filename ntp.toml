@@ -975,6 +975,10 @@ address = "ntp.gsu.edu"
 
 [[source]]
 mode = "server"
+address = "time-gps.globalentry.systems"
+
+[[source]]
+mode = "server"
 address = "clock.sjc.he.net"
 
 [[source]]
@@ -1140,4 +1144,10 @@ address = "ntp1.wiktel.com"
 [[source]]
 mode = "server"
 address = "ntp2.wiktel.com"
+
+
+# Known VM servers (may be less accurate)
+[[source]]
+mode = "server"
+address = "time.globalentry.systems"
 
