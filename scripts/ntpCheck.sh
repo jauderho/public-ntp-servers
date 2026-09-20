@@ -5,7 +5,7 @@
 
 # Check if argument is passed
 if [ -z "$1" ]; then
-  echo "Usage: $0 <NTS_SERVER>"
+  echo "Usage: $0 <NTP_SERVER>"
   exit 1
 fi
 
@@ -14,7 +14,7 @@ NTP_SERVER=$1
 
 # Prefer rkik if available, fall back to chronyd
 if command -v rkik &>/dev/null; then
-  rkik "$NTS_SERVER"
+  rkik "$NTP_SERVER"
 else
-  chronyd -Q -t 5 "server $NTS_SERVER iburst maxsamples 1"
+  chronyd -Q -t 5 "server $NTP_SERVER iburst maxsamples 1"
 fi
