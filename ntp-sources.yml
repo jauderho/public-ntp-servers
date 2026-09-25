@@ -1695,6 +1695,22 @@ servers:
   notes: ''
   vm: false
 
+- hostname: time.globalentry.systems
+  AS: AS31898
+  stratum: 2
+  location: US
+  owner: Global Entry Systems
+  notes: Chicago. Fixed NIST/USNO/PTB/Cloudflare NTS ensemble
+  vm: true
+
+- hostname: time-gps.globalentry.systems
+  AS: AS394195
+  stratum: 2
+  location: US
+  owner: Global Entry Systems
+  notes: Colorado. GPS/PPS stratum 1 upstream
+  vm: false
+
 - hostname: clock.sjc.he.net
   AS: AS6939
   stratum: 2

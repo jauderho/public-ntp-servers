@@ -304,6 +304,7 @@ The list is sourced from various public resources and aims to provide configurat
 |gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
 |navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
 |ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
+|time-gps.globalentry.systems|AS394195|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|
 |clock.sjc.he.net|AS6939|2|US|HE.net|San Jose, CA|
 |clock.fmt.he.net|AS6939|1|US|HE.net|Fremont, CA|
 |clock.nyc.he.net|AS6939|2|US|HE.net|New York City, NY|
@@ -346,6 +347,13 @@ The list is sourced from various public resources and aims to provide configurat
 |navobs1.wustl.edu|AS288|1|US|Washington University in St. Louis||
 |[ntp1.wiktel.com](https://ntp1.wiktel.com)|AS33362|1|US|Wikstrom Telephone Company||
 |[ntp2.wiktel.com](https://ntp2.wiktel.com)|AS33362|1|US|Wikstrom Telephone Company||
+
+
+The following servers are known to be virtualized and may be less accurate. YMMV.
+
+|Hostname|AS|Stratum|Location|Owner|Notes|
+|---|---|:---:|---|---|---|
+|time.globalentry.systems|AS31898|2|US|Global Entry Systems|Chicago. Fixed NIST/USNO/PTB/Cloudflare NTS ensemble|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">
