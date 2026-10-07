@@ -1150,7 +1150,7 @@ servers:
   owner: '[TimeNL](https://time.nl)'
   notes: Part of ntppool.time.nl
   vm: false
-  
+
 - hostname: ntppool3.time.nl
   AS: AS215088
   stratum: 1
