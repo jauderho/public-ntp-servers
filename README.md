@@ -307,7 +307,7 @@ The list is sourced from various public resources and aims to provide configurat
 |gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
 |navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
 |ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
-|time-gps.globalentry.systems|AS398050|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|
+|time-gps.globalentry.systems|AS394195|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|
 |clock.sjc.he.net|AS6939|2|US|HE.net|San Jose, CA|
 |clock.fmt.he.net|AS6939|1|US|HE.net|Fremont, CA|
 |clock.nyc.he.net|AS6939|2|US|HE.net|New York City, NY|
@@ -357,12 +357,12 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |Hostname|AS|Stratum|Location|Owner|Notes|
 |---|---|:---:|---|---|---|
 |ntp1.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
-|ntp2.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
-|ntp3.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
+|ntp2.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
+|ntp3.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp4.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp5.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
-|ntp6.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
-|ntp8.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
+|ntp6.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
+|ntp8.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
 |ntp9.rdem-systems.com|AS1299|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
 |ntp10.rdem-systems.com|AS29075|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp11.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, NTS, IPv4 and IPv6|

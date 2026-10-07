@@ -864,7 +864,7 @@ servers:
   vm: true
 
 - hostname: ntp2.rdem-systems.com
-  AS: AS199275
+  AS: AS206014
   stratum: 2
   location: France
   owner: '[RDEM Systems](https://www.rdem-systems.com)'
@@ -872,7 +872,7 @@ servers:
   vm: true
 
 - hostname: ntp3.rdem-systems.com
-  AS: AS199275
+  AS: AS206014
   stratum: 2
   location: France
   owner: '[RDEM Systems](https://www.rdem-systems.com)'
@@ -896,7 +896,7 @@ servers:
   vm: true
 
 - hostname: ntp6.rdem-systems.com
-  AS: AS199275
+  AS: AS206014
   stratum: 2
   location: France
   owner: '[RDEM Systems](https://www.rdem-systems.com)'
@@ -904,7 +904,7 @@ servers:
   vm: true
 
 - hostname: ntp8.rdem-systems.com
-  AS: AS199275
+  AS: AS206014
   stratum: 2
   location: France
   owner: '[RDEM Systems](https://www.rdem-systems.com)'
@@ -1824,7 +1824,7 @@ servers:
   vm: true
 
 - hostname: time-gps.globalentry.systems
-  AS: AS398050
+  AS: AS394195
   stratum: 2
   location: US
   owner: Global Entry Systems
