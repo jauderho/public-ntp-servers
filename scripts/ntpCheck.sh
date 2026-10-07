@@ -12,9 +12,4 @@ fi
 # Assign the argument to a variable
 NTP_SERVER=$1
 
-# Prefer rkik if available, fall back to chronyd
-if command -v rkik &>/dev/null; then
-  rkik "$NTP_SERVER"
-else
-  chronyd -Q -t 5 "server $NTP_SERVER iburst maxsamples 1"
-fi
+chronyd -Q -t 5 "server $NTP_SERVER iburst maxsamples 1"
