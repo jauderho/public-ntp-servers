@@ -543,15 +543,15 @@ address = "ntp3.hetzner.de"
 
 [[source]]
 mode = "server"
-address = "ntp7.rdem-systems.com"
-
-[[source]]
-mode = "server"
 address = "ptbtime1.ptb.de"
 
 [[source]]
 mode = "server"
 address = "ptbtime2.ptb.de"
+
+[[source]]
+mode = "server"
+address = "ntp7.rdem-systems.com"
 
 [[source]]
 mode = "server"

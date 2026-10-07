@@ -187,9 +187,9 @@ The list is sourced from various public resources and aims to provide configurat
 |ntp1.hetzner.de|AS24940|2|Germany|Hetzner Online||
 |ntp2.hetzner.de|AS24940|2|Germany|Hetzner Online||
 |ntp3.hetzner.de|AS24940|2|Germany|Hetzner Online||
-|ntp7.rdem-systems.com|AS16276|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, NTS, IPv4 and IPv6|
 |ptbtime1.ptb.de|AS1896|1|Germany|PTB||
 |ptbtime2.ptb.de|AS1896|1|Germany|PTB||
+|ntp7.rdem-systems.com|AS16276|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, NTS, IPv4 and IPv6|
 |ntps1-0.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
 |ntps1-1.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
 |ntps1-0.uni-erlangen.de|AS680|1|Germany|University of Erlangen-Nuremberg||
@@ -356,12 +356,12 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |Hostname|AS|Stratum|Location|Owner|Notes|
 |---|---|:---:|---|---|---|
 |ntp1.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
-|ntp2.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
-|ntp3.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
+|ntp2.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
+|ntp3.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp4.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp5.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
-|ntp6.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
-|ntp8.rdem-systems.com|AS206014|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
+|ntp6.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
+|ntp8.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, NTS, IPv4 and IPv6|
 |ntp9.rdem-systems.com|AS1299|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, NTS, IPv4 and IPv6|
 |ntp10.rdem-systems.com|AS29075|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp11.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, NTS, IPv4 and IPv6|
