@@ -1824,7 +1824,7 @@ servers:
   vm: true
 
 - hostname: time-gps.globalentry.systems
-  AS: AS394195
+  AS: AS398050
   stratum: 2
   location: US
   owner: Global Entry Systems
