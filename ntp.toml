@@ -515,6 +515,14 @@ address = "ntp.viarouge.net"
 mode = "server"
 address = "ntp-0-hq.rdem-systems.com"
 
+[[source]]
+mode = "server"
+address = "ntp-0-gps-hq.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp-0-gnss-hq.rdem-systems.com"
+
 
 # Germany
 [[source]]
@@ -552,6 +560,10 @@ address = "ptbtime2.ptb.de"
 [[source]]
 mode = "server"
 address = "ntp7.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp13.rdem-systems.com"
 
 [[source]]
 mode = "server"
@@ -1202,6 +1214,18 @@ address = "ntp11.rdem-systems.com"
 [[source]]
 mode = "server"
 address = "ntp12.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp14.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp15.rdem-systems.com"
+
+[[source]]
+mode = "server"
+address = "ntp16.rdem-systems.com"
 
 [[source]]
 mode = "server"
