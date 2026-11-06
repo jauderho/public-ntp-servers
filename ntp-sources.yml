@@ -852,7 +852,23 @@ servers:
   stratum: 1
   location: France
   owner: '[RDEM Systems](https://www.rdem-systems.com)'
-  notes: GPS/PPS refclock, IPv4 only
+  notes: 'Stratum 1, NTS, IPv4 and IPv6 (IPv4: GNSS; IPv6: GPS and GNSS, see ntp-0-gps-hq and ntp-0-gnss-hq)'
+  vm: false
+
+- hostname: ntp-0-gps-hq.rdem-systems.com
+  AS: AS12322
+  stratum: 1
+  location: France
+  owner: '[RDEM Systems](https://www.rdem-systems.com)'
+  notes: GPS refclock, NTS, IPv6 only
+  vm: false
+
+- hostname: ntp-0-gnss-hq.rdem-systems.com
+  AS: AS12322
+  stratum: 1
+  location: France
+  owner: '[RDEM Systems](https://www.rdem-systems.com)'
+  notes: GNSS (Galileo, GLONASS) refclock, NTS, IPv6 only
   vm: false
 
 - hostname: ntp1.rdem-systems.com
@@ -943,6 +959,30 @@ servers:
   notes: Lauterbourg, NTS, IPv4 and IPv6
   vm: true
 
+- hostname: ntp14.rdem-systems.com
+  AS: AS199275
+  stratum: 2
+  location: France
+  owner: '[RDEM Systems](https://www.rdem-systems.com)'
+  notes: Lyon, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp15.rdem-systems.com
+  AS: AS199275
+  stratum: 2
+  location: France
+  owner: '[RDEM Systems](https://www.rdem-systems.com)'
+  notes: Valence, NTS, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp16.rdem-systems.com
+  AS: AS199275
+  stratum: 2
+  location: France
+  owner: '[RDEM Systems](https://www.rdem-systems.com)'
+  notes: Paris, NTS, IPv4 and IPv6
+  vm: true
+
 - hostname: ntp.dianacht.de
   AS: AS24940
   stratum: 2
@@ -1008,6 +1048,14 @@ servers:
   vm: false
 
 - hostname: ntp7.rdem-systems.com
+  AS: AS16276
+  stratum: 2
+  location: Germany
+  owner: '[RDEM Systems](https://www.rdem-systems.com)'
+  notes: Frankfurt area, NTS, IPv4 and IPv6
+  vm: false
+
+- hostname: ntp13.rdem-systems.com
   AS: AS16276
   stratum: 2
   location: Germany

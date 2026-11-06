@@ -179,7 +179,9 @@ The list is sourced from various public resources and aims to provide configurat
 |time.ufe.cz|AS25192|1|Czech Republic|UFE CAS||
 ||
 |ntp.viarouge.net|AS207288|2|France|Hubert Viarouge||
-|ntp-0-hq.rdem-systems.com|AS12322|1|France|[RDEM Systems](https://www.rdem-systems.com)|GPS/PPS refclock, IPv4 only|
+|ntp-0-hq.rdem-systems.com|AS12322|1|France|[RDEM Systems](https://www.rdem-systems.com)|Stratum 1, NTS, IPv4 and IPv6 (IPv4: GNSS; IPv6: GPS and GNSS, see ntp-0-gps-hq and ntp-0-gnss-hq)|
+|ntp-0-gps-hq.rdem-systems.com|AS12322|1|France|[RDEM Systems](https://www.rdem-systems.com)|GPS refclock, NTS, IPv6 only|
+|ntp-0-gnss-hq.rdem-systems.com|AS12322|1|France|[RDEM Systems](https://www.rdem-systems.com)|GNSS (Galileo, GLONASS) refclock, NTS, IPv6 only|
 ||
 |ntp.dianacht.de|AS24940|2|Germany|dianacht.de||
 |time.fu-berlin.de|AS680|1|Germany|Freie Universitaet Berlin||
@@ -190,6 +192,7 @@ The list is sourced from various public resources and aims to provide configurat
 |ptbtime1.ptb.de|AS1896|1|Germany|PTB||
 |ptbtime2.ptb.de|AS1896|1|Germany|PTB||
 |ntp7.rdem-systems.com|AS16276|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, NTS, IPv4 and IPv6|
+|ntp13.rdem-systems.com|AS16276|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, NTS, IPv4 and IPv6|
 |ntps1-0.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
 |ntps1-1.cs.tu-berlin.de|AS680|1|Germany|Technische Universitaet Berlin||
 |ntps1-0.uni-erlangen.de|AS680|1|Germany|University of Erlangen-Nuremberg||
@@ -367,6 +370,9 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp10.rdem-systems.com|AS29075|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, NTS, IPv4 and IPv6|
 |ntp11.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, NTS, IPv4 and IPv6|
 |ntp12.rdem-systems.com|AS51167|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lauterbourg, NTS, IPv4 and IPv6|
+|ntp14.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lyon, NTS, IPv4 and IPv6|
+|ntp15.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Valence, NTS, IPv4 and IPv6|
+|ntp16.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Paris, NTS, IPv4 and IPv6|
 |any.time.nl|AS210004|2|Global|[TimeNL](https://time.nl)|Anycast|
 |time.globalentry.systems|AS31898|2|US|Global Entry Systems|Chicago. Fixed NIST/USNO/PTB/Cloudflare NTS ensemble|
 
