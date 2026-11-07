@@ -4,6 +4,7 @@ import yaml
 import argparse
 import subprocess
 import re
+import ipaddress
 
 
 def load_yaml(file_path):
@@ -19,20 +20,47 @@ def extract_hostname(hostname_field):
     return hostname_field
 
 
-def verify_ntp_server(hostname):
-    print(f"Verifying {hostname} ...", end="", flush=True)
-    command = f"chronyd -Q -t 5 'server {hostname} iburst maxsamples 1'"
+HOSTNAME_RE = re.compile(
+    r"^(?=.{1,253}$)[A-Za-z0-9_]([A-Za-z0-9_-]{0,61}[A-Za-z0-9_])?"
+    r"(\.[A-Za-z0-9_]([A-Za-z0-9_-]{0,61}[A-Za-z0-9_])?)*$"
+)
+
+
+def is_valid_hostname(hostname):
+    """Accept only a DNS name or an IP literal (no whitespace, quotes or shell/chrony syntax)."""
+    if not isinstance(hostname, str):
+        return False
     try:
-        result = subprocess.run(
-            command, shell=True, check=True, capture_output=True, text=True
-        )
+        ipaddress.ip_address(hostname)
+        return True
+    except ValueError:
+        return bool(HOSTNAME_RE.match(hostname))
+
+
+def verify_ntp_server(hostname):
+    print(f"Verifying {hostname!r} ...", end="", flush=True)
+    if not is_valid_hostname(hostname):
+        print(" Failed")
+        print(f"Invalid hostname: {hostname!r}\n")
+        return False
+    # Argument list, no shell: hostname can never be interpreted as shell syntax
+    command = ["chronyd", "-Q", "-t", "5", f"server {hostname} iburst maxsamples 1"]
+    try:
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
         print(" Good")
         print(result.stdout.strip())
     except subprocess.CalledProcessError as e:
         print(" Failed")
         print(f"Error verifying {hostname}: {e}")
-        print(e.output.strip())
+        print((e.output or "").strip())
+        print()
+        return False
+    except FileNotFoundError:
+        print(" Failed")
+        print("chronyd not found\n")
+        return False
     print()  # Add a newline for better readability
+    return True
 
 
 def main():
