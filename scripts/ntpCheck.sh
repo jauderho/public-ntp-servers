@@ -18,4 +18,19 @@ if ! [[ $NTP_SERVER =~ ^[A-Za-z0-9_.:-]{1,253}$ ]]; then
   exit 1
 fi
 
-chronyd -Q -t 5 "server $NTP_SERVER iburst maxsamples 1"
+# chronyd is often in an sbin directory that is not on a regular user's PATH
+CHRONYD=$(command -v chronyd)
+if [ -z "$CHRONYD" ]; then
+  for dir in /usr/sbin /usr/local/sbin /opt/homebrew/sbin /opt/homebrew/bin /usr/local/bin /usr/bin /sbin; do
+    if [ -x "$dir/chronyd" ]; then
+      CHRONYD="$dir/chronyd"
+      break
+    fi
+  done
+fi
+if [ -z "$CHRONYD" ]; then
+  echo "chronyd not found" >&2
+  exit 1
+fi
+
+"$CHRONYD" -Q -t 5 "server $NTP_SERVER iburst maxsamples 1"
