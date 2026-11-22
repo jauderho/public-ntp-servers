@@ -1251,3 +1251,7 @@ address = "ntp-us.aki.sh"
 mode = "server"
 address = "time.globalentry.systems"
 
+[[source]]
+mode = "server"
+address = "ntp-01.jeffgeerling.com"
+

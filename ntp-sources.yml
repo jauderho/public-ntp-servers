@@ -1935,6 +1935,14 @@ servers:
   notes: New York City, NY
   vm: false
 
+- hostname: ntp-01.jeffgeerling.com
+  AS: AS40021
+  stratum: 2
+  location: US
+  owner: Jeff Geerling
+  notes: St. Louis, IPv4 only
+  vm: true
+
 - hostname: bonehed.lcs.mit.edu
   AS: AS3
   stratum: 1
