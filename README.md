@@ -380,7 +380,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |[ntp-sg.aki.sh](https://ntp-sg.aki.sh)|AS31898|2|Singapore|aki|IPv4 and IPv6|
 |[ntp-us.aki.sh](https://ntp-us.aki.sh)|AS31898|2|US|aki|Phoenix, IPv4 and IPv6|
 |time.globalentry.systems|AS31898|2|US|Global Entry Systems|Chicago. Fixed NIST/USNO/PTB/Cloudflare NTS ensemble|
-|ntp-01.jeffgeerling.com|AS40021|2|US|Jeff Geerling|St. Louis, IPv4 only|
+|[ntp-01.jeffgeerling.com](https://time.jeffgeerling.com)|AS40021|2|US|Jeff Geerling|St. Louis, IPv4 only|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/public-ntp-servers&Timeline">
