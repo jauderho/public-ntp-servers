@@ -1143,6 +1143,14 @@ servers:
   notes: ''
   vm: false
 
+- hostname: time.tidepeers.org
+  AS: AS199524, AS202422
+  stratum: 2
+  location: Hungary
+  owner: tidepeers
+  notes: Budapest, NTS, IPv4 and IPv6
+  vm: true
+
 - hostname: time.nplindia.org
   AS: AS55824
   stratum: 1
