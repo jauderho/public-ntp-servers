@@ -1229,6 +1229,10 @@ address = "ntp16.rdem-systems.com"
 
 [[source]]
 mode = "server"
+address = "time.tidepeers.org"
+
+[[source]]
+mode = "server"
 address = "ntp-jp.aki.sh"
 
 [[source]]
