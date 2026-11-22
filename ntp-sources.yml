@@ -1223,6 +1223,14 @@ servers:
   notes: ''
   vm: false
 
+- hostname: '[ntp-jp.aki.sh](https://ntp-jp.aki.sh)'
+  AS: AS31898
+  stratum: 2
+  location: Japan
+  owner: aki
+  notes: Osaka, IPv4 and IPv6
+  vm: true
+
 - hostname: ntp1.jst.mfeed.ad.jp
   AS: AS7521
   stratum: 1
@@ -1599,6 +1607,14 @@ servers:
   notes: ''
   vm: false
 
+- hostname: '[ntp-sg.aki.sh](https://ntp-sg.aki.sh)'
+  AS: AS31898
+  stratum: 2
+  location: Singapore
+  owner: aki
+  notes: IPv4 and IPv6
+  vm: true
+
 - hostname: hora.roa.es
   AS: AS31007
   stratum: 1
@@ -1830,6 +1846,14 @@ servers:
   owner: time.in.ua
   notes: ''
   vm: false
+
+- hostname: '[ntp-us.aki.sh](https://ntp-us.aki.sh)'
+  AS: AS31898
+  stratum: 2
+  location: US
+  owner: aki
+  notes: Phoenix, IPv4 and IPv6
+  vm: true
 
 - hostname: ntp.colby.edu
   AS: AS10566

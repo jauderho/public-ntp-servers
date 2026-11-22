@@ -374,7 +374,10 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp14.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lyon, NTS, IPv4 and IPv6|
 |ntp15.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Valence, NTS, IPv4 and IPv6|
 |ntp16.rdem-systems.com|AS199275|2|France|[RDEM Systems](https://www.rdem-systems.com)|Paris, NTS, IPv4 and IPv6|
+|[ntp-jp.aki.sh](https://ntp-jp.aki.sh)|AS31898|2|Japan|aki|Osaka, IPv4 and IPv6|
 |any.time.nl|AS210004|2|Global|[TimeNL](https://time.nl)|Anycast|
+|[ntp-sg.aki.sh](https://ntp-sg.aki.sh)|AS31898|2|Singapore|aki|IPv4 and IPv6|
+|[ntp-us.aki.sh](https://ntp-us.aki.sh)|AS31898|2|US|aki|Phoenix, IPv4 and IPv6|
 |time.globalentry.systems|AS31898|2|US|Global Entry Systems|Chicago. Fixed NIST/USNO/PTB/Cloudflare NTS ensemble|
 
 ## Star History

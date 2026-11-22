@@ -1229,7 +1229,19 @@ address = "ntp16.rdem-systems.com"
 
 [[source]]
 mode = "server"
+address = "ntp-jp.aki.sh"
+
+[[source]]
+mode = "server"
 address = "any.time.nl"
+
+[[source]]
+mode = "server"
+address = "ntp-sg.aki.sh"
+
+[[source]]
+mode = "server"
+address = "ntp-us.aki.sh"
 
 [[source]]
 mode = "server"
