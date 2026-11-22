@@ -1145,7 +1145,7 @@ servers:
 
 - hostname: time.tidepeers.org
   AS: AS199524, AS202422
-  stratum: 4
+  stratum: 2
   location: Hungary
   owner: tidepeers
   notes: Budapest, NTS, IPv4 and IPv6
