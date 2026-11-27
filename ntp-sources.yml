@@ -1879,6 +1879,14 @@ servers:
   notes: ''
   vm: false
 
+- hostname: quicktime.quickok.net
+  AS: AS63949
+  stratum: 1
+  location: US
+  owner: Daniel Quick
+  notes: Dallas, IPv4 only
+  vm: false
+
 - hostname: navobs1.gatech.edu
   AS: AS2637
   stratum: 1

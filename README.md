@@ -309,6 +309,7 @@ The list is sourced from various public resources and aims to provide configurat
 ||
 |ntp.colby.edu|AS10566|Unknown|US|Colby College||
 |gnomon.cc.columbia.edu|AS117|Unknown|US|Columbia University||
+|quicktime.quickok.net|AS63949|1|US|Daniel Quick|Dallas, IPv4 only|
 |navobs1.gatech.edu|AS2637|1|US|Georgia Institute of Technology||
 |ntp.gsu.edu|AS10631|Unknown|US|Georgia State University||
 |time-gps.globalentry.systems|AS394195|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|

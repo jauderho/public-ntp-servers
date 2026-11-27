@@ -991,6 +991,10 @@ address = "gnomon.cc.columbia.edu"
 
 [[source]]
 mode = "server"
+address = "quicktime.quickok.net"
+
+[[source]]
+mode = "server"
 address = "navobs1.gatech.edu"
 
 [[source]]
